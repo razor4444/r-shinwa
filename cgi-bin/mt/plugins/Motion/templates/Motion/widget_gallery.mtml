@@ -1,0 +1,35 @@
+<__trans_section component="motion"><mt:Ignore>
+    Determine the actual number of image assets without including 
+    thumbnails and do not display the gallery widget unless there 
+    are image assets.
+</mt:Ignore>
+<mt:IfImageSupport>
+    <mt:Assets type="image"><mt:SetVarBlock name="asset_count"><$mt:Var name="__counter__"$></mt:SetVarBlock></mt:Assets>
+    <mt:If name="asset_count" gt="0">
+
+    <script type="text/javascript" charset="utf-8">
+        // set starting point and ending point -- will show max of 10 images
+        var currentItem = 1;
+        var lastItem = <$mt:Var name="asset_count" $> > 10 ? 10 : <$mt:Var name="asset_count" $>;
+    </script>
+
+    <div class="widget-gallery widget">
+        <h3 class="widget-header"><__trans phrase="Recent Photos"></h3>
+        <a href="javascript:void(0);" id="gall-prev" class="disabled"><__trans phrase="Previous"></a>
+        <a href="javascript:void(0);" id="gall-next"><__trans phrase="Next"></a>
+    <mt:ArchiveList archive_type="Individual">
+    <mt:ArchiveListHeader>
+        <div class="widget-content" id="photo-gallery-wrapper">
+            <ul id="photo-gallery">
+    </mt:ArchiveListHeader>
+            <mt:EntryAssets lastn="10" type="image">
+                <li><a href="<$mt:EntryPermalink$>"><img src="<$mt:AssetThumbnailURL square="1" width="110"$>" alt="<$mt:AssetLabel$>" title="<$mt:AssetLabel$>" /></a></li>
+            </mt:EntryAssets>
+    <mt:ArchiveListFooter>
+            </ul>
+        </div>
+    </mt:ArchiveListFooter>
+    </mt:ArchiveList>
+    </div>
+    </mt:If>
+</mt:IfImageSupport></__trans_section>

@@ -1,0 +1,16 @@
+<__trans_section component="Motion">
+<mt:If name="request.ajax">
+<mt:If name="error">
+<li id="quickpost-error" class="msg msg-error"><$mt:Var name="error" escape="html"$></li>
+<mt:Else>
+<$mt:BlogID setvar="this_blogid"$>
+<$mt:Include local="1" module="<__trans phrase="Single Entry">"$>
+</mt:If>
+<mt:Else>
+<html>
+<head>
+<meta http-equiv="refresh" content="0;URL=<mt:BlogURL escape="html">?r=<mt:Date format="%S%H%M">">
+</head>
+</html>
+</mt:If>
+</__trans_section>

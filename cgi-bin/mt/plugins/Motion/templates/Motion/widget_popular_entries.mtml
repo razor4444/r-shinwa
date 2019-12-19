@@ -1,0 +1,17 @@
+<__trans_section component="motion"><div class="widget-popular widget">
+    <h3 class="widget-header"><__trans phrase="Popular Entries"></h3>
+    <div class="widget-content">
+<mt:Entries limit="10" namespace="community_pack_recommend" sort_by="score" min_score="1" days="14">
+    <mt:EntriesHeader>
+        <ul class="entry-sidebar-listing">
+    </mt:EntriesHeader>
+            <li class="icon-<$mt:EntryPostType$>">
+                <a href="<$mt:EntryPermalink escape="html"$>"><$mt:EntryTitle escape="html"$></a>
+                <mt:Ignore><span class="meta"><__trans phrase="posted by <a href="[_1]">[_2]</a> on [_3]" params="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:EntryAuthorID$>%%<$mt:EntryAuthorDisplayName$>%%<$mt:EntryDate format="%b %e"$>"></span></mt:Ignore>
+            </li>
+    <mt:EntriesFooter>
+        </ul>
+    </mt:EntriesFooter>
+</mt:Entries>
+    </div>
+</div></__trans_section>

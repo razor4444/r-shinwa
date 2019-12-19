@@ -1,0 +1,1006 @@
+@charset "utf-8";
+/*
+Theme Name: CASAvilla Style
+Description:CASAvilla専用のtheme
+Author: Quantsdesign
+*/
+/*reset and base
+---------------------------------------*/
+* {
+margin: 0;
+padding: 0;
+}
+a:link {
+color: #eb5c01;
+}
+a:visited {
+color: #eb5c01;
+}
+a:hover, a:active {
+color: #F40C6B;
+}
+li, ul {
+list-style-type: none;
+}
+img {
+text-decoration: none;
+border: none;
+}
+.flol {
+float: left;
+}
+.txr {
+text-align:right;
+}
+.small {
+	font-size:0.8em;
+}
+table {
+font-size: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+}
+.none {
+display: none;
+}
+.clear {
+clear: both;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+margin:0;
+padding:0;
+}
+/*body
+---------------------------------------*/
+body {
+border-top-width: 5px;
+border-top-style: solid;
+border-top-color: #eb5c01;
+color:#323232;
+text-align: center;
+font-size: 13px;
+line-height: 1.5em;
+background-image: url(image/top_border.png);
+background-repeat: repeat-x;
+background-position: 0px top;
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+#header {
+width: 930px;
+margin-right: auto;
+margin-left: auto;
+}
+#header h1 {
+background-image: url(image/image_list_or.png);
+background-repeat: no-repeat;
+background-position: 0px -150px;
+height: 48px;
+width: 232px;
+clear: right;
+float: left;
+margin-top: 5px;
+}
+#header h1 a {
+display:block;
+height: 48px;
+width: 232px;
+}
+#header address {
+background-image: url(image/image_list_or.png);
+background-repeat: no-repeat;
+background-position: 0px -100px;
+height: 40px;
+width: 250px;
+float: right;
+margin-top: 15px;
+margin-right: 15px;
+}
+#header .siryou a{
+background-image: url(image/image_list_or.png);
+background-repeat: no-repeat;
+background-position: -45px -50px;
+height: 45px;
+width: 45px;
+display: block;
+float: right;
+margin-top: 13px;
+}
+#header .siryou a:hover{
+background-position: 0px -50px;
+}
+#header_link {
+width: 265px;
+float: right;
+
+display: block;
+}
+#header_link li {
+float: left;
+display: block;
+}
+#header_link li a {
+background-image: url(image/image_list_or.png);
+background-repeat: no-repeat;
+height: 23px;
+display: block;
+}
+#hl_sitemap {
+background-position: 0px 0px;
+width: 80px;
+}
+#hl_privacy {
+background-position: -80px 0px;
+width: 120px;
+}
+#hl_link {
+background-position: -200px 0px;
+width: 65px;
+}
+#hl_sitemap:hover {
+background-position: 0px -23px;
+}
+#hl_privacy:hover {
+background-position: -80px -23px;
+}
+#hl_link:hover {
+background-position: -200px -23px;
+}
+#main {
+width: 930px;
+clear: both;
+margin-right: auto;
+margin-left: auto;
+padding-top: 16px;
+}
+#main #content {
+width: 750px;
+float: right;
+text-align: left;
+padding-bottom: 3em;
+}
+#content .pb5 {
+padding-bottom: 5px;
+}
+#content p {
+padding-bottom: 1.2em;
+}
+
+.page #main #content,.single #main #content {
+width: 720px;
+padding-top: 1em;
+position: relative;
+padding-bottom: 3em;
+}
+.pankuzu{
+font-size: 0.85em;
+}
+.pankuzu a {
+text-decoration:none;
+}
+/*トップページ
+---------------------------------------*/
+#flash {
+margin-bottom: 10px;
+}
+
+#top_news {
+float: left;
+width: 550px;
+}
+.page #top_news {
+width: 600px;
+float: none;
+padding-top: 2em;
+padding-left: 30px;
+}
+
+#top_news h2 {
+background-image: url(image/image_list_or.png);
+background-repeat: no-repeat;
+background-position: -100px -50px;
+height: 8px;
+width: 68px;
+padding-bottom: 5px;
+}
+#top_news h2 a{
+display:block;
+height: 8px;
+width: 68px;
+}
+#top_news dl {
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #c8c8c8;
+padding-top: 8px;
+}
+#top_news dl dt {
+color: #969696;
+clear: left;
+float: left;
+background-image: url(image/allow.png);
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 16px;
+}
+#top_news dl dd {
+float: none;
+padding-left: 105px;
+padding-bottom: 0.3em;
+}
+#top_news dl dd a {
+text-decoration: none;
+color: #323232;
+}
+
+#top_works {
+float: right;
+width: 180px;
+}
+#top_works h3 {
+background-image: url(image/image_list_or.png);
+background-repeat: no-repeat;
+background-position: -100px -75px;
+height: 10px;
+width: 38px;
+padding-bottom: 3px;
+}
+#top_works h3 a{
+display:block;
+height: 10px;
+width: 38px;
+}
+#top_works ul {
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #c8c8c8;
+padding-top: 8px;
+padding-bottom: 15px;
+text-align: center;
+}
+#top_works ul li {
+padding-bottom: 10px;
+}
+#top_slide {
+   width:750px;
+   height:350px;
+   overflow:hidden;
+   position:relative;
+   list-style:none;
+}
+#top_slide li{
+position:absolute;
+}
+
+/*サイドバー
+---------------------------------------*/
+#main #sidebar {
+float: left;
+width: 170px;
+text-align: left;
+}
+/*サイドメニュー
+---------------------------------------*/
+#side_nav {
+padding-bottom:35px;
+}
+#side_nav li {
+height: 35px;
+width: 161px;
+}
+#side_nav li a {
+display: block;
+height: 35px;
+width: 161px;
+margin-bottom:0 !important;
+background-image: url(image/image_list_or.png);
+background-repeat: no-repeat;
+}
+#smenu_home {
+background-position: 0px -200px;
+}
+#smenu_news {
+background-position: 0px -235px;
+}
+#smenu_concept {
+background-position: 0px -270px;
+}
+#smenu_portfolio {
+background-position: 0px -305px;
+}
+#smenu_works {
+background-position: 0px -340px;
+}
+#smenu_showroom {
+background-position: 0px -375px;
+}
+#smenu_aboutus {
+background-position: 0px -410px;
+}
+#smenu_lifeplan {
+background-position: 0px -445px;
+}
+#smenu_gaq {
+background-position: 0px -480px;
+}
+#smenu_contact {
+background-position: 0px -515px;
+}
+#side_nav {
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #c8c8c8;
+width: 161px;
+}
+#side_banner {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+#side_banner li {
+padding-bottom: 10px;
+}
+
+#smenu_home:hover {
+background-position: -161px -200px;
+}
+#smenu_news:hover {
+background-position: -161px -235px;
+}
+#smenu_concept:hover {
+background-position: -161px -270px;
+}
+#smenu_portfolio:hover {
+background-position: -161px -305px;
+}
+#smenu_works:hover {
+background-position: -161px -340px;
+}
+#smenu_showroom:hover {
+background-position: -161px -375px;
+}
+#smenu_aboutus:hover {
+background-position: -161px -410px;
+}
+#smenu_lifeplan:hover {
+background-position: -161px -445px;
+}
+#smenu_gaq:hover {
+background-position: -161px -480px;
+}
+#smenu_contact:hover {
+background-position: -161px -515px;
+}
+/*footer
+---------------------------------------*/
+#footer {
+border-top-width: 5px;
+border-top-style: solid;
+border-top-color: #eb5c01;
+clear: both;
+height: 45px;
+width: 100%;
+padding-top: 5px;
+font-size: 0.9em;
+}
+#pagetop {
+width:930px;
+margin:0 auto;
+position:relative;
+text-align:right;
+}
+#pagetop a {
+margin-left:100px;
+position:fixed;
+bottom:150px;
+background-image: url(image/pagetop_or.png);
+background-repeat: no-repeat;
+display: inline-block;
+height: 11px;
+width: 14px;
+}
+/*各ページ
+---------------------------------------*/
+.portfolio {
+padding-bottom:3em;
+}
+.portfolio li {
+padding-bottom: 20px;
+}
+.concept_image {
+float: left;
+width: 320px;
+}
+.concept_detail {
+width: 380px;
+float: left;
+padding-top: 3em;
+}
+.concept_detail h2 {
+text-align: center;
+padding-bottom: 2em;
+}
+.works_list li {
+text-align: center;
+float: left;
+width: 179px;
+height: 210px;
+display: block;
+overflow: hidden;
+}
+.works_list li>img {
+height: 160px;
+width: 160px;
+}
+.works_box {
+position: relative;
+}
+
+.works_detail {
+width:300px;
+float: right;
+display: block;
+padding-right: 20px;
+position: absolute;
+top: 0px;
+right: 0px;
+}
+.works_detail h2 {
+text-align: center;
+padding-top: 2em;
+padding-bottom: 2em;
+font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+.works_detail .brand_tag {
+text-align: right;
+padding-bottom: 1em;
+}
+#page_aboutus dt {
+clear: left;
+float: left;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+#page_aboutus {
+width: 600px;
+margin-right: auto;
+margin-left: auto;
+padding-top: 1em;
+padding-bottom: 3em;
+}
+#page_aboutus dd {
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 150px;
+border-bottom-width: 1px;
+border-bottom-style: dotted;
+border-bottom-color: #2d546c;
+}
+.blog_post #page_aboutus ul li {
+margin-left:0 !important;
+}
+#showroom_detail {
+clear:both;
+width:550px;
+position: relative;
+	height:730px;
+}
+#showroom_detail div{
+	position:absolute;
+	width:550px;
+	top:-50px;
+	left:0;
+}
+.print_icon a {
+border:1px solid #888;
+border-radius:8px;
+display:block;
+text-align:center;
+padding:5px 8px;
+box-shadow:1px 1px 1px #999;
+width:4em;
+text-decoration:none;
+color:#666;
+margin:1em auto;
+}
+
+/*contact
+---------------------------------------*/
+#con_form .hissu {
+font-size:0.8em;
+color:#cc0000;
+}
+#con_form table {
+font-size:0.9em;
+margin-top: 2em;
+margin-bottom: 3em;
+}
+#con_form table th {
+width:120px;
+text-align: left;
+font-weight: normal;
+padding-top: 0.6em;
+padding-bottom: 0.5em;
+vertical-align: top;
+border-bottom-width: 1px;
+border-bottom-style: dotted;
+border-bottom-color: #2D546C;
+}
+#con_form table td {
+width:260px;
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+padding-left: 1em;
+border-bottom-width: 1px;
+border-bottom-style: dotted;
+border-bottom-color: #2D546C;
+}
+
+#con_form table ul {
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0;
+padding-top: 0.3em;
+padding-right: 0px;
+padding-bottom: 1em;
+padding-left: 0px;
+}
+#con_form table .left {
+float:left;
+}
+#con_form table .right {
+float:left;
+margin-left: 4em;
+}
+#con_form li {
+list-style:none !important;
+background-image:none;
+padding-left:0px !important;
+text-indent: 0;
+line-height: 1.6em;
+}
+/*シングルスライド
+---------------------------------------*/
+#slideshow {
+text-align: left;
+float: left;
+}
+#slideshow .show_box {
+width: 360px;
+min-height: 360px;
+overflow: hidden;
+position: relative;
+float: left;
+margin-bottom:1em;
+}
+#slideshow .show_box div {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+#slideshow ul {
+padding-top: 1em;
+clear: both;
+}
+
+#slideshow ul li {
+width: 90px;
+padding-bottom:2em;
+float: left;
+display: inline;
+margin-right: 7px;
+}
+#slideshow ul li img{
+width:90px;
+height:90px;
+}
+#slideshow .active {
+	filter:alpha(opacity=100)!important;
+	-moz-opacity: 1!important;
+	opacity: 1!important;
+}
+/*showroom slide
+---------------------------------------*/
+#slideshow.showroom {
+text-align: left;
+float: left;
+}
+#slideshow.showroom .show_box {
+width: 550px;
+min-height: 366px;
+overflow: hidden;
+position: relative;
+float: left;
+margin-bottom:1em;
+}
+#slideshow.showroom .show_box div {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+#slideshow.showroom ul {
+padding-top: 0;
+padding-left:10px;
+float:right;
+clear:none;
+}
+
+#slideshow.showroom ul li {
+width: 109px;
+height:83px;
+padding-bottom:10px;
+float: none;
+display: block;
+margin-right:0;
+}
+#slideshow.showroom ul li img{
+width:109px;
+height:83px;
+}
+#slideshow.showroom .active {
+	filter:alpha(opacity=100)!important;
+	-moz-opacity: 1!important;
+	opacity: 1!important;
+}
+/*wp-pagenavi設定
+---------------------------------------*/
+.pagelink {
+text-align: center;
+padding-top: 15px;
+clear: both;
+padding-left:10px;
+padding-right:10px;
+}
+.wp-pagenavi {
+clear: both;
+padding-top:10px;
+padding-left:10px;
+margin-top: 10px;
+font-size: 1.2em;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+text-decoration: none;
+padding: 3px 5px;
+margin: 2px;
+background-color: #FFF0E6;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+border-color: #FFF;
+}
+.wp-pagenavi span.current {
+font-weight: bold;
+color: #999;
+background-color: #FFF;
+}
+/*---------------------------------------
+画像配置設定
+---------------------------------------*/
+.aligncenter {
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+.alignleft {
+float: left;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.alignright {
+float: right;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+/*前後ページリンク設定
+---------------------------------------*/
+.singlepostlink {
+padding-top:20px;
+font-size:0.9em;
+}
+span.oldpage {
+float: right;
+}
+span.newpage {
+float: left;
+}
+/*ソーシャルボタン
+---------------------------------------*/
+.social {
+padding-right:10px;
+padding-left:10px;
+display:block;
+border-top:1px dotted #d3d3d3;
+padding:5px auto;
+width:720px;
+clear:both;
+}
+.social li {
+float:left;
+margin-top:5px;
+margin-left:15px;
+}
+/*シングル
+---------------------------------------*/
+.blog_title {
+padding-top:1em;
+padding-bottom:1em;
+color:#2d546c;
+width:720px;
+margin:0 auto;
+}
+#content .time {
+float:right;
+padding:5px;
+font-size:0.9em;
+font-weight:bold;
+color:#ffffff;
+background-color:#2d546c;
+}
+.blog_post_title {
+color:#000000 !important;
+border-left-width: 5px;
+border-left-style: solid;
+border-left-color: #2d546c;
+padding-top: 8px;
+padding-left: 10px;
+margin-bottom:1em;
+}
+
+/*投稿内容
+---------------------------------------*/
+.blog_post {
+width:690px;
+height: 100%;
+display: block;
+clear: both;
+overflow: hidden;
+padding-bottom: 20px;
+padding-top: 15px;
+padding-right: 15px;
+padding-left: 15px;
+}
+.blog_post p {
+line-height: 1.6em;
+}
+.blog_post a {
+}
+.blog_post ul li {
+/* [disabled]list-style-type: disc;
+*/
+margin-bottom:3px;
+margin-left: 20px;
+background-image: url(image/list_mark_or.png);
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 15px;
+}
+.blog_post ol li {
+/* [disabled]list-style-type: decimal;
+*/
+margin-left: 20px;
+margin-bottom:6px;
+text-indent: 5px;
+}
+.blog_post ul {
+margin-bottom:0.8em
+}
+.blog_post h1 {
+display:block;
+font-size:2em;
+font-weight:bold;
+padding: 0px;
+margin-top: 0.67em;
+margin-right: 0;
+margin-bottom: 0.67em;
+margin-left: 0;
+line-height: 1.1em;
+}
+.blog_post h2 {
+display:block;
+color:#2d546c;
+font-size:1.7em;
+font-weight:bolder;
+margin-top: 0.83em;
+margin-right: 0;
+margin-bottom: 0.83em;
+margin-left: 0;
+padding-right: 0px;
+padding-bottom: 4px;
+text-shadow:1px 1px 1px #eeeeee;
+clear: both;
+}
+.blog_post h3 {
+display:block;
+font-size:1.3em;
+font-weight:bold;
+margin-top: 15px;
+margin-right: 0px;
+margin-bottom: 0.4em;
+margin-left: 0px;
+padding-top: 1px;
+padding-right: 0px;
+padding-bottom: 15px;
+clear: both;
+}
+.blog_post h4 {
+display:block;
+font-size:1.1em;
+margin-top: 1.33em;
+margin-right: 0;
+margin-bottom: 1em;
+margin-left: 0;
+color:#2d546c;
+border-bottom-width: 2px;
+border-bottom-style: dotted;
+border-bottom-color: #2d546c;
+clear: both;
+font-weight: bold;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.blog_post h5 {
+display:block;
+font-size:.83em;
+font-weight:bold;
+margin:1.67em 0;
+}
+.blog_post h6 {
+display:block;
+font-size:.67em;
+font-weight:bold;
+margin:2.33em 0;
+}
+.blog_post blockquote {
+margin:0.8em;
+}
+.blog_post table {
+margin-bottom: 0;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.blog_post table caption {
+text-align:left;
+font-weight:bold;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content: "”";
+}
+blockquote, q {
+quotes: "" "";
+padding-top: 15px;
+padding-right: 5px;
+padding-bottom: 0px;
+padding-left: 5px;
+}
+/*サイトマップ
+---------------------------------------*/
+.sitemaps {
+padding:10px 10px;
+}
+.sitemaps li li {
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: #666;
+background-image: url(image/li.gif);
+background-repeat: no-repeat;
+padding-left: 20px;
+background-position: left center;
+}
+.sitemaps li {
+padding-top: 3px;
+padding-bottom: 3px;
+}
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+position: absolute;
+top: 0px;
+left: 0;
+z-index: 2100;
+width: 100%;
+height: 500px;
+}
+#jquery-lightbox {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 2110;
+text-align: center;
+line-height: 0;
+}
+#jquery-lightbox a img {
+border: none;
+}
+#lightbox-container-image-box {
+position: relative;
+background-color: #fff;
+width: 250px;
+height: 250px;
+margin: 0 auto;
+}
+#lightbox-container-image {
+padding: 10px;
+}
+#lightbox-loading {
+position: absolute;
+top: 40%;
+left: 0%;
+height: 25%;
+width: 100%;
+text-align: center;
+line-height: 0;
+}
+#lightbox-nav {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav {
+left: 0;
+}
+#lightbox-nav a {
+outline: none;
+}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+width: 49%;
+height: 100%;
+zoom: 1;
+display: block;
+}
+#lightbox-nav-btnPrev {
+left: 0;
+float: left;
+}
+#lightbox-nav-btnNext {
+right: 0;
+float: right;
+}
+#lightbox-container-image-data-box {
+font: 10px Verdana, Helvetica, sans-serif;
+background-color: #fff;
+margin: 0 auto;
+line-height: 1.4em;
+overflow: auto;
+width: 100%;
+padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+padding: 0 10px;
+color: #666;
+}
+#lightbox-container-image-data #lightbox-image-details {
+width: 70%;
+float: left;
+text-align: left;
+}
+#lightbox-image-details-caption {
+font-weight: bold;
+}
+#lightbox-image-details-currentNumber {
+display: block;
+clear: left;
+padding-bottom: 1.0em;
+}
+#lightbox-secNav-btnClose {
+width: 66px;
+float: right;
+padding-bottom: 0.7em;
+}

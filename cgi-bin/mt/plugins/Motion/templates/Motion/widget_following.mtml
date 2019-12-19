@@ -1,0 +1,18 @@
+<__trans_section component="motion"><mt:If name="profile_view">
+<div class="following widget">
+    <h2><__trans phrase="Following"></h2>
+    <div class="widget-content">
+    <mt:AuthorFollowing>
+        <mt:If name="__first__">
+    <ul>
+        </mt:If>
+        <li><$mt:Include module="<__trans phrase="Userpic">" userpic_size="24" userpic_type="author" userlisting_type="following"$></li>
+        <mt:If name="__last__">
+    </ul>
+        </mt:If>
+    <mt:Else>
+    <p class="note"><__trans phrase="Not following anyone"></p>
+    </mt:AuthorFollowing>
+    </div>
+</div>
+</mt:If></__trans_section>

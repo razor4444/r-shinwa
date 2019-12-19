@@ -1,0 +1,504 @@
+/* custom.css */
+
+/* 全体的な定義 */
+body {
+ font-family      : "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", Osaka,sans-serif;
+                                              /* フォントの種類 */
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  0px  0px  0px  0px;      /* 上・右・下・左の間隔 */
+ color            : #333;                     /* 文字の色 */
+ background-color : #EEE;                     /* バックの色 */
+}
+
+table {
+ width            : 100%;                     /* 横幅 */
+ font-size        : x-small;                  /* フォントの大きさ */
+}
+
+table td {
+ vertical-align   : top;                      /* 文字の水平位置 */
+}
+
+/* ヘッダ部分 */
+h1#header {
+ font-family      : "Arial Black", "Arial";   /* フォントの種類 */
+ font-size        : 32px;                     /* フォントの大きさ */
+ color            : #FFF;                     /* 文字の色 */
+ letter-spacing   :  5pt;                     /* 文字の間隔 */
+ background-color : #666;                     /* バックの色 */
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          : 15px 10px 20px 10px;      /* 上・右・下・左の間隔 */
+ border-style     : double none double none;  /* 上・右・下・左の枠線の種類 */
+ border-color     : #CCC #AAA #CCC #AAA;      /* 上・右・下・左の枠線の色 */
+ border-width     :  5px  0px 5px  0px;       /* 上・右・下・左の枠線の太さ */
+}
+
+/* メイン部分 */
+table#main {
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  0px  0px  0px  0px;      /* 上・右・下・左の間隔 */
+ border-collapse  : separate;                 /* セルの枠線の表示形式 */
+}
+
+/* 左カラムと右カラム */
+td.colLeft , td.colRight {
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  0px  0px  0px  0px;      /* 上・右・下・左の間隔 */
+ width            : 170px;                    /* 横幅 */
+ background-color : #CCC;                     /* バックの色 */
+}
+
+/* 右カラム */
+td.colRight {
+ background-color : #EEE;                     /* バックの色 */
+}
+
+/* 左カラムと右カラムのタイトル部分 */
+div.colLeft_Title , div.colRight_Title {
+ margin           :  0px;                     /* 余白 */
+ padding          :  5px;                     /* 間隔 */
+ color            : #FFF;                     /* 文字の色 */
+ font-weight      : bold;                     /* 文字の太さ */
+ background-color : #666;                     /* バックの色 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #666 #666 #666 #666;      /* 上・右・下・左の枠線の色 */
+}
+
+/* 左カラムと右カラムのコンテンツ部分 */
+div.colLeft_Content , div.colRight_Content {
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ color            : #666;                     /* 文字の色 */
+ background-color : #FFF;                     /* バックの色 */
+ border-style     : none solid solid solid;   /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #666 #666 #666 #666;      /* 上・右・下・左の枠線の色 */
+}
+
+/* 中央カラム */
+div.center {
+ width            : 99%;                       /* 横幅 */
+ margin           :  0px  0px  0px  5px;      /* 上・右・下・左の余白 */
+}
+
+td.colCenter {
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  0px  0px  0px  0px;      /* 上・右・下・左の間隔 */
+ border-style     : none none none none;      /* 上・右・下・左の枠線の種類 */
+ background-color : #EEE;                     /* バックの色 */
+}
+
+/* 中央カラムのタイトル部分 */
+div.colCenter_blkCenter_Title , div.colCenter_blkLeft_Title , div.colCenter_blkRight_Title {
+ margin           :  0px  2px  0px  2px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ color            : #FFF;                     /* 文字の色 */
+ font-weight      : bold;                     /* 文字の太さ */
+ background-color : #666;                     /* バックの色 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  2px  2px  2px  2px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #666 #666 #666 #666;      /* 上・右・下・左の枠線の色 */
+}
+
+/* 中央カラムのコンテンツ部分 */
+div.colCenter_blkCenter_Content , div.colCenter_blkLeft_Content , div.colCenter_blkRight_Content {
+ margin           :  0px  2px  0px  2px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ color            : #666;                     /* 文字の色 */
+ background-color : #FFF;                     /* バックの色 */
+ border-style     : none solid solid solid;   /* 上・右・下・左の枠線の種類 */
+ border-width     :  2px  2px  2px  2px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #666 #666 #666 #666;      /* 上・右・下・左の枠線の色 */
+}
+
+/* メニュー */
+
+td#mainmenu a , td#usermenu a {
+ display          : block;                    /* 要素の性質 */
+ margin           :  1px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ background-color : #FFF;                     /* バックの色 */
+}
+
+/* メニュー　未訪問のとき */
+td#mainmenu a:link , td#usermenu a:link {
+ color            : #666;                     /* 文字の色 */
+}
+
+/* メニュー　訪問済み */
+td#mainmenu a:visited , td#usermenu a:visited {
+ color            : #666;                     /* 文字の色 */
+}
+
+/* メニュー　マウスカーソルが乗っているとき */
+td#mainmenu a:hover , td#usermenu a:hover {
+ color            : #F00;                     /* 文字の色 */
+}
+
+/* メニュー　クリックされたとき */
+td#mainmenu a:active , td#usermenu a:active {
+ color            : #F90;                     /* 文字の色 */
+}
+
+/* メニュー　メインメニュー（「ニュース」など） */
+td#mainmenu a.menuTop , td#mainmenu a.menuMain , td#usermenu a {
+}
+
+/* メニュー　サブメニュー（「ニュース投稿」など） */
+td#mainmenu a.menuSub {
+}
+
+/* メニュー　受信箱に未読があるときの表示 */
+td#usermenu a.highlight {
+ background-color : #CCC;                     /* バックの色 */
+}
+
+/* リンクの設定 */
+
+a, div#link, div#visiter, div#hover, div#active {
+ font-weight      : bold;                     /* 文字の太さ */
+ text-decoration  : none;                     /* 文字の飾り */
+}
+
+/* 未訪問 */
+a:link, div#link {
+ color            : #066;                     /* 文字の色 */
+}
+
+/* 訪問済み */
+a:visited, div#visiter {
+ color            : #033;                     /* 文字の色 */
+}
+
+/* マウスカーソルが乗っているとき */
+a:hover, div#hover {
+ color            : #099;                     /* 文字の色 */
+}
+
+/* クリックされたとき */
+a:active, div#active {
+ color            : #0FF;                     /* 文字の色 */
+}
+
+/* リンクのあるイメージ */
+a img {
+ border-style     : none;                     /* 枠線の種類 */
+}
+
+/* 見出し（汎用的な設定） */
+h1 , h2 , h3 , h4 , h5 , h6 {
+ margin           : 0.5em  0px 0.5em 0px;     /* 上・右・下・左の余白 */
+ padding          :  5px  0px  2px  5px;      /* 上・右・下・左の間隔 */
+ border-style     : none none solid none;     /* 上・右・下・左の枠線の種類 */
+ border-width     :  0px  0px  1px  0px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #AAA #AAA #AAA #AAA;      /* 上・右・下・左の枠線の色 */
+}
+
+/* モジュールのコンテンツ部 */
+div#content {
+ margin           :  5px  0px  5px  0px;      /* 上・右・下・左の余白 */
+ padding          :  5px  0px  5px  0px;      /* 上・右・下・左の間隔 */
+}
+
+/* ニュースモジュールのコンテンツ */
+/* ニュース以外のモジュールでも使用されています。 */
+
+/* 記事の枠組み */
+.item {
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-color     : #666 #666 #666 #666;      /* 上・右・下・左の枠線の色 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+}
+
+/* テーブルのタイトル部 */
+.itemHead , th {
+ color            : #FFF;                     /* 文字の色 */
+ background-color : #666;                     /* バックの色 */
+ text-align       : left;                     /* 文字の水平位置 */
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+}
+
+/* テーブルのタイトル部（リンク部分） */
+.itemHead a:link , .itemHead a:visited , .outer th a:link , .outer th a:visited {
+ color            : #FFF;                     /* 文字の色 */
+}
+/* テーブルのタイトル部（マウスカーソルが乗っているとき） */
+.itemHead a:hover , .outer th a:hover {
+ color            : #DD0;                     /* 文字の色 */
+}
+/* テーブル　タイトル部（クリックされたとき） */
+.itemHead a:active {
+ color            : #FF0;                     /* 文字の色 */
+}
+
+/* 投稿者などの情報欄 */
+.itemInfo {
+ color            : #336;                     /* 文字の色 */
+ font-size        : x-small;                  /* フォントの大きさ */
+ background-color : #DDD;                     /* バックの色 */
+ text-align       : right;                    /* 文字の水平位置 */
+ padding          :  2px  5px  2px  5px;      /* 上・右・下・左の間隔 */
+}
+
+/* 投稿者などの情報欄　投稿者 */
+.itemPoster {
+}
+
+/* 投稿者などの情報欄　投稿日付 */
+.itemPostDate {
+}
+
+/* 投稿者などの情報欄　ヒット数 */
+.itemStats {
+}
+
+/* 記事の内容 */
+.itemBody {
+ padding          :  2px  5px  2px  5px;      /* 上・右・下・左の間隔 */
+ background-color : #FFF;                     /* バックの色 */
+}
+
+/* 記事の内容　文面 */
+.itemText {
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ line-height      : 1.2;                      /* 行送りの間隔 */
+}
+
+/* 記事のフッタ部 */
+.itemFoot {
+ color            : #336;                     /* 文字の色 */
+ font-size        : x-small;                  /* フォントの大きさ */
+ background-color : #DDD;                     /* バックの色 */
+ text-align       : right;                    /* 文字の水平位置 */
+ padding          :  2px  5px  2px  5px;      /* 上・右・下・左の間隔 */
+}
+
+/* 記事のフッタ部　[編集][削除] */
+.itemAdminLink {
+}
+
+/* 記事のフッタ部　「続き...」〜「コメントする」 */
+.itemPermaLink {
+}
+
+/* ニュースアーカイブなどのテーブル　コンテンツ部 */
+tr.even td {
+ background-color : #FFF;                     /* バックの色 */
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #CCC #CCC #CCC #CCC;      /* 上・右・下・左の枠線の色 */
+}
+
+/* フォーラムのスレッド一覧などで、行ごとに色を変える奇数行の指定 */
+.outer tr.even td {
+ background-color : #FFF;                     /* バックの色 */
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #CCC #CCC #CCC #CCC;      /* 上・右・下・左の枠線の色 */
+}
+
+/* フォーラムのスレッド一覧などで、行ごとに色を変える偶数行の指定 */
+tr.odd td {
+ background-color : #DDD;                     /* バックの色 */
+ padding: 5px  5px  5px  5px;
+}
+
+/* フォーラムのスレッド一覧などで、カラムごとに色を変える指定 */
+/* 奇数カラム */
+.even {
+ background-color : #EEE;                     /* バックの色 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+}
+
+/* 偶数カラム */
+.odd {
+ background-color : #FFF;                     /* バックの色 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+}
+
+/* 外枠 */
+.outer {
+ width            : 100%;                     /* 横幅 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #AAA #AAA #AAA #AAA;      /* 上・右・下・左の枠線の色 */
+}
+
+/* テーブルのヘッダ部分 */
+.head {
+ background-color : #EEE;                     /* バックの色 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ font-weight      : bold;                     /* 文字の太さ */
+}
+
+/* テーブルのフッタ部分 */
+.foot {
+ background-color : #EEE;                     /* バックの色 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+}
+
+/* コメントのタイトル */
+.comTitle {
+ font-weight      : bold;                     /* 文字の太さ */
+ background-color : #FFF;                     /* バックの色 */
+ margin           :  0px  0px  5px  0px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  0px  0px  1px  0px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #EEE #EEE #EEE #EEE;      /* 上・右・下・左の枠線の色 */
+}
+
+/* コメントのテキスト */
+.comText {
+}
+
+/* コード */
+div.xoopsCode {
+ font-family      : "monospace";              /* フォントの種類 */
+ background-color : #FFF;                     /* バックの色 */
+ margin           :  5px  0px  5px  0px;      /* 上・右・下・左の余白 */
+ padding          :  0px  0px  0px  5px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #333 #333 #333 #333;      /* 上・右・下・左の枠線の色 */
+}
+
+/* 引用 */
+div.xoopsQuote {
+ background-color : #FFF;                     /* バックの色 */
+ margin           :  5px  0px  5px  0px;      /* 上・右・下・左の余白 */
+ padding          :  0px  0px  0px  5px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #333 #333 #333 #333;      /* 上・右・下・左の枠線の色 */
+}
+blockquote {
+ margin           :  5px  5px  5px  5px;      /* 上・右・下・左の余白 */
+}
+
+/* ユーザーステータス（「登録日」などの枠） */
+.comUserStat {
+ font-size        : xx-small;                 /* フォントの大きさ */
+ font-weight      : bold;                     /* 文字の太さ */
+ color            : #099;                     /* 文字の色 */
+ margin           :  1px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  1px  1px  1px  1px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #AAA #AAA #AAA #AAA;      /* 上・右・下・左の枠線の色 */
+}
+
+/* ユーザーステータス（「登録日」などのキャプション部分） */
+.comUserStatCaption {
+ font-weight      : normal;                   /* 文字の太さ */
+}
+
+/* ユーザーランク（「管理人」などの星マークを含めた全体） */
+.comUserRank {
+ margin           :  0px  0px  15px  0px;     /* 上・右・下・左の余白 */
+}
+
+/* ユーザーランク（「管理人」などのテキスト部分） */
+.comUserRankText {
+ font-size        : xx-small;                  /* フォントの大きさ */
+}
+
+/* ユーザーイメージ（アバター） */
+.comUserImg {
+ margin           :  2px  2px  2px  2px;      /* 上・右・下・左の余白 */
+}
+
+/* 投稿日時（日時部分を含む全体） */
+.comDate {
+ font-size        : x-small;                 /* フォントの大きさ */
+ text-align       : right;                   /* 文字の水平位置 */
+}
+
+/* 「投稿日時:」の部分 */
+.comDateCaption {
+ font-weight      : bold;                     /* 文字の太さ */
+}
+
+/* その他の設定 */
+
+/* リスト */
+ul {
+ margin           :  2px  2px  2px  2px;      /* 上・右・下・左の余白 */
+ padding          :  2px  2px  2px  2px;      /* 上・右・下・左の間隔 */
+ list-style       : decimal inside;           /* リストマーク */
+}
+li {
+ margin           :  0px  0px  0px  2px;      /* 上・右・下・左の余白 */
+ list-style       : square inside;            /* リストマーク */
+ color            : #F30;                     /* 文字の色 */
+}
+
+/* エラーメッセージ */
+div.errorMsg {
+ background-color : #FCC;                     /* バックの色 */
+ text-align       : center;                   /* 文字の水平位置 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  1px  1px  1px  1px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #DDF #AAA #AAA #DDF;      /* 上・右・下・左の枠線の色 */
+ font-weight      : bold;                     /* 文字の太さ */
+ padding          : 10px 10px 10px 10px;      /* 上・右・下・左の間隔 */
+}
+
+/* 確認メッセージ */
+div.confirmMsg {
+ font-weight      : bold;                     /* 文字の太さ */
+ color            : #C33;                     /* 文字の色 */
+ background-color : #DDD;                     /* バックの色 */
+ text-align       : center;                   /* 文字の水平位置 */
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          : 10px 10px 10px 10px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  2px  2px  2px  2px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #AAA #AAA #AAA #AAA;      /* 上・右・下・左の枠線の色 */
+}
+
+/* 結果メッセージ */
+div.resultMsg {
+ font-weight      : bold;                     /* 文字の太さ */
+ color            : #333;                     /* 文字の色 */
+ background-color : #CCC;                     /* バックの色 */
+ text-align       : center;                   /* 文字の水平位置 */
+ padding          : 10px 10px 10px 10px;      /* 上・右・下・左の間隔 */
+ border-style     : solid solid solid solid;  /* 上・右・下・左の枠線の種類 */
+ border-width     :  2px  2px  2px  2px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #666 #666 #666 #666;      /* 上・右・下・左の枠線の色 */
+}
+
+/* フッター部*/
+#footer {
+ font-family      : "Arial Black", "Arial";   /* フォントの種類 */
+ font-size        : x-small;                    /* フォントの大きさ */
+ color            : #333;                     /* 文字の色 */
+ background-color : #CCC;                     /* バックの色 */
+ text-align       : center;                   /* 文字の水平位置 */
+ margin           :  0px  0px  0px  0px;      /* 上・右・下・左の余白 */
+ padding          :  5px  5px  5px  5px;      /* 上・右・下・左の間隔 */
+ border-style     : solid none none none;     /* 上・右・下・左の枠線の種類 */
+ border-width     :  2px  2px  2px  2px;      /* 上・右・下・左の枠線の太さ */
+ border-color     : #AAA #AAA #AAA #AAA;      /* 上・右・下・左の枠線の色 */
+}
+
+/* フッター内のリンク部*/
+#footer a {
+ color            : #999;                     /* 文字の色 */
+}
+/* マウスカーソルが乗っているとき */
+#footer a:hover {
+ color            : #933;                     /* 文字の色 */
+}
+
+/* メインメニューなどブロック内にテーブルを置いた場合の調整 */
+div.colLeft_Content table , div.colCenter_blkCenter_Content table , div.colCenter_blkLeft_Content table , div.colCenter_blkRight_Content table , div.colRight_Content table {
+ width            : 90%;                      /* 横幅 */
+}
+

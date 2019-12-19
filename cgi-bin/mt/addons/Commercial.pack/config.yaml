@@ -1,0 +1,287 @@
+name: Professional Pack
+version: 1.301
+schema_version: 1.4
+l10n_class: MT::Commercial::L10N
+
+object_types:
+    field: CustomFields::Field
+
+backup_instructions:
+    field:
+        order: 410
+
+config_settings:
+    EmbedDomainWhitelist:
+        default: >
+            youtube.com vimeo.com viddler.com hulu.com flickr.com
+            vox.com scribd.com ustream.tv myspace.com blip.tv
+            seesmic.com video.google.com dailymotion.com
+            slideshare.net macromedia.com veoh.com
+            12seconds.tv vodpod.com joost.com podtech.net
+            odeo.com splashcast.net spike.com
+
+customfield_objects:
+    entry:
+        context: all
+    page:
+        context: all
+    category:
+        context: all
+    folder:
+        context: all
+    author:
+        context: system
+
+entry_types:
+    photo:
+        label: Photo
+        fields: title, field.photo, text
+        order: 10
+    link:
+        label: Link
+        fields: title, field.url, text
+        order: 20
+    embed:
+        label: Embed
+        fields: title, field.embed, text
+        order: 30
+    audio:
+        label: Audio
+        fields: title, field.audio, text
+        order: 40
+
+callbacks:
+    api_post_save_xmlrpc:
+        callback: api_post_save.entry
+        handler: $Commercial::CustomFields::XMLRPCServer::APIPostSave_entry
+    api_post_save.entry: $Commercial::CustomFields::App::CMS::CMSPostSave_customfield_objs
+    api_save_filter.entry: $Commercial::CustomFields::App::CMS::CMSSaveFilter_customfield_objs
+    api_save_filter.author: $Commercial::CustomFields::App::CMS::CMSSaveFilter_customfield_objs
+    api_post_save.author: $Commercial::CustomFields::App::CMS::CMSPostSave_customfield_objs
+    MT::Category::post_remove: $Commercial::CustomFields::App::CMS::post_remove_object
+    MT::Folder::post_remove: $Commercial::CustomFields::App::CMS::post_remove_object
+    MT::ObjectAsset::pre_remove: $Commercial::CustomFields::App::CMS::pre_remove_objectasset
+    restore: $Commercial::CustomFields::BackupRestore::cb_restore_objects
+    restore_asset: $Commercial::CustomFields::BackupRestore::cb_restore_asset
+    restored.field: $Commercial::CustomFields::BackupRestore::cb_add_meta
+    blog_template_set_change: $Commercial::MT::Commercial::Util::on_template_set_change
+    post_init: $Commercial::CustomFields::Util::load_meta_fields
+
+applications:
+    comments:
+        callbacks:
+            template_param.signup: $Commercial::CustomFields::App::Comments::signup_param
+            template_param.profile: $Commercial::CustomFields::App::Comments::profile_param
+    cms:
+        callbacks:
+            init_request: $Commercial::MT::Commercial::Util::init_request
+            template_param.cfg_content_nav: $Commercial::CustomFields::App::CMS::cfg_content_nav_param
+            template_param.cfg_system_content_nav: $Commercial::CustomFields::App::CMS::cfg_content_nav_param
+            template_source.edit_category: $Commercial::CustomFields::App::CMS::add_calendar_src
+            template_source.edit_folder: $Commercial::CustomFields::App::CMS::add_calendar_src
+            template_source.edit_author: $Commercial::CustomFields::App::CMS::add_calendar_src
+            # template_param.list_entry: $Commercial::CustomFields::App::CMS::list_entry_param
+            template_param.edit_entry: $Commercial::CustomFields::App::CMS::edit_entry_param
+            template_param.edit_category: $Commercial::CustomFields::App::CMS::edit_category_param
+            template_param.edit_folder: $Commercial::CustomFields::App::CMS::edit_category_param
+            template_param.edit_author: $Commercial::CustomFields::App::CMS::edit_author_param
+            template_param.asset_insert: $Commercial::CustomFields::App::CMS::asset_insert_param
+            template_param.cfg_entry: $Commercial::CustomFields::App::CMS::cfg_entry_param
+            template_param.widget/new_version: $Commercial::CustomFields::App::CMS::new_version_widget
+            template_param.widget/blog_stats_entry: $Commercial::CustomFields::App::CMS::blog_stats_entry
+            cms_save_permission_filter.field: $Commercial::CustomFields::App::CMS::save_permission_filter
+            cms_pre_save.field: $Commercial::CustomFields::App::CMS::CMSPreSave_field
+            cms_post_save.entry: $Commercial::CustomFields::App::CMS::CMSPostSave_customfield_objs
+            cms_post_save.page: $Commercial::CustomFields::App::CMS::CMSPostSave_customfield_objs
+            cms_post_save.category: $Commercial::CustomFields::App::CMS::CMSPostSave_customfield_objs
+            cms_post_save.folder: $Commercial::CustomFields::App::CMS::CMSPostSave_customfield_objs
+            cms_post_save.author: $Commercial::CustomFields::App::CMS::CMSPostSave_customfield_objs
+            cms_post_save.field: $Commercial::CustomFields::App::CMS::CMSPostSave_field
+            cms_save_filter.entry: $Commercial::CustomFields::App::CMS::CMSSaveFilter_customfield_objs
+            cms_save_filter.page: $Commercial::CustomFields::App::CMS::CMSSaveFilter_customfield_objs
+            cms_save_filter.category: $Commercial::CustomFields::App::CMS::CMSSaveFilter_customfield_objs
+            cms_save_filter.folder: $Commercial::CustomFields::App::CMS::CMSSaveFilter_customfield_objs
+            cms_save_filter.author: $Commercial::CustomFields::App::CMS::CMSSaveFilter_customfield_objs
+            cms_save_filter.field: $Commercial::CustomFields::App::CMS::CMSSaveFilter_field
+            cms_pre_preview: $Commercial::CustomFields::App::CMS::CMSPrePreview_customfield_objs
+        list_filters: $CustomFields::CustomFields::App::CMS::load_list_filters
+        methods:
+            list_field: $Commercial::CustomFields::App::CMS::list_field
+            view_field: $Commercial::CustomFields::App::CMS::edit_field
+            prep_customfields_upgrade: $Commercial::CustomFields::App::CMS::prep_customfields_upgrade
+        menus:
+            prefs:custom_fields:
+                label: Custom Fields
+                order: 500
+                mode: list_field
+                permission: administer_blog,edit_config
+                system_permission: administer
+
+customfield_types: $Commercial::CustomFields::App::CMS::load_customfield_types
+tags: $Commercial::CustomFields::Util::load_customfield_tags
+
+upgrade_functions:
+    customfields_page_meta:
+        version_limit: 1.1
+        handler: $Commercial::CustomFields::Upgrade::customfields_page_meta
+    update_uts_to_pws:
+        version_limit: 1.3
+        priority: 3.3
+        updater:
+            type: blog
+            label: Updating Universal Template Set to Professional Website set...
+            condition: >
+                sub {
+                    $_[0]->template_set &&
+                      ( $_[0]->template_set eq 'universal_website' );
+                }
+            code: > 
+                sub {
+                    $_[0]->template_set('professional_website');
+                }
+
+stylecatcher_libraries:
+    professional_themes:
+        label: Professional Website
+        order: 100
+        description_label: Themes that are compatible with the Professional Website template set.
+
+template_sets:
+    professional_website:
+        label: Professional Website
+        base_path: templates/professional
+        base_css: themes-base/blog.css
+        order: 100
+        templates:
+            index:
+                main_index:
+                    label: Main Index
+                    outfile: index.html
+                    rebuild_me: 1
+                blog_index:
+                    label: Blog Index
+                    outfile: blog/index.html
+                    rebuild_me: 1
+                archive_index:
+                    label: Archive Index
+                    outfile: archives.html
+                    rebuild_me: 1
+                styles:
+                    label: Stylesheet
+                    outfile: styles.css
+                    rebuild_me: 1
+                javascript:
+                    label: JavaScript
+                    outfile: mt.js
+                    rebuild_me: 1
+                feed_recent:
+                    label: Feed - Recent Entries
+                    outfile: atom.xml
+                    rebuild_me: 1
+                rsd:
+                    label: RSD
+                    outfile: rsd.xml
+                    rebuild_me: 1
+            archive:
+                entry_listing:
+                    label: Blog Entry Listing
+                    mappings:
+                        monthly:
+                            archive_type: Monthly
+                        category:
+                            archive_type: Category
+            individual:
+                entry:
+                    label: Entry
+                    mappings:
+                        entry_archive:
+                            archive_type: Individual
+            page:
+                page:
+                    label: Page
+                    mappings:
+                        page_archive:
+                            archive_type: Page
+            module:
+                header:
+                    label: Header
+                footer:
+                    label: Footer
+                navigation:
+                    label: Navigation
+                categories:
+                    label: Categories
+                comment_detail:
+                    label: Comment Detail
+                comment_form:
+                    label: Comment Form
+                comments:
+                    label: Comments
+                entry_detail:
+                    label: Entry Detail
+                entry_metadata:
+                    label: Entry Metadata
+                entry_summary:
+                    label: Entry Summary
+                page_detail:
+                    label: Page Detail
+                sidebar:
+                    label: Sidebar
+                tags:
+                    label: Tags
+                trackbacks:
+                    label: TrackBacks
+            system:
+                comment_preview:
+                    label: Comment Preview
+                comment_response:
+                    label: Comment Response
+                dynamic_error:
+                    label: Dynamic Error
+                popup_image:
+                    label: Popup Image
+                search_results:
+                    label: Search Results
+            widget:
+                powered_by_footer:
+                    label: Powered By (Footer)
+                signin:
+                    label: Sign In
+                search:
+                    label: Search
+                recent_entries_expanded:
+                    label: Recent Entries Expanded
+                footer_links:
+                    label: Footer Links
+                recent_assets:
+                    label: Recent Assets
+                recent_comments:
+                    label: Recent Comments
+                category_archive_list:
+                    label: Category Archives
+                monthly_archive_list:
+                    label: Monthly Archives
+                tag_cloud:
+                    label: Tag Cloud
+                openid:
+                    label: OpenID Accepted
+            widgetset:
+                blog_activity:
+                    order: 1000
+                    label: Blog Activity
+                    widgets:
+                        - Recent Comments
+                        - Recent Assets
+                        - Tag Cloud
+                        - OpenID Accepted
+                blog_archives:
+                    order: 1000
+                    label: Blog Archives
+                    widgets:
+                        - Category Archives
+                        - Monthly Archives
+                main_sidebar:
+                    order: 1000
+                    label: Main Sidebar
+                    widgets:
+                        - Recent Entries Expanded

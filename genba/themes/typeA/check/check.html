@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=EUC-JP" />
+<meta http-equiv="content-language" content="ja" />
+<title>EASY CUSTOM TYPE A</title>
+<link href="http://ccunion.net/test/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="../typeA/custom.css" />
+</head>
+
+<body>
+
+<!-- ヘッダ部分 -->
+<a href=""><h1 id="header">EASY CUSTOM TYPE A</h1></a>
+
+<!-- メイン部分 -->
+<table id="main">
+ <tr valign="top">
+  <td class="colLeft">
+   <!-- 左カラムのループ開始 -->
+    <div class="colLeft_Title">左カラムのタイトル</div>
+    <div class="colLeft_Content">
+     左カラムのコンテンツ<br />
+     左カラムのコンテンツ<br />
+     左カラムのコンテンツ</div>
+    <div class="colLeft_Title">メインメニュー</div>
+    <div class="colLeft_Content">
+     <table cellspacing="0">
+      <tr>
+       <td id="mainmenu">
+        <a class="menuTop" href="check.html">ホーム</a>
+        <!-- start module menu loop -->
+        <a class="menuMain" href="check.html">ニュース</a>
+        <a class="menuSub" href="check.html">ニュース投稿</a>
+        <a class="menuSub" href="check.html">アーカイブ</a>
+        <a class="menuMain" href="check.html">フォーラム</a>
+        <!-- end module menu loop -->
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="colLeft_Title">ユーザメニュー</div>
+    <div class="colLeft_Content">
+     <table cellspacing="0">
+      <tr>
+       <td id="usermenu">
+        <a class="menuTop" href="check.html">アカウント情報</a>
+        <a href="check.html">アカウント編集</a>
+        <a href="check.html">イベント通知機能</a>
+        <a href="check.html">ログアウト</a>
+        <a class="highlight" href="check.html">受信箱 (<span style="color:#ff0000; font-weight: bold;">1</span>)</a>
+        <a href="check.html">管理者メニュー</a>
+       </td>
+      </tr>
+     </table>
+    </div>
+    <div class="colLeft_Title">ログイン</div>
+    <div class="colLeft_Content">
+     <form style="margin-top: 0px;">ユーザ名: <br />
+      <input type="text" name="uname" size="12" value="" maxlength="25" /><br />
+      パスワード: <br />
+      <input type="password" name="pass" size="12" maxlength="32" /><br />
+      <input type="hidden" name="xoops_redirect" value="/test/" />
+      <input type="hidden" name="op" value="login" />
+      <input type="submit" value="ログイン" /><br />
+     </form>
+     <a href="">パスワード紛失</a>
+     <br /><br />
+     <a href="">新規登録</a>
+    </div>
+    <div class="colLeft_Title">テーマ選択</div>
+    <div class="colLeft_Content"><div style="text-align: center;">
+     <form>
+      <select name="xoops_theme_select" size="3">
+       <option>default</option>
+       <option value="typeA" selected="selected">typeA</option>
+      </select><br />(<b>2</b> テーマ)<br />
+     </form>
+    </div>
+   <!-- 左カラムのループ終了 -->
+   </td>
+   <td class="colCenter">
+    <div class="center">
+    <table width="100%" >
+     <tr>
+      <td colspan="2" class="colCenter">
+       <!-- 中央カラムの中央ブロックのループ開始 -->
+       <div class="colCenter_blkCenter_Title">中央の中央ブロックのタイトル</div>
+       <div class="colCenter_blkCenter_Content">
+        中央カラムの中央ブロックのコンテンツ<br />
+        中央カラムの中央ブロックのコンテンツ<br />
+        中央カラムの中央ブロックのコンテンツ
+       </div>
+       <!-- 中央カラムの中央ブロックのループ終了 -->
+      </td>
+     </tr>
+     <tr>
+      <td class="colCenter">
+       <!-- 中央カラムの左ブロックのループ開始 -->
+       <div class="colCenter_blkLeft_Title">中央カラムの左ブロックのタイトル</div>
+       <div class="colCenter_blkLeft_Content">
+        中央カラムの左ブロックのコンテンツ<br />
+        中央カラムの左ブロックのコンテンツ<br />
+        中央カラムの左ブロックのコンテンツ
+       </div>
+       <!-- 中央カラムの左ブロックのループ終了 -->
+      </td>
+      <td class="colCenter">
+       <!-- 中央カラムの右ブロックのループ開始 -->
+       <div class="colCenter_blkRight_Title">中央カラムの右ブロックのタイトル</div>
+       <div class="colCenter_blkRight_Content">
+        中央カラムの右ブロックのコンテンツ<br />
+        中央カラムの右ブロックのコンテンツ<br />
+        中央カラムの右ブロックのコンテンツ
+       </div>
+       <!-- 中央カラムの右ブロックのループ終了 -->
+      </td>
+     </tr>
+    </table>
+    <div id="content">
+    <!-- モジュールのコンテンツ開始 -->
+    <h2>リンクの設定</h2>
+     <table width="100%" border="1"  bordercolor="#CCCCCC">
+      <tr>
+       <td class="odd" width="50%">
+        <div id="link"> 未訪問 </div>
+        <div id="visiter"> 訪問済み </div>
+        <div id="hover"> マウスカーソルが乗っているとき </div>
+        <div id="active"> クリックされたとき </div>
+       </td>
+       <td class="odd" align="center">
+        テスト　<a href="http://xoops.bz/">一番やさしいXOOPS入門</a>
+       </td>
+      </tr>
+     </table>
+
+    <h2>見出し（汎用的な設定）</h2>
+     <table width="100%" border="1"  bordercolor="#CCCCCC">
+      <tr>
+       <td class="odd">
+        <h1> 見出し H1 </h1>
+        <h2> 見出し H2 </h2>
+        <h3> 見出し H3 </h3>
+        <h4> 見出し H4 </h4>
+        <h5> 見出し H5 </h5>
+        <h6> 見出し H6 </h6>
+       </td>
+      </tr>
+     </table>
+
+
+     <h2>モジュールのコンテンツ部</h2>
+     <h3>ニュースモジュールのコンテンツ</h3>
+     <div class="item">
+      <div class="itemHead">
+       <span class="itemTitle">
+        <a href='check.html'>トピックス名</a>&nbsp;:&nbsp;<a href='check.html'>記事のタイトル部　リンク部分</a>
+       </span>
+      </div>
+      <div class="itemInfo">
+       <span class="itemPoster">投稿者： <a href='check.html'>username</a></span>
+       <span class="itemPostDate">投稿日時： 2006-6-13 19:46:25</span> (<span class="itemStats">99 ヒット</span>)
+      </div>
+      <div class="itemBody">
+       <p class="itemText">記事の内容<br />記事の内容<br /></p>
+      </div>
+      <div class="itemFoot">
+       <span class="itemAdminLink">&nbsp;[ <a href='check.html'>編集</a> | <a href='check.html'>削除</a> ]&nbsp;</span>
+       <span class="itemPermaLink"><a href="check.html">続き...</a> | 残り260バイト | <a href="check.html">コメントする</a></span>
+      </div>
+     </div><br />
+
+     <table>
+      <tr>
+       <th>ニュースアーカイブ</th>
+      </tr>
+      <tr class="even">
+       <td><a href="check.html">6月 2006</a></td>
+      </tr>
+      <tr class="even">
+       <td><a href="check.html">5月 2006</a></td>
+      </tr>
+      <tr class="even">
+       <td><a href="check.html">4月 2006</a></td>
+      </tr>
+     </table><br />
+
+     <table>
+      <tr>
+       <th>ニュース</th><th align="center"></th>
+       <th align="center">ヒット</th>
+       <th align="center">投稿日時</th>
+      </tr>
+      <tr class="even">
+       <td><a href='check.html'>サブトピックス</a>: <a href='check.html'>ニュースのタイトル</a></td>
+       <td align="center">
+        <a href="check.html"><img src="images/print.gif" alt="印刷用ページ" /></a>
+        <a href="check.html"><img src="images/friend.gif" alt="このニュースを友達に送る" /></a>
+       </td>
+       <td align="center">99</td><td align="center">2006-6-13 19:46</td>
+      </tr>
+     </table>
+     <div>計 1件のニュース記事があります</div>
+
+     <br /><hr /><br />
+
+     <h3>フォーラムモジュールのコンテンツ</h3>
+     <table cellspacing="0" width="100%">
+      <tr>
+       <td colspan="2"><b>XOOPS Site フォーラムへようこそ</b><br />
+        <small>興味のあるフォーラムへぜひご参加ください。</small><hr />
+       </td>
+      </tr>
+      <tr valign="bottom">
+       <td><small>総スレッド数: <b>1</b> | 総投稿数: <b>1</b></small><br /><br /></td>
+       <td align="right">
+        <small>現在の時刻: 2006-6-13 19:55<br />最終訪問日時: 2006-5-28 17:05:02</small>
+       </td>
+      </tr>
+     </table><br />
+
+     <table cellspacing="1" class="outer">
+      <tr align="left" valign="top"><th colspan="5"> <a href="check.html">カテゴリ名</a></th></tr>
+      <tr class="head" align="center">
+       <td>&nbsp;</td>
+       <td nowrap="nowrap" align="left">フォーラム</td>
+       <td nowrap="nowrap">スレッド</td>
+       <td nowrap="nowrap">投稿</td>
+       <td nowrap="nowrap">最終投稿</td>
+      </tr>
+      <tr>
+       <td class="even" align="center" valign="middle" width="5%">
+       <img src="images/folder_big.gif" alt="" /></td>
+       <td class="odd"><a href="check.html"><b>フォーラム名</b></a><br />
+        フォーラムの説明<br />
+        フォーラムの説明<br />
+        フォーラムの説明<br />
+        <span style="font-size:smaller;"><b>モデレータ</b> <a href="check.html">username</a></span>
+       </td>
+       <td class="even" width="5%" align="center" valign="middle">1</td>
+       <td class="odd" width="5%" align="center" valign="middle">1</td>
+       <td class="even" width="20%" align="center" valign="middle">2006-6-13 19:51:29<br />
+        <a href="check.html">username</a> <img src="images/icon1.gif" width="15" height="15" border="0" alt="" /></td>
+      </tr>
+     </table><br />
+
+     <table border="0" width="100%" cellpadding="5" align="center">
+      <tr>
+       <td align="left">
+        <img src="images/folder.gif" />&nbsp;&nbsp;<a href="check.html">メイン</a><br />
+        &nbsp;&nbsp;&nbsp;<img src="images/folder.gif" alt="/" />&nbsp;&nbsp;<b>フォーラム名</b><br />
+        (モデレータ :<a href="check.html">username</a>)
+       </td>
+       <td align="right">
+        <a href="check.html"><img src="images/post.gif" alt="新規スレッド作成画面へ" /></a>
+       </td>
+      </tr>
+     </table><br />
+
+     <table class="outer" cellspacing="1">
+      <tr>
+       <th colspan="7"> フォーラム名</th>
+      </tr>
+      <tr class="head" align="left">
+       <td width="2%">&nbsp;</td>
+       <td width="2%">&nbsp;</td>
+       <td>&nbsp;<b><a href="check.html">スレッド</a></b></td>
+       <td width="9%" align="center" nowrap="nowrap"><b><a href="check.html">返信</a></b></td>
+       <td width="20%" align="center" nowrap="nowrap"><b><a href="check.html">投稿者</a></b></td>
+       <td width="8%" align="center" nowrap="nowrap"><b><a href="check.html">閲覧</a></b></td>
+       <td width="15%" align="center" nowrap="nowrap"><b><a href="check.html">日時</a></b></td>
+      </tr>
+      <tr class="even">
+       <td align="center"><img src="images/folder.gif" alt="/" /></td>
+       <td align="center"><img src="images/no_posticon.gif" alt="" /></td>
+       <td>&nbsp;<a href="check.html">スレッド題名</a></td>
+       <td align="center" valign="middle">99</td>
+       <td align="center" valign="middle"><a href="check.html">username</a></td>
+       <td align="center" valign="middle">99</td>
+       <td align="right" valign="middle">2006-6-13 19:51:29<br />投稿者： username</td>
+      </tr>
+      <tr class="odd">
+       <td align="center"><img src="images/folder.gif" alt="/" /></td>
+       <td align="center"><img src="images/no_posticon.gif" alt="" /></td>
+       <td>&nbsp;<a href="check.html">奇数行</a> (class="odd")</td>
+       <td align="center" valign="middle">99</td>
+       <td align="center" valign="middle"><a href="check.html">username</a></td>
+       <td align="center" valign="middle">99</td>
+       <td align="right" valign="middle">2006-6-13 19:51:29<br />投稿者： username</td>
+      </tr>
+      <tr class="even">
+       <td align="center"><img src="images/folder.gif" alt="/" /></td>
+       <td align="center"><img src="images/no_posticon.gif" alt="" /></td>
+       <td>&nbsp;<a href="check.html">偶数行</a> (class="even")</td>
+       <td align="center" valign="middle">99</td>
+       <td align="center" valign="middle"><a href="check.html">username</a></td>
+       <td align="center" valign="middle">99</td>
+       <td align="right" valign="middle">2006-6-13 19:51:29<br />投稿者： username</td>
+      </tr>
+      <tr class="foot">
+       <td colspan="7" align="center">
+        <b>ソート順:</b> <select><option>投稿日時</option></select> <select><option>降順</option></select><select><option>過去100日分</option><option>過去1年分</option></select><input type="submit" value="送信" />
+       </td>
+      </tr>
+     </table><br />
+
+     <table cellpadding="4" width="100%">
+      <tr>
+       <td align="left"><a href="check.html">フラット表示</a></td>
+       <td align="right"><a href="check.html">前のトピック</a> | <a href="check.html">次のトピック</a></td>
+      </tr>
+     </table>
+     <table cellspacing="1" class="outer">
+      <tr>
+       <th width='20%'>投稿者</th>
+       <th>スレッド</th>
+      </tr>
+      <tr>
+       <td class="head"><a href="check.html">username</a></td>
+       <td class="head">
+        <div class="comDate"><span class="comDateCaption">投稿日時: </span> 2006-6-13 19:51</div>
+       </td>
+      </tr>
+      <tr>
+       <td class="odd"><div class="comUserRank"><div class="comUserRankText">管理人</div>
+        <img src='images/rank3dbf8ee8681cd.gif' /></div>
+        <img class="comUserImg" src="images/avatar.gif" />
+        <div class="comUserStat"><span class="comUserStatCaption">登録日:</span> 2005-9-18</div>
+        <div class="comUserStat"><span class="comUserStatCaption">居住地:</span> 東京</div>
+        <div class="comUserStat"><span class="comUserStatCaption">投稿:</span> 5</div>
+        <div class="comUserStatus"></div>
+       </td>
+       <td class="odd">
+        <div class="comTitle">コメントのタイトル</div>
+        <div class="comText">
+         コメントのテキスト<br />
+         コメントのテキスト<br />
+         コメントのテキスト<br />
+         <div class="xoopsCode">
+          <pre><code>コード
+CODE CODE CODE CODE CODE CODE
+CODE CODE CODE CODE CODE CODE</code></pre>
+         </div><br />
+         引用：
+         <div class="xoopsQuote"><blockquote>引用<br />QUOTED</blockquote></div>
+        </div>
+       </td>
+      </tr>
+      <tr>
+       <td class="even"></td>
+       <td class="even" align="right">
+        <a href="check.html"><img src="images/edit.gif" alt="編集" /></a>
+        <a href='check.html'><img src="images/delete.gif" alt="削除" /></a>
+        <a href='check.html'><img src="images/reply.gif" alt="返信" /></a>
+       </td>
+      </tr>
+     </table>
+
+     <table cellpadding="4" width="100%">
+      <tr>
+       <td align="left">
+        <a href="check.html">フラット表示</a>
+       </td>
+       <td align="right">
+        <a href="check.html">前のトピック</a> | <a href="check.html">次のトピック</a>
+       </td>
+      </tr>
+     </table><br />
+
+     <table class="outer" cellspacing='1'>
+      <tr align='left'>
+       <th width='50%'>題名</th>
+       <th width='20%'>投稿者</th>
+       <th>日時</th>
+      </tr>
+      <tr class="even">
+       <td>&nbsp;<b>&raquo;</b> <img src="images/no_posticon.gif" alt="" /> <b>スレット題名</b></td>
+       <td><a href="check.html">username</a></td>
+       <td>2006-6-13 19:51</td>
+      </tr>
+     </table><br />
+
+     <table width="100%" class="outer" cellspacing="0">
+      <tr class='foot' valign="top">
+       <td align='left'> <a href="check.html">
+        <img src="images/post.gif" alt="新規スレッド" /></a>
+       </td>
+       <td align='right'>
+        <select><option>&nbsp;&nbsp;- フォーラム名</option></select>
+        <input type="submit" class="formButton" value="送信" />
+       </td>
+      </tr>
+      <tr class='foot' valign="bottom">
+       <td colspan='2' align='center'>
+        &nbsp;<a href="check.html"><img src="images/lock_topic.gif" /></a>
+        &nbsp;<a href="check.html"><img src="images/move_topic.gif" /></a>
+        &nbsp;<a href="check.html"><img src="images/del_topic.gif" /></a>
+        &nbsp;<a href="check.html"><img src="images/sticky.gif" /></a>&nbsp;
+       </td>
+      </tr>
+     </table><br />
+    </div>
+     <h2>その他の設定</h2>
+     <h3>リスト</h3>
+     <table width="100%" border="1"  bordercolor="#CCCCCC">
+      <tr>
+       <td class="odd">
+        <ul>
+         <li>リスト１</li>
+         <li>リスト２</li>
+         <li>リスト３</li>
+        </ul>
+       </td>
+      </tr>
+     </table>
+
+     <h3>エラーメッセージ</h3>
+     <div class="errorMsg">エラーメッセージ</div>
+
+     <h3>確認メッセージ</h3>
+     <div class="confirmMsg">
+      <h4>このニュース記事および記事に対するコメントを全て削除してもいいですか？</h4>
+      <input type="submit" value="送信" /> <input type="button" value="キャンセル" />
+     </div>
+
+     <h3>結果メッセージ</h3>
+     <div class="resultMsg">結果メッセージ</div>
+<br />
+
+    <!-- モジュールのコンテンツ終了 -->
+   </div>
+  </td>
+  <td class="colRight">
+   <!-- 右カラムのループ開始 -->
+    <div class="colRight_Title">右カラムのタイトル</div>
+    <div class="colRight_Content">
+     右カラムのコンテンツ<br />
+     右カラムのコンテンツ<br />
+     右カラムのコンテンツ</div>
+    <div class="colRight_Title">検索
+    </div>
+    <div class="colRight_Content">
+     <form style="margin-top: 0px;">
+      <input type="text" name="query" size="14" /><br />
+      <input type="submit" value="検索" />
+     </form>
+     <a href="check.html">高度な検索</a>
+    </div>
+
+   <!-- 右のカラムのループ終了 -->
+  </td>
+  </tr>
+</table>
+
+<!-- フッタ部分 -->
+<div id="footer">&copy; FOOTER <a href="check.html">LINK</a></div>
+</body>
+</html>

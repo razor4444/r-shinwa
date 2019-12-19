@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.backtotop {
+  display: none;
+}
+
+.backtotop {
+  position: fixed;
+  right: 100px;
+  bottom: 80px;
+  z-index: 8000;
+  display: none;
+  display: block;
+}
+
+.backtotop a {
+	display: block;
+	color: #fff;
+	padding: 3px 6px;
+	margin: 0 0 0 5px;;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.backtotop a:after {
+	content: "∧";
+	margin-left: 3px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+

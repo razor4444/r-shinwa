@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--This document is intended only for use by authorized licensees of The Weather Channel. Unauthorized use is prohibited. Copyright 1995-2005, The Weather Channel Interactive, Inc. All Rights Reserved.-->
+<weather ver="2.0">
+  <head>
+    <locale>en_US</locale>
+    <form>MEDIUM</form>
+    <ut>F</ut>
+    <ud>mi</ud>
+    <us>mph</us>
+    <up>in</up>
+    <ur>in</ur>
+  </head>
+  <loc id="JAXX0075">
+    <dnam>Sakai, Japan</dnam>
+    <tm>6:38 PM</tm>
+    <lat>34.58</lat>
+    <lon>135.47</lon>
+    <sunr>4:54 AM</sunr>
+    <suns>7:13 PM</suns>
+    <zone>9</zone>
+  </loc>
+  <lnks type="prmo">
+    <link pos="1">
+      <l>http://www.weather.com/allergies?par=xoap&amp;site=textlinkcm_ven=XOAP&amp;cm_cat=TextLink&amp;cm_pla=Link1&amp;cm_ite=Allergies</l>
+      <t>Local Pollen Reports</t>
+    </link>
+    <link pos="2">
+      <l>http://www.weather.com/flights?par=xoap&amp;site=textlinkcm_ven=XOAP&amp;cm_cat=TextLink&amp;cm_pla=Link2&amp;cm_ite=BusinessTraveler</l>
+      <t>Airport Conditions</t>
+    </link>
+    <link pos="3">
+      <l>http://www.weather.com/garden?par=xoap&amp;site=textlinkcm_ven=XOAP&amp;cm_cat=TextLink&amp;cm_pla=Link3&amp;cm_ite=Garden</l>
+      <t>Lawn and Garden Weather</t>
+    </link>
+    <link pos="4">
+      <l>http://www.weather.com/traffic?par=xoap&amp;site=textlinkcm_ven=XOAP&amp;cm_cat=TextLink&amp;cm_pla=Link4&amp;cm_ite=Traffic</l>
+      <t>Rush Hour Traffic</t>
+    </link>
+  </lnks>
+</weather>
+

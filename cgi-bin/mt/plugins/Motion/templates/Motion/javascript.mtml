@@ -1,0 +1,89 @@
+<__trans_section component="motion">
+//
+// This file defines blog variables and phrases which are used by javascript functions.
+//
+var mt;
+mt = {
+    blog: {
+        id: <$mt:BlogID _default="0"$>,
+        url: '<$mt:BlogURL encode_url="1"$>',
+        staticWebPath: '<$mt:StaticWebPath$>',
+        adminScript: '<$mt:AdminScript$>',
+        signInLink: '<$mt:SignInLink$>',
+        signOutLink: '<$mt:SignOutLink$>',
+        comments: {
+            script: '<$mt:CGIPath$><$mt:CommentScript$>',
+            armor: '<$mt:BlogSitePath encode_sha1="1"$>',
+            accepted: <mt:IfCommentsAccepted>1<mt:Else>0</mt:IfCommentsAccepted>,
+            captchaFields: '<$mt:CaptchaFields$>'
+        },
+        community: {
+            script: '<$mt:CGIPath$><$mt:CommunityScript$>',
+            ifAnonymousRecommendAllowed: <mt:IfAnonymousRecommendAllowed>1<mt:Else>0</mt:IfAnonymousRecommendAllowed>
+        },
+        pings: {
+            accepted: <mt:IfPingsAccepted>1<mt:Else>0</mt:IfPingsAccepted>
+        },
+        registration: {
+            required: <mt:IfRegistrationRequired>1<mt:Else>0</mt:IfRegistrationRequired>,
+            allowed: <mt:IfRegistrationAllowed>1<mt:Else>0</mt:IfRegistrationAllowed>
+        }
+    }
+};
+
+mt.blog.phrase = {
+    fileRequired: '<__trans phrase="Please select a file to post." escape="js">',
+    invalidFileType: '<__trans phrase="You selected an unsupported file type." escape="js">',
+    relativeDate: {
+        momentsAgo: '<__trans phrase="moments ago" escape="js">',
+        minutesAgo: '<__trans phrase="[quant,_1,minute,minutes] ago" params="1" escape="js">',
+        minutesAgoPlural: '<__trans phrase="[quant,_1,minute,minutes] ago" params="2" escape="js">',
+        hoursAgo: '<__trans phrase="[quant,_1,hour,hours] ago" params="1" escape="js">',
+        hoursAgoPlural: '<__trans phrase="[quant,_1,hour,hours] ago" params="2" escape="js">',
+        daysAgo: '<__trans phrase="[quant,_1,day,days] ago" params="1" escape="js">',
+        daysAgoPlural: '<__trans phrase="[quant,_1,day,days] ago" params="2" escape="js">'
+    },
+    edit: '<__trans phrase="Edit">',
+    signingIn: '<__trans phrase="Signing in..." escape="js">',
+    commenter: {
+        auth: '<__trans phrase="[_1]Sign in[_2] to comment." params="<a href="javascript:void(0)" onclick="return mtSignInOnClick('comment-greeting')">%%</a>" escape="js">',
+        authAnonyous: '<__trans phrase="[_1]Sign in[_2] to comment, or comment anonymously." params="<a href="javascript:void(0)" onclick="return mtSignInOnClick('comment-greeting')">%%</a>" escape="js">',
+        authBanned: '<__trans phrase="You do not have permission to comment on this blog. ([_1]sign out[_2])" params="<a href="javascript:void(0);" onclick="return mtSignOutOnClick();">%%</a>" escape="js">',
+        authSuccess: '<__trans phrase="Thanks for signing in, __NAME__. ([_1]sign out[_2])" params="<a href="javascript:void(0)" onclick="return mtSignOutOnClick();">%%</a>" escape="js">',
+        sessionExpired: '<__trans phrase="Your session has expired. Please sign in again to comment." escape="js">',
+        replyingTo: '<__trans phrase="Replying to <a href="[_1]" onclick="[_2]">comment from [_3]</a>" params="#comment-__PARENT__%%location.href=this.href; return false%%__AUTHOR__" escape="js">'
+    }
+};
+
+
+// The cookie name to use for storing the blog-side comment session cookie.
+var mtCookieName = "<$mt:UserSessionCookieName$>";
+var mtCookieDomain = "<$mt:UserSessionCookieDomain$>";
+var mtCookiePath = "<$mt:UserSessionCookiePath$>";
+var mtCookieTimeout = <$mt:UserSessionCookieTimeout$>;
+
+<mt:Ignore>
+/*  The following functions and variables are here to support legacy MT templates.
+    If you have refreshed your JavaScript template but still use older MT comment
+    templates, you may need to uncomment this block in order for those templates 
+    to work properly. To use, simply remove the 'mt:Ignore' tags wrapping this
+    block of code.
+*/
+    function hideDocumentElement(id) { return mtHide(id) }
+    function showDocumentElement(id) { return mtShow(id) }
+    function individualArchivesOnLoad() { return mtEntryOnLoad() }
+    function writeCommenterGreeting() { return mtShowGreeting() }
+    function rememberMe(f) { return mtRememberMe(f) }
+    function forgetMe(f) { return mtForgetMe(f) }
+    var commenter_name;
+    var commenter_id;
+    var commenter_url;
+    var commenter_blog_ids;
+    var mtcmtmail;
+    var mtcmtauth;
+    var mtcmthome;
+    var captcha_timer;
+</mt:Ignore>
+
+<mt:Ignore>alert("end.conf");</mt:Ignore>
+</__trans_section>

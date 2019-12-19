@@ -1,0 +1,29 @@
+<__trans_section component="motion"><div id="header">
+    <div id="header-inner">
+        <div id="header-content">
+<mt:Ignore><!-- Use h1 and h2 html tags on the main index of the blog as the title, use divs on all other pages where there are page titles. --></mt:Ignore>
+<mt:If name="main_index">
+            <h1 id="header-name"><a href="<$mt:BlogURL$>" accesskey="1"><$mt:BlogName encode_html="1"$></a></h1>
+            <h2 id="header-description"><$mt:BlogDescription$></h2>
+<mt:Else>
+            <div id="header-name"><a href="<$mt:BlogURL$>" accesskey="1"><$mt:BlogName encode_html="1"$></a></div>
+            <div id="header-description"><$mt:BlogDescription$></div>
+</mt:If>
+            <$mt:Include widget="<__trans phrase="Sign In">" hide_tags="1" $>
+        </div>
+        
+    </div>
+</div>
+<div id="nav">
+    <div id="nav-inner">
+        <ul>
+            <li class="home<mt:If name="main_index"> current</mt:If>"><a href="<$mt:BlogURL$>"><__trans phrase="Home"></a></li>
+            <li class="members<mt:If name="member_index"> current</mt:If>"><a href="<$mt:Link template="<__trans phrase="Members">"$>"><__trans phrase="Members"></a></li>
+<mt:Pages>
+    <mt:SetVarBlock name="this_page_id"><$mt:PageID$></mt:SetVarBlock>
+            <li class="<$mt:PageTitle dirify="-"$><mt:If name="page_id" eq="$this_page_id"> current</mt:If>"><a href="<$mt:PagePermalink$>"><$mt:PageTitle$></a></li>
+</mt:Pages>
+        </ul>
+        <$mt:Include widget="<__trans phrase="Search">"$>
+    </div>
+</div></__trans_section>

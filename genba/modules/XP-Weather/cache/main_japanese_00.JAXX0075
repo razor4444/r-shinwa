@@ -1,0 +1,77 @@
+<h4><b>お天気ガイド 詳細情報</b></h4>
+地域: Asia<br />
+<b>大阪:堺, Japan</b> [<a href="change.php"><small>場所を変える</small></a>]
+ 更新:  7月12日 18:00<br /><a href="http://www.weather.com/outlook/travel/local/JAXX0075" target="_blank">More Detail....</a>&nbsp;[ <a href="http://maps.google.com/?q=loc%3A%20%C2%E7%BA%E5%3A%BA%E6%2C%20Japan&amp;ie=EUC-JP&amp;z=11&amp;ll=34.58,135.47&amp;t=h" target="_blank">Google Map</a> ]<hr><table cellpadding="4" cellspacing="0" border="0" style="width:auto;"><tr><td style="vertical-align:top;">
+<img src="images/fresh/current_cond.gif" align="top" alt="只今の天候">
+<font face="Arial" style="color:red;font-size:24px;">28&deg;C</font> 
+<img src="images/fresh/28.png" class="xp_forecast">
+</td><td><table cellpadding="4" cellspacing="5" border="0"><tr><td>
+風向・風速: 南南西 2.2 m/s</td><td>
+気圧計: 757 mmHg </td><td>
+湿度: 74%</td></tr><tr><td>Mostly Cloudy</td><td>
+気圧: 1009 hPa (rising)</td></tr><tr><td>
+UV指数: 1 (Low)</td><td>
+体感温度: 31&deg;C</td><td>
+視程: 10 km</td></tr>
+</table></td></tr></table><br /><table cellpadding="4" cellspacing="0" border="0" style="width:auto;">
+<tr><td valign="top" class="xp_forecast"><img src="images/fresh/forecast.gif" alt="週間天気予報"></td><td>&nbsp;</td><td class="xp_forecast">
+今晩<br />Jul 12<br /><img src="images/fresh/4.png"><br /><small>T-Storms</small></td><td class="xp_forecast">
+金<br />Jul 13<br /><img src="images/fresh/4.png"><br /><small>Heavy T-Storms</small></td><td class="xp_forecast">
+土<br />Jul 14<br /><img src="images/fresh/4.png"><br /><small>T-Storms</small></td><td class="xp_forecast">
+日<br />Jul 15<br /><img src="images/fresh/11.png"><br /><small>T-Showers</small></td><td class="xp_forecast">
+月<br />Jul 16<br /><img src="images/fresh/30.png"><br /><small>Partly Cloudy</small></td><td class="xp_forecast">
+火<br />Jul 17<br /><img src="images/fresh/32.png"><br /><small>Sunny</small></td></tr>
+<tr><td>&nbsp;</td><td colspan="7"><hr></td></tr>
+<tr><td>&nbsp;</td><td><font face="Arial" color="red" size="">最高気温:</font></td><td class="xp_forecast">
+<font face="Arial" color="red">N/A</font></td><td class="xp_forecast">
+<font face="Arial" color="red">23&deg;C</font></td><td class="xp_forecast">
+<font face="Arial" color="red">24&deg;C</font></td><td class="xp_forecast">
+<font face="Arial" color="red">25&deg;C</font></td><td class="xp_forecast">
+<font face="Arial" color="red">25&deg;C</font></td><td class="xp_forecast">
+<font face="Arial" color="red">26&deg;C</font></td></tr>
+<tr><td>&nbsp;</td><td colspan="7"><hr></td></tr>
+<tr><td>&nbsp;</td><td>最低気温:</td><td class="xp_forecast">
+<font face="Arial">22&deg;C</td><td class="xp_forecast">
+<font face="Arial">21&deg;C</td><td class="xp_forecast">
+<font face="Arial">21&deg;C</td><td class="xp_forecast">
+<font face="Arial">20&deg;C</td><td class="xp_forecast">
+<font face="Arial">20&deg;C</td><td class="xp_forecast">
+<font face="Arial">20&deg;C</td</tr>
+<tr><td>&nbsp;</td><td colspan="7"><hr></td></tr>
+<tr><td>&nbsp;</td><td>降水確率:</td><td class="xp_forecast">
+100%</td><td class="xp_forecast">
+100%</td><td class="xp_forecast">
+100%</td><td class="xp_forecast">
+60%</td><td class="xp_forecast">
+20%</td><td class="xp_forecast">
+20%</td></tr>
+<tr><td>&nbsp;</td><td colspan="7"><hr></td></tr>
+<tr><td>&nbsp;</td><td>風向・風速:</td><td class="xp_forecast">
+南南東<br />1.8 m/s</td><td class="xp_forecast">
+東<br />2.7 m/s</td><td class="xp_forecast">
+東<br />6.3 m/s</td><td class="xp_forecast">
+北西<br />4 m/s</td><td class="xp_forecast">
+北北西<br />3.1 m/s</td><td class="xp_forecast">
+北北東<br />2.2 m/s</td></tr>
+<tr><td>&nbsp;</td><td colspan="7"><hr></td></tr>
+<tr><td>&nbsp;</td><td>湿度:</td><td class="xp_forecast">
+98%</td><td class="xp_forecast">
+97%</td><td class="xp_forecast">
+95%</td><td class="xp_forecast">
+85%</td><td class="xp_forecast">
+81%</td><td class="xp_forecast">
+80%</td></tr></table>
+<hr><table border="0" cellspacing="0" cellpadding="0" style="width:auto;"><tr><td class="xp_forecast">
+<table cellspacing="1" cellpadding="0" class='property'><tr class="bg3"><td class='property'>
+<b><small>Info</small></b>
+<td class='property'><a href="change.php"><small>場所を変える</small></a></td>
+<tr class="bg3"><td class='property'><b><small>地域:</small></b></td><td class='property'><small>Asia</small></td></tr><tr class="bg3"><td class='property'>
+<b><small>国:</small></b></td><td class='property'><small>Japan</small></td></tr><tr class="bg3"><td class='property'>
+<b><small>都市:</small></b></td><td class='property'><small>大阪:堺</small></td></tr><tr class="bg3"><td class='property'>
+<b><small>Loc:</small></b></td><td class='property'><small>JAXX0075</small></td></tr></table></td><td width="72" style="vertical-align:bottom;text-align:center;">レーダー<br /><a href="http://www.wni.co.jp/cww/docs/radar.html" target="_blank"><img src="images/radar.gif" width="62" height="64" alt=レーダー></a></td>
+<td width="72" style="vertical-align:bottom;text-align:center;">気象衛星<br /><a href="http://www.wni.co.jp/cww/docs/gms/index.html" target="_blank"><img src="images/satellite.gif" width="62" height="64" alt=気象衛星></a></td>
+<td width="72" style="vertical-align:bottom;text-align:center;">降水確率<br /><a href="http://www.wni.co.jp/cww/docs/amedas.html" target="_blank"><img src="images/precipitation.gif" width="62" height="64" alt=降水確率></a></td>
+<td style="vertical-align:bottom;"><a href="http://www.weather.com/?prod=xoap&par=1043538919"><img src="images/TWClogo_64px.png" alt=""></a></td>
+<td style="vertical-align:bottom;"><a href="http://www.weather.com/allergies?par=xoap&site=textlinkcm_ven=XOAP&cm_cat=TextLink&cm_pla=Link1&cm_ite=Allergies&amp;par=1043538919" target="_blank">Local Pollen Reports</a><br /><a href="http://www.weather.com/flights?par=xoap&site=textlinkcm_ven=XOAP&cm_cat=TextLink&cm_pla=Link2&cm_ite=BusinessTraveler&amp;par=1043538919" target="_blank">Airport Conditions</a><br /><a href="http://www.weather.com/garden?par=xoap&site=textlinkcm_ven=XOAP&cm_cat=TextLink&cm_pla=Link3&cm_ite=Garden&amp;par=1043538919" target="_blank">Lawn and Garden Weather</a><br /><a href="http://www.weather.com/traffic?par=xoap&site=textlinkcm_ven=XOAP&cm_cat=TextLink&cm_pla=Link4&cm_ite=Traffic&amp;par=1043538919" target="_blank">Rush Hour Traffic</a><br /></td>
+</tr></table>
+<div style="text-align:right"><a href="http://hypweb.net/xoops/wiki/81.html"><small>XP-Weather 1.3a(J2.3a)</small></a></div>

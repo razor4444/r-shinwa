@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="sixapart-standard">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="imagetoolbar" content="no" />    
+    <title>進和ホーム株式会社　“こだわり暮らしブログ”: 2012&#24180;6&#26376;アーカイブ</title>
+    <meta name="generator" content="Movable Type Pro 4.27-ja" />
+    
+
+    
+        
+        
+        
+        
+        
+        
+        <link rel="stylesheet" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/styles.css" type="text/css" />
+        <link rel="alternate" type="application/atom+xml" title="Atom" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/atom.xml" />
+        <link rel="start" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/" title="Home" />
+        <script type="text/javascript" src="http://thumbsup.sakura.ne.jp/r-shinwa.jp/mt.js"></script>
+        
+    
+
+
+        <link rel="prev bookmark" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/05/" title="2012&amp;#24180;5&amp;#26376;" />
+        <link rel="next bookmark" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/07/" title="2012&amp;#24180;7&amp;#26376;" />
+    
+    
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    mtAttachEvent('load', mtUpdateScores);
+    mtAttachEvent('usersignin', mtUpdateScores);
+    /* ]]> */
+    </script>
+</head>
+<body id="mt-community-blog" class="mt-archive-listing mt-datebased-monthly-archive layout-twt">
+    <div id="container">
+        <div id="container-inner">
+            <div id="header">
+                <div id="header-inner">
+                    <div id="header-content">
+
+                        <div id="header-name"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/" accesskey="1">進和ホーム株式会社　“こだわり暮らしブログ”</a></div>
+    
+
+                        <div id="header-menu">
+    <ul>
+
+        <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/">ホーム</a></li>
+        <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブ</a></li>
+
+    </ul>
+</div>
+
+
+                        <div class="widget-sign-in widget">
+    <h3 class="widget-header">サインイン</h3>
+    <div id="signin-widget-content" class="widget-content"></div>
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+function mtUpdateSignInWidget(u) {
+    var separator = '&nbsp;&nbsp;|&nbsp;&nbsp;';
+    var el = document.getElementById('signin-widget-content');
+    var content = '';
+    if (!el) return;
+    if (u) {
+        if (u && u.is_authenticated) {
+            user = u;
+            mtSaveUser();
+        } else {
+            // user really isn't logged in; so let's do this!
+            return mtSignIn();
+        }
+    } else {
+        u = mtGetUser();
+    }
+    if (u && u.name) {
+        var url;
+        if (u.is_authenticated) {
+            if (u.is_author) {
+                url = 'http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&blog_id=1';
+                url += '&static=' + encodeURIComponent( location.href );
+            } else {
+                url = u.url;
+            }
+        } else if (u.url) {
+            url = u.url;
+        } else {
+            url = null;
+        }
+        if (url)
+            content += '<a href="' + url + '">' + u.name + '</a>';
+        else
+            content += '' + u.name + '';
+        if (u.is_author)
+            content += separator + '<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=edit&blog_id=1&return_to=' + encodeURIComponent(document.URL) + '">ユーザー情報の編集</a>';
+        
+        content += separator + '<a href="javascript:void(0)" onclick="return mtSignOutOnClick()">サインアウト</a>';
+        
+    } else if (u && u.is_banned) {
+        content = 'このブログにサインインする権限がありません。';
+    } else {
+        content = '<a href="javascript:void(0)" onclick="return mtSignInOnClick(\'signin-widget-content\')">サインイン</a>';
+        
+        
+        content += separator + '<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=register&blog_id=1&return_to=' + encodeURIComponent(document.URL) + '">サインアップ</a>？';
+        
+        
+    }
+    el.innerHTML = content;
+}
+mtAttachEvent('usersignin', mtUpdateSignInWidget);
+mtUpdateSignInWidget();
+/* ]]> */
+</script>
+
+
+                        <div class="header-search">
+    <form method="get" action="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-search.cgi">
+
+        <input type="hidden" name="IncludeBlogs" value="1" />
+
+        <input type="hidden" name="limit" value="20" />
+        <label for="search">検索</label>
+        <input id="search" class="query" name="search" value="" />
+        <input class="submit" type="submit" value="Go" />
+    </form>
+</div>
+
+                   </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="content-inner">
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+
+
+<h1 id="page-title" class="archive-title">
+
+2012&#24180;6&#26376;アーカイブ
+
+</h1>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/index.html#entry-000131"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/130"
+    dc:title="子育てにいい！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/index.html#entry-000131"
+    dc:subject=""
+    dc:description="最近じめじめと雨が続きますね?でも、雨が続くと、晴れの日が何倍も嬉しく感じる！雨..."
+    dc:creator="大林　由衣"
+    dc:date="2012-06-22T22:44:00+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-131" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/post-114.html" rel="bookmark">子育てにいい！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2012-06-22T22:44:00+09:00">2012&#24180;6&#26376;22&#26085; 22:44</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/post-114.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/post-114.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(131)" id="scoring-id-131" class="scoring">
+        <span id="scoring-vote-131" class="scoring-vote">票</span>
+        <span id="scoring-score-131" class="scoring-score">0</span>
+        <span id="scoring-score-label-131" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            最近じめじめと雨が続きますね?<div><br /></div><div>でも、雨が続くと、晴れの日が何倍も嬉しく感じる！</div><div><br /></div><div>雨が続くと、庭の花木が元気になって新しい芽が出てる！</div><div><br /></div><div><br /></div><div>梅雨は植物にとって大切な季節なので、一概に嫌がれませんね（＾ｖ＾）</div><div><br /></div><div><br /></div><div><br /></div><div>本日23（土）予定していた</div><div>「二世帯住宅勉強会」ですが、</div><div><br /></div><div>日にちを絞らずに、</div><div>随時開催していこうと思っています。</div><div><br /></div><div><br /></div><div>平日は</div><div>1.　11：00　から</div><div>2.　14：00　から</div><div>3.　19：00　から</div><div><br /></div><div>土・日・祝は</div><div><br /></div><div>14：00　から</div><div><br /></div><div><br /></div><div>いつでも来れる日にご予約ください（＾ｖ＾）/</div><div><br /></div><div>二世帯に限らず、家づくりに大切なこと全般についてお話と</div><div>質問なんでもお受けします♪</div><div><br /></div><div>お気軽にどうぞ（●＾o＾●）</div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="jutaku.jpg" src="http://www.r-shinwa.jp/kodawari/jutaku.jpg" width="530" height="749" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /></span></div><div><br /></div><div><br /></div><div>話は変わって、</div><div>最近気になるものがあります。</div><div><br /></div><div>「横峰式教育法」</div><div>です。</div><div><br /></div><div><br /></div><div>エチカの鏡で紹介されブームになったらしいんですが</div><div>今更知りました。</div><div><br /></div><div>「子供は誰でも天才だ」</div><div>「子供の持っている力を引き出すだけ」</div><div><br /></div><div>それだけで</div><div>4歳で絶対音感が付き</div><div>5歳で小2レベルの読み書き計算ができるようになり</div><div>6歳で逆立ち歩きができるようになり</div><div><br /></div><div>などなど</div><div><br /></div><div><br /></div><div>これを、子どもに強制するのではなく</div><div>楽しんで出来るようになるのなら、すごいなぁと思います！！</div><div><br /></div><div><br /></div><div>今とっても気になります(・o・)/</div><div><br /></div><div><br /></div><div>横峰式英才教育</div><div>詳しくはこちら↓</div><div><a href="http://www.yokomineshiki.jp/">http://www.yokomineshiki.jp/</a>
+</div><div><br /></div><div><br /></div><div><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="profile.jpg" src="http://www.r-shinwa.jp/kodawari/profile.jpg" width="664" height="795" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></span></div><div><br /></div>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/index.html#entry-000130"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/129"
+    dc:title="昔の知恵に学ぶ"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/index.html#entry-000130"
+    dc:subject=""
+    dc:description="前回のブログに書きました二世帯住宅の勉強会ですが日程を変更して6/23（土）にな..."
+    dc:creator="大林　由衣"
+    dc:date="2012-06-05T15:55:54+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-130" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/post-113.html" rel="bookmark">昔の知恵に学ぶ</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2012-06-05T15:55:54+09:00">2012&#24180;6&#26376; 5&#26085; 15:55</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/post-113.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/post-113.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(130)" id="scoring-id-130" class="scoring">
+        <span id="scoring-vote-130" class="scoring-vote">票</span>
+        <span id="scoring-score-130" class="scoring-score">0</span>
+        <span id="scoring-score-label-130" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            前回のブログに書きました<div>二世帯住宅の勉強会ですが</div><div><br /></div><div>日程を変更して</div><div><br /></div><div>6/23（土）になりそうです。</div><div><br /></div><div>確定しましたら、御案内します(*^。^*)</div><div><br /></div><div>二世帯住宅だけでなく、</div><div>どんな家にも必要な考え方をお話しますので</div><div><br /></div><div>どなたもぜひおこしください（＾ｖ＾）</div><div>これを知らずに家を建てると損してしまうと</div><div>思います。。。！</div><div><br /></div><div>家づくりは一生のことなので</div><div>しっかり知識を入れて、最高の我が家を</div><div>つくってくださいね（＾ｖ＾）/</div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div>私は先日、伊賀の忍者村に行ってきました。</div><div><br /></div><div>そこには「忍者屋敷」の復元があって、</div><div><br /></div><div>いろんな室内の仕掛けを</div><div>ガイドの方が教えてくれます☆</div><div><br /></div><div><br /></div><div>その仕掛けがとても面白く、</div><div><br /></div><div>今の家づくりにも活かせるのではないか</div><div>昔の知恵ってすごい！！</div><div><br /></div><div>と感動しました。</div><div><br /></div><div><br /></div><div>例えば、大事な書類を隠す床下収納や</div><div>刀を隠す、床板や</div><div>暗さを利用した、中からは見えるけど</div><div>外から見えない見張りスペースや、</div><div>一見棚に見える隠し階段、</div><div>壁のどんでん返しで各部屋に繋がる隠し通路、</div><div>簡単に素早く開く木の鍵など</div><div><br /></div><div>これをそのまま活かしても「スパイの家」になりそうですが(^_^;)</div><div><br /></div><div>最新の機械や設備に頼らなくても</div><div>こんなにすごいスパイ（忍者）屋敷が作れるんだなと</div><div>勉強になることばかりでした。</div><div><br /></div><div>私は忍者はなんだか迷信っぽく、本当に実在した</div><div>イメージが今までなかったのですが</div><div><br /></div><div>本当にいたんだなと思い、すごく興味がわきました。</div><div><br /></div><div>そしてまだまだ知らない事がたくさんあるなと感じました。</div><div>知らない事を知れたいい機会でした☆</div><div><br /></div><div>小さなお子さんは忍者の衣装を着て走り回っていて</div><div>とてもかわいかったです(*^。^*)</div><div><br /></div><div>ぜひご家族で行ってみてください♪</div><img alt="img_adventure_04.jpg" src="http://www.r-shinwa.jp/kodawari/img_adventure_04.jpg" width="264" height="264" class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" /><div><br /></div><div>近くに有名なアスレチックもあって、ご家族にお勧めです☆</div><div><br /></div><div>伊賀忍者村</div><div><a href="http://www.iganinja.jp/">http://www.iganinja.jp/</a>
+</div><div><br /></div><div>フォレストアドベンチャ―　山添　</div><div><a href="http://www.forest-ad.jp/adventure.html">http://www.forest-ad.jp/adventure.html</a>
+</div><div><br /></div><div><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="A3403320a.jpg" src="http://www.r-shinwa.jp/kodawari/A3403320a.jpg" width="240" height="180" class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" /></span></div><div><br /></div><div><br /></div>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+
+<div class="content-nav">
+    <div class="create-entry"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/create-entry.html">新しいブログ記事を作成</a></div>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/05/">&laquo; 2012&#24180;5&#26376;</a> <span class="separator">|</span>
+
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/">ブログのホームページ</a> <span class="separator">|</span> 
+
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブ</a>
+
+
+    <span class="separator">|</span> <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/07/">2012&#24180;7&#26376; &raquo;</a>
+
+</div>
+
+
+
+
+
+
+
+</div>
+                    </div>
+
+                    <div id="beta">
+    <div id="beta-inner">
+        
+
+        <div class="widget-archive widget-archive-category widget">
+    <h3 class="widget-header">カテゴリ</h3>
+    <div class="widget-content">
+    
+    </div>
+</div>
+
+
+
+
+    <div class="widget-archive-monthly widget-archive widget">
+    <h3 class="widget-header">月別 <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブ</a></h3>
+    <div class="widget-content">
+        <ul>
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/11/">2012&#24180;11&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/10/">2012&#24180;10&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/09/">2012&#24180;9&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/08/">2012&#24180;8&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/07/">2012&#24180;7&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/">2012&#24180;6&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/05/">2012&#24180;5&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/04/">2012&#24180;4&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/03/">2012&#24180;3&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/02/">2012&#24180;2&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/01/">2012&#24180;1&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/12/">2011&#24180;12&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/11/">2011&#24180;11&#26376; (7)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/10/">2011&#24180;10&#26376; (5)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/09/">2011&#24180;9&#26376; (6)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/08/">2011&#24180;8&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/07/">2011&#24180;7&#26376; (7)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/06/">2011&#24180;6&#26376; (11)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/05/">2011&#24180;5&#26376; (4)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/02/">2011&#24180;2&#26376; (5)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/01/">2011&#24180;1&#26376; (4)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/12/">2010&#24180;12&#26376; (13)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/11/">2010&#24180;11&#26376; (6)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/10/">2010&#24180;10&#26376; (5)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/09/">2010&#24180;9&#26376; (7)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/">2010&#24180;8&#26376; (27)</a></li>
+        
+        </ul>
+    </div>
+</div>
+        
+    
+
+
+
+<div class="widget-syndication widget">
+    <div class="widget-content">
+        <ul>
+            <li><img src="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-static/images/status_icons/feed.gif" alt="購読する" width="9" height="9" /> <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/atom.xml">このブログを購読</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+<div id="gamma">
+    <div id="gamma-inner">
+        <div class="widget-about-this-page widget">
+    <h3 class="widget-header">
+
+        このアーカイブについて
+
+    </h3>
+    <div class="widget-content">
+
+        <p class="first">このページには、<strong>2012&#24180;6&#26376;</strong>に書かれたブログ記事が新しい順に公開されています。</p>
+    
+        <p>前のアーカイブは<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/05/">2012&#24180;5&#26376;</a>です。</p>
+    
+    
+        <p>次のアーカイブは<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/07/">2012&#24180;7&#26376;</a>です。</p>
+    
+
+        <p>最近のコンテンツは<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/">インデックスページ</a>で見られます。過去に書かれたものは<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブのページ</a>で見られます。</p>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+
+
+
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-inner">
+                    <div id="footer-content">
+                        <div class="widget-powered widget">
+                            <div class="widget-content">
+                                <span>Powered by <a href="http://www.sixapart.jp/movabletype/">Movable Type Pro</a></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript" src="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=score&amp;blog_id=1&amp;f=scored,count&amp;jsonp=mtScore_cb&amp;id=131,130"></script>
+
+</body>
+</html>
+
+

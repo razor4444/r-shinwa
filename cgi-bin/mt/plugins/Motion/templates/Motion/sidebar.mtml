@@ -1,0 +1,33 @@
+<__trans_section component="motion"><div id="beta">
+    <div id="beta-inner">
+
+        <mt:If name="profile_view">
+            <$mt:WidgetSet name="<__trans phrase="Profile Widgets">"$>
+        </mt:If>
+
+        <mt:If name="profile_edit_form">
+            <$mt:WidgetSet name="<__trans phrase="Profile Widgets">"$>
+        </mt:If>
+
+        <mt:If name="main_index">
+            <$mt:WidgetSet name="<__trans phrase="Main Index Widgets">"$>
+        </mt:If>
+
+        <div id="beta-columns">
+            <div id="beta-columns-left">
+
+                <$mt:WidgetSet name="<__trans phrase="Archive Widgets">"$>
+
+            </div><!-- end #beta-columns-left -->
+            <div id="beta-columns-right">
+
+                <mt:IfArchiveType type="individual">
+                    <$mt:WidgetSet name="<__trans phrase="Entry Widgets">"$>
+                <mt:Else>
+                    <$mt:WidgetSet name="<__trans phrase="Default Widgets">"$>
+                </mt:IfArchiveType>
+
+            </div><!-- end #beta-columns-right -->
+        </div><!-- end #beta-columns -->
+    </div><!-- end #beta-inner -->
+</div><!-- end #beta --></__trans_section>

@@ -1,0 +1,10 @@
+/* CSS Document */
+
+#header,#footer,#sidebar,
+.print_icon {
+	display:none;
+	
+}
+#main {
+padding-top:0;
+}

@@ -1,0 +1,17 @@
+<__trans_section component="motion"><mt:If name="profile_view">
+<div class="archives widget">
+    <mt:ArchiveList archive_type="Author-Monthly">
+        <mt:ArchiveListHeader>
+    <h2 class="archive-header"><__trans phrase="Archives"></h2>
+    <div class="archive-content">
+        <p><a href="<$mt:ArchiveLink type="Author"$>" class=""><__trans phrase="Recenty entries from [_1]" params="<$mt:AuthorDisplayName encode_html="1"$>"></a></p>
+        <ul>
+        </mt:ArchiveListHeader>
+            <li><a href="<$mt:ArchiveLink$>"><$mt:ArchiveTitle$></a> (<$mt:ArchiveCount$>)</li>
+        <mt:ArchiveListFooter>
+        </ul>
+    </div>
+        </mt:ArchiveListFooter>
+    </mt:ArchiveList>
+</div>
+</mt:If></__trans_section>

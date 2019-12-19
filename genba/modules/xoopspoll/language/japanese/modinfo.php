@@ -1,0 +1,15 @@
+<?php
+// Module Info
+
+// The name of this module
+define("_MI_POLLS_NAME","ÅêÉ¼");
+
+// A brief description of this module
+define("_MI_POLLS_DESC","ÅêÉ¼ÍÑ¥Ö¥í¥Ã¥¯¤òÉ½¼¨");
+
+// Names of blocks for this module (Not all module has blocks)
+define("_MI_POLLS_BNAME1","ÅêÉ¼¥Ö¥í¥Ã¥¯");
+
+define("_MI_POLLS_ADMENU1","ÅêÉ¼°ìÍ÷");
+define("_MI_POLLS_ADMENU2","ÅêÉ¼¤ÎºîÀ®");
+?>

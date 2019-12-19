@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="<{$xoops_imageurl}>custom.css" />
+<style type="text/css">
+</style>
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+
+<body>
+
+<!-- ヘッダ部分 -->
+<a href="<{$xoops_url}>"><h1 id="header"><{$xoops_sitename}></h1></a>
+<!-- メイン部分 -->
+<table  id="main">
+ <tr valign="top">
+  <td class="colLeft">
+   <!-- 左カラムのループ開始 -->
+    <{foreach item=block from=$xoops_lblocks}>
+     <div class="colLeft_Title"><{$block.title}></div>
+     <div class="colLeft_Content"><{$block.content}></div>
+    <{/foreach}>
+   <!-- 左カラムのループ終了 -->
+  </td>
+  <td class="colCenter">
+   <div class="center">
+    <{if $xoops_showcblock == 1}>
+     <table width="100%" >
+      <tr>
+       <td colspan="2" class="colCenter">
+        <!-- 中央カラムの中央ブロックのループ開始 -->
+         <{foreach item=block from=$xoops_ccblocks}>
+          <div class="colCenter_blkCenter_Title"><{$block.title}></div>
+          <div class="colCenter_blkCenter_Content"><{$block.content}></div>
+         <{/foreach}>
+        <!-- 中央カラムの中央ブロックのループ終了 -->
+       </td>
+      </tr>
+      <tr>
+       <td class="colCenter">
+        <!-- 中央カラムの左ブロックのループ開始 -->
+         <{foreach item=block from=$xoops_clblocks}>
+          <div class="colCenter_blkLeft_Title"><{$block.title}></div>
+          <div class="colCenter_blkLeft_Content"><{$block.content}></div>
+         <{/foreach}>
+        <!-- 中央カラムの左ブロックのループ終了 -->
+       </td>
+       <td class="colCenter">
+        <!-- 中央カラムの右ブロックのループ開始 -->
+         <{foreach item=block from=$xoops_crblocks}>
+          <div class="colCenter_blkRight_Title"><{$block.title}></div>
+          <div class="colCenter_blkRight_Content"><{$block.content}></div>
+         <{/foreach}>
+        <!-- 中央カラムの右ブロックのループ終了 -->
+       </td>
+      </tr>
+     </table>
+    <{/if}>
+    <!-- モジュールのコンテンツ開始 -->
+     <div id="content">
+      <{$xoops_contents}>
+     </div>
+    <!-- モジュールのコンテンツ終了 -->
+   </div>
+  </td>
+  <{if $xoops_showrblock == 1}>
+   <td class="colRight">
+   <!-- 右カラムのループ開始 -->
+    <{foreach item=block from=$xoops_rblocks}>
+     <div class="colRight_Title"><{$block.title}></div>
+     <div class="colRight_Content"><{$block.content}></div>
+    <{/foreach}>
+   <!-- 右カラムのループ終了 -->
+   </td>
+  <{/if}>
+ </tr>
+</table>
+
+<!-- フッタ部分 -->
+<div id="footer"><{$xoops_footer}></div>
+</body>
+</html>

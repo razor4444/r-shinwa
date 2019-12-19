@@ -1,0 +1,15 @@
+<__trans_section component="motion"><div id="authenticate">
+    <mt:IfExternalUserManagement>
+    <__trans phrase="<a href="javascript:void(0)" onclick="[_1]">Sign In</a>" params="return mtSignInOnClick('signin-widget-content')">
+    <mt:else>
+    <mt:IfCommenterRegistrationAllowed>
+    <__trans phrase="Not a member? <a href="[_1]">Register</a>" params="<$mt:CGIPath$><$mt:CommunityScript$>?__mode=register&blog_id=<$mt:BlogID$>&return_to=<$mt:BlogURL$>"> 
+    <span class="signin-link"><__trans phrase="(or <a href="javascript:void(0)" onclick="[_1]">Sign In</a>)" params="return mtSignInOnClick('signin-widget-content')"></span>
+    <mt:else>
+    <__trans phrase="<a href="javascript:void(0)" onclick="[_1]">Sign In</a>" params="return mtSignInOnClick('signin-widget-content')">
+    </mt:IfCommenterRegistrationAllowed>
+    </mt:IfExternalUserManagement>
+</div>
+<div id="cannot-post" class="msg msg-alert">
+    <__trans phrase="No posting privileges.">
+</div></__trans_section>

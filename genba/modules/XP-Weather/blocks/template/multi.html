@@ -1,0 +1,57 @@
+<style type="text/css">
+<!--
+	div.xpweather_block {
+		word-break: normal;
+	}
+	div.xpweather_block table {
+		width:auto;
+	}
+	div.xpweather_block td {
+		text-align:center;
+		vertical-align:middle;
+	}
+	div.xpweather_block small {
+		font-size: 11px;
+		word-break: normal;
+	}
+-->
+</style>
+<center>
+<div>
+	<a href="{$l_loc}" title="{$t_WDETAILED}">
+		<b>{$v_City}, {$v_Country}</b>
+	</a>
+</div>
+<table cellspacing="2" cellpadding="2">
+	<tr>
+		<td >
+			<small>{$v_ConText}</small>
+		</td>
+		<td rowspan="2">
+			<a href="{$l_loc}" title="{$t_WDETAILED}">
+				<img src="{$l_icon}" border="0">
+			</a>
+		</td>
+		<td>
+			<small>{$v_Temp}</small>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<small>{$t_WIND}:</small>
+		</td>
+		<td>
+			<small>{$v_WindD}</small>
+			<small>{$v_WindS}</small>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<small>{$t_REFE} {$v_Real}</small>
+		</td>
+	</tr>
+</table>
+<div>
+	<small title="{$v_LastUpL}">{$t_LASTUP} {$v_LastUp}</small>
+</div>
+</center>

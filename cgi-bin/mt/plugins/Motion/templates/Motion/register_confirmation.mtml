@@ -1,0 +1,54 @@
+<__trans_section component="motion"><mt:SetVarBlock name="page_title">
+    <mt:If name="resend">
+        <__trans phrase="Authentication Email Sent">
+    <mt:Else>
+        <__trans phrase="Profile Created">
+    </mt:If>
+</mt:SetVarBlock>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+    <title><$mt:Var name="page_title"$> | <$mt:BlogName encode_html="1"$></title>
+    <$mt:Include module="<__trans phrase="HTML Head">"$>
+</head>
+<body id="<$mt:BlogTemplateSetID$>" class="register-confirmation <$mt:Var name="page_layout"$>">
+    <div id="container">
+        <div id="container-inner">
+
+
+            <$mt:Include module="<__trans phrase="Banner Header">"$>
+
+
+            <div id="content">
+                <div id="content-inner">
+
+
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+                            <h1 id="page-title"><$mt:Var name="page_title"$></h1>
+
+
+                            <p><__trans phrase="To complete the registration process you must first confirm your account. An email has been sent to [_1]." params="<$mt:Var name="email" escape="html"$>"></p>
+
+                            <p><__trans phrase="To confirm and activate your account please check your inbox and click on the link found in the email we just sent you."></p>
+
+                            <mt:If name="return_to"><p><__trans phrase="<a href="[_1]">Return to the original page.</a>" params="<$mt:Var name="return_to"$>"></p></mt:If>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <$mt:Include module="<__trans phrase="Banner Footer">"$>
+
+
+        </div>
+    </div>
+</body>
+</html></__trans_section>

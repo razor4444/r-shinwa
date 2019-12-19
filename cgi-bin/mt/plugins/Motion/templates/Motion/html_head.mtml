@@ -1,0 +1,52 @@
+<mt:SetVarBlock name="profile_view_url"><$mt:CGIPath$><$mt:CommunityScript$>?__mode=view&blog_id=<$mt:BlogID$>&id=</mt:SetVarBlock>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=<$mt:PublishCharset$>" />
+<meta name="generator" content="<$mt:ProductName version="1"$>" />
+<link rel="stylesheet" href="<$mt:Link template="styles"$>" type="text/css" />
+<link rel="start" href="<$mt:BlogURL$>" title="Home" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="<$mt:Link template="feed_recent"$>" />
+<link rel="shortcut icon" type="image/x-icon" href="<$mt:StaticWebPath$>plugins/Motion/images/favicon.ico" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+<mt:Ignore>
+<!-- for loading jQuery from your MT directory -->
+<script type="text/javascript" src="<$mt:StaticWebPath$>jquery/jquery.js"></script>
+</mt:Ignore>
+<script type="text/javascript" src="<$mt:Link template="javascript"$>"></script>
+<script type="text/javascript" src="<$mt:Link template="motion_mt_js"$>"></script>
+<script type="text/javascript" src="<$mt:Link template="motion_js"$>"></script>
+
+<!-- jQuery Plugins & Functions - FIXME: Concatenate before releasing Motion -->
+
+<!-- Ajax Form Handler -->
+<script type="text/javascript" src="<$mt:StaticWebPath$>jquery/jquery.form.js"></script>
+
+<!-- Timing Functions -->
+<script type="text/javascript" src="<$mt:StaticWebPath$>jquery/jquery.timeout.interval.idle.js"></script>
+
+<!-- Date Handler (we can replace this with a much smaller script) -->
+<script type="text/javascript" src="<$mt:StaticWebPath$>jquery/jquery.phpdate.js"></script>
+
+<!-- Image Popup Functions -->
+<link rel="stylesheet" href="<$mt:StaticWebPath$>jquery/themes/thickbox.css" type="text/css" />
+<script type="text/javascript" src="<$mt:StaticWebPath$>jquery/thickbox.js"></script>
+<script type="text/javascript">
+tb_pathToImage = "<$mt:StaticWebPath$>images/loadingAnimation.gif";
+</script>
+
+<mt:If name="mt_debug">
+<!-- Dump script for debugging -->
+<script type="text/javascript" src="<$mt:StaticWebPath$>jquery/jquery.dump.js"></script>
+</mt:If>
+
+<!-- Audio Player for audio files -->
+<script type="text/javascript" src="<$mt:StaticWebPath$>plugins/Motion/audio-player/audio-player.js"></script>
+<script type="text/javascript">  
+/* <![CDATA[ */
+AudioPlayer.setup("<$mt:StaticWebPath$>plugins/Motion/audio-player/player.swf", {
+    width: 290
+});
+/* ]]> */
+</script>
+
+<$mt:CCLicenseRDF$>

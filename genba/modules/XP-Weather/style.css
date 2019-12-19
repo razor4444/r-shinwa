@@ -1,0 +1,61 @@
+@charset "shift_jis";
+/* this @charset is for mozilla's bug */
+
+.xp_weather_body
+{
+	border: 1px solid #CCD5DD;
+	background-color:white;
+	padding:10px;
+}
+td.xp_forecast
+{
+	padding:0px 5px;
+	text-align:center;
+}
+td.property
+{
+	border: none;
+	background-color:white;
+}
+table.property
+{
+	width:auto;
+	border: none;
+	background-color: #CCD5DD;
+}
+
+/*------Suggest--------*/
+div.auto_complete {
+	width: auto;
+	background: #fff;
+	font-size: 12px;
+}
+div.auto_complete ul {
+	border:1px solid #888;
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow: hidden;
+	list-style-type:none;
+	cursor: pointer;
+}
+div.auto_complete ul li {
+	margin:0;
+	padding:3px;
+	width:100%;
+}
+div.auto_complete ul li.selected { 
+	background-color: #ffb; 
+}
+div.auto_complete ul strong.highlight { 
+	color: #800; 
+	margin:0;
+	padding:0;
+}
+div.auto_complete ul li b {
+	color: #0000FF;
+	font-weight: normal;
+}
+div.auto_complete span {
+	cursor: pointer;
+}

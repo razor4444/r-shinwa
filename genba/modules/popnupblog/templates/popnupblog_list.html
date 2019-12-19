@@ -1,0 +1,74 @@
+<!-- begin of popnup blog block -->
+<{* $Id: popnupblog_list.html,v 1.2 2005/09/03 11:38:11 yoshis Exp $ *}>
+<form method="post" action="index.php">
+<table  width="100%" class="outer" cellspacing="1">
+  <tr>
+  <td align="center">
+	<{$_MD_POPNUPBLOG_CONTENTS_VIEW}>
+	<input type="radio" name="view" value="1" <{if $view eq 1 }>CHECKED<{/if}>><{$_MD_POPNUPBLOG_FORM_YES}></input>
+	<input type="radio" name="view" value="0" <{if $view eq 0 }>CHECKED<{/if}>><{$_MD_POPNUPBLOG_FORM_NO}></input>
+	&nbsp;
+	<{$_MD_POPNUPBLOG_CATEGORY}><{$categories}>
+	<input type="submit" value=<{$_MD_POPNUPBLOG_FILTERON}> name="filter" />
+  </td>
+  </tr>
+</table>
+</form>
+<form method="post" action="mlfunction.php">
+<table  width="100%" class="outer" cellspacing="1">
+  <tr>
+    <th><{$_MD_POPNUPBLOG_LIST_TITLE}></th>
+    <th><{$_MD_POPNUPBLOG_TITLE}></th>
+    <th><{$_MD_POPNUPBLOG_LIST_CREATOR}></th>
+    <th><{$_MD_POPNUPBLOG_CATEGORY}></th>
+    <th><{$_MD_POPNUPBLOG_LIST_UPDATE_DATE}></th>
+    <th><{$_MD_POPNUPBLOG_ML_JOIN}></th>
+  </tr>
+<{foreach item=blog_user from=$popnupblog}>
+  <tr class="even">
+    <td><a href='<{$blog_user.url}>'><{$blog_user.title}></a></td>
+    <td><{$blog_user.last_title}></TD>
+    <td><a href='<{$xoops_url}>/userinfo.php?uid=<{$blog_user.uid}>'><{$blog_user.uname}></a></td>
+    <td><{$blog_user.catname}></TD>
+    <td><{$blog_user.last_update_m}></TD>
+    <td>
+      <{if $blog_user.ml_function eq 1}>
+        <input type="hidden" name="blogid[]" value="<{$blog_user.bid}>" />
+        <input type="checkbox" name="mlset[]" value="<{$blog_user.bid}>" 
+        <{if $blog_user.ml_checked gt 0}>
+          checked
+        <{/if}>
+        />
+      <{/if}>
+    </TD>
+    </tr><tr class="odd">
+  <{if $view eq 1 }>
+    <td colspan=6>
+      <{$blog_user.last_text|replace:"<img":"<img hspace='5'"}>
+    </td>
+	<!--
+	</tr><tr class="even">
+    <td align="right"><{$blog_user.commentuname}>&nbsp</TD>
+    <td colspan=5><{$blog_user.comment}></TD>
+	</tr>
+	-->
+  <{/if}>
+<{/foreach}>
+<tr>
+<tr class="foot"><td align="center" colspan="5">
+  <{$jump_url}>
+</td><td>
+  <input type="submit" value=<{$_MD_POPNUPBLOG_ML_UPDATE}> name="join" />
+</td></tr>
+<td align="right" valign="bottom" colspan="6"><font size="-1">PopnupBlog <{$POPNUPBLOG_VERSION}> by 
+<a href="http://www.bluemooninc.biz/" target="_blank">Bluemoon inc.</a>
+<a href="http://feeds.archive.org/validator/check?url=<{$popnupblog_rss_url}>" target="_blank">
+<img src="<{$xoops_url}>/modules/popnupblog/rss-valid-line.gif" border="0"></a>
+<a href="<{$popnupblog_rss_url}>"><img src="<{$xoops_url}>/modules/popnupblog/rss10.gif" border="0" /></a>
+</font>
+</td></tr>
+</table>
+</form>
+<{include file='db:system_notification_select.html'}>
+<{$popimg}>
+<!-- end of popnup blog block --> 

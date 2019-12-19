@@ -1,0 +1,78 @@
+
+td {
+	font-size: 82%;
+	color: #A66B4C;
+	line-height: 160%;
+}
+a:link {
+	color: #F97412;
+}
+a:visited {
+	color: #D98C47;
+}
+.moji180 {
+	font-size: 180%;
+}
+.moji160 {
+	font-size: 160%;
+}
+.moji140 {
+	font-size: 140%;
+}
+.moji120 {
+	font-size: 120%;
+}
+.moji80 {
+	font-size: 80%;
+}
+.moji110 {
+	font-size: 110%;
+}
+.moji90 {
+	font-size: 90%;
+}
+.moji70 {
+	font-size: 70%;
+}
+.line {
+	background-attachment: scroll;
+	background-image: url(share_img/line.gif);
+	background-repeat: repeat-x;
+}
+.lineright {
+	background-attachment: scroll;
+	background-image: url(share_img/back_06.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+.lineleft {
+	background-attachment: scroll;
+	background-image: url(share_img/back_04.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.verdana {
+	font-family: "Verdana";
+}
+.lineheight16 {
+	line-height: 18pt;
+}
+.lineheight12 {
+	line-height: 12pt;
+}
+.movebgpure {
+	background-attachment: scroll;
+	background-image: url(pure_img/cm_bg_01.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.mojikeyword {
+	font-size: 9px;
+	line-height: 5px;
+	color: #FDFFFA;
+}
+.moji105 {  font-family: "‚l‚r ‚oƒSƒVƒbƒN", "Osaka"; font-size: 105%}
+.ha {  background-image: url(index_img/haikei.jpg); background-repeat: no-repeat; background-position: left top}
+.mutenka-waku {
+	border: 1px solid #96A390;
+}

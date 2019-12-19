@@ -1,0 +1,22 @@
+.section_1 {
+  background-color: #f4ffe5;
+  .container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 35px 0;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: 600px) {
+      flex-wrap: wrap;
+    }
+    //img{
+    //  width:100%;
+    //}
+  }
+}

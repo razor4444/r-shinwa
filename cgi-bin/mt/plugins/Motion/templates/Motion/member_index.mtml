@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+    <$mt:Include module="<__trans phrase="HTML Head">"$>
+    <title><$mt:BlogName encode_html="1"$></title>
+</head>
+<body id="<$mt:BlogTemplateSetID$>" class="member-index <$mt:Var name="page_layout"$>">
+    <div id="container">
+        <div id="container-inner">
+
+
+            <$mt:Include module="<__trans phrase="Banner Header">"$>
+
+
+            <div id="content">
+                <div id="content-inner">
+
+
+                    <div id="alpha">
+                        <div id="alpha-inner">
+    
+                            <h1 id="page-title"><__trans phrase="Members"></h1>
+                            
+                            <ul class="member-list">
+<mt:Authors need_association="1" need_entry="0" any_type="1">
+                                <li class="member-listitem vcard<$mtIf name="__even__"$> even</mt:If>">
+                                    <$mt:Include module="<__trans phrase="Userpic">" userpic_size="40" userpic_type="author" hide_user_info="1"$>
+                                    <div class="member-info">
+                                        <h4 class="fn n"><$mt:AuthorDisplayName$></h4>
+                                        <p><a href="<$mt:AuthorURL$>" target="_blank" class="url"><$mt:AuthorURL$></a></p>
+                                    </div>
+                                </li>
+</mt:Authors>
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                    <$mt:Include module="<__trans phrase="Sidebar">"$>
+
+
+                </div>
+            </div>
+
+
+            <$mt:Include module="<__trans phrase="Banner Footer">"$>
+
+
+        </div>
+    </div>
+</body>
+</html>

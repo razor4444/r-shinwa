@@ -1,0 +1,36 @@
+<mt:SetVarBlock name="this_blogid"><$mt:BlogID$></mt:SetVarBlock>
+<__trans_section component="motion"><mt:Actions namespace="community_pack_recommend" sort_order="descend" lastn="30">
+    <mt:ActionsHeader>
+<ul>
+    </mt:ActionsHeader>
+
+    <!-- Entry -->
+    <mt:ActionsEntry>
+    <$mt:Include module="<__trans phrase="Single Entry">" this_blogid="$this_blogid"$>
+    </mt:ActionsEntry>
+
+    <!-- Comment -->
+    <mt:ActionsComment>
+    <li class="action icon-comment">
+        <span class="summary">
+            <__trans phrase="[_1] commented on [_2]" params='<a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName encode_html="1"$></a>%%<mt:CommentEntry><a href="<$mt:CommentLink$>"><$mt:EntryTitle encode_html="1"$></a></mt:CommentEntry>'>
+        </span>
+        <span class="date"><mt:CommentDate format="%b %e, %X"></span>
+    </li>
+    </mt:ActionsComment>
+
+    <!-- Favorite -->
+    <mt:ActionsFavorite>
+    <li class="action icon-favorite">
+        <span class="summary">
+            <__trans phrase="[_1] favorited [_2]" params="<a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName encode_html="1"$></a>%%<a href="<$mt:EntryLink$>"><$mt:EntryTitle encode_html="1"$></a>">
+        </span>
+    </li>
+    </mt:ActionsFavorite>
+
+    <mt:ActionsFooter>
+</ul>
+    </mt:ActionsFooter>
+<mt:Else>
+<p class="note"><__trans phrase="No recent actions."></p>
+</mt:Actions></__trans_section>

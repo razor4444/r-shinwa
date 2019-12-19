@@ -1,0 +1,14 @@
+<__trans_section component="motion"><mt:SetVarBlock name="fan_count"><$mt:EntryScore namespace="community_pack_recommend"$></mt:SetVarBlock>
+<mt:If name="fan_count">
+<div class="members widget">
+    <h3><__trans phrase="Fans"></h3>
+    <div class="widget-content">
+<$mt:SetVar name="author_limit" value="100"$>
+    <ul>
+<mt:Authors scoring_to="entry" min_score="1" namespace="community_pack_recommend" need_association="1" need_entry="0" any_type="1" limit="$author_limit">
+        <li style="z-index:<$mt:Var name="author_limit" op="sub" value="$__counter__"$>;"><$mt:Include module="<__trans phrase="Userpic">" userpic_size="24" userpic_type="author"$></li>
+</mt:Authors>
+    </ul>
+    </div>
+</div>
+</mt:If></__trans_section>

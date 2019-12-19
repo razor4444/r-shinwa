@@ -1,0 +1,144 @@
+@charset "UTF-8";
+  
+ /* ----------これからSP向けの変更を行います！------------------------------------------ */
+@media screen and (max-width: 768px) {
+/* ------------------------------------------------------------------------------- */
+  /* Menu */
+  #sp_slide{
+    display: block;
+  }
+  /*header*/
+  #sp_slide .button {
+      position: absolute;
+      display: block;
+      background-color: rgba(50,50,50,0.8);
+      border-bottom: 0;
+      font-weight: 700;
+      color: #fff;
+      padding: 15px 15px 8px;
+      text-align: center;
+      border-radius: 40px 40px 0 0;
+      -webkit-border-radius: 40px 40px 0 0;
+      -moz-border-radius: 40px 40px 0 0;
+      font-size: 14px;
+      z-index: 9999 !important;
+  }
+  #sp_slide .menu-button-left {
+      left: 0px;
+      -moz-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+  }
+  #sp_slide .menu-button-right {
+      right: 0px;
+      -moz-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+  }
+
+  /*slidemenu*/
+  #sp_slide .slidemenu {
+      background-color: #252525;
+  }
+  #sp_slide .slidemenu .sp-nav li {
+      list-style: none;
+      border-top: 1px solid #4D4D4D;
+      border-bottom: 1px solid #000;
+      font-size: 14px;
+      line-height: 1.8;
+  }
+  #sp_slide .slidemenu .sp-nav li a {
+      padding:10px 0 10px 20px;
+      display: block;
+      text-decoration: none;
+      color: #fff;
+  }
+  #sp_slide .slidemenu .sp-nav li a br {
+    display: none;
+  }
+  #sp_slide .slidemenu .sp-nav li:first-child {
+      border-top: none;
+  }
+  #sp_slide .slidemenu .sp-nav li:last-child {
+      border-bottom: none;
+  }
+  #sp_slide .slidemenu .slidemenu-header {
+      height: 49px;
+      background-color: #ccc;
+      bottom: 100px;
+  }
+  #sp_slide .slidemenu .slidemenu-header div {
+      padding: 17px 0px 0px 19px;
+      text-decoration: none;
+      color: #fff;
+  }
+  #sp_slide .pos {
+      position: fixed;
+      bottom: 180px;
+      left: -20px;
+      right: -20px;
+      z-index: 1;
+  }
+
+  /*plugin*/
+  #sp_slide .slidemenu {
+    top: 0;
+    width: 240px;
+    position: fixed;
+    visibility: hidden;
+    z-index: -1;
+  }
+  #sp_slide .slidemenu .slidemenu-header {
+    position: relative;
+  }
+  #sp_slide .slidemenu .slidemenu-body {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+      color: #fff;
+  }
+  #sp_slide .slidemenu .slidemenu-body .slidemenu-content {
+    position: relative;
+    padding-bottom: 60px;
+  }
+  #sp_slide .slidemenu {
+      top: 0;
+      width: 240px;
+      position: fixed;
+      visibility: hidden;
+      z-index: -1;
+  }
+  #sp_slide .slidemenu-left {
+      left: 0;
+  }
+  #sp_slide .slidemenu-right {
+      right: 0;
+  }
+  #sp_slide .slidemenu-right {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #sp_slide .main-title {
+    color: #fff;
+  }
+
+  /*anime*/
+  #sp_slide .menu-button-left:active {
+      -moz-transform: scale(1.2) rotate(90deg);
+      -webkit-transform: scale(1.2) rotate(90deg);
+      -o-transform: scale(1.2) rotate(90deg);
+      -ms-transform: scale(1.2) rotate(90deg);
+      transform: scale(1.2) rotate(90deg);
+  }
+  #sp_slide .menu-button-right:active {
+      -moz-transform: scale(1.2) rotate(-90deg);
+      -webkit-transform: scale(1.2) rotate(-90deg);
+      -o-transform: scale(1.2) rotate(-90deg);
+      -ms-transform: scale(1.2) rotate(-90deg);
+      transform: scale(1.2) rotate(-90deg);
+  }
+}

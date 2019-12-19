@@ -1,0 +1,696 @@
+@charset "UTF-8";
+/* 共通 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+    font-family: メイリオ, Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', HiraKakuPro-W3, 'ＭＳ Ｐゴシック', 'MS PGothic', Osaka, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.85;
+    color: #424242;
+}
+a {
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  text-decoration: none;
+  color: #424242;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+.button a {
+  display: inline-block;
+  font-weight: bold;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+p {
+  word-break: break-all;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.clearfix {zoom:1;}
+.clearfix:after{
+  content: ""; 
+  display: block; 
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+.primary {
+  color: #ca0000;
+}
+/*
+General
+*/
+.section-title {
+  position: relative;
+  width: 709px;
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto 35px;
+  height: 230px;
+  background: url("../images/background/title_bg.png") bottom center no-repeat;
+}
+.section-title h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.section-title .sub {
+  margin-bottom: 15px;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+}
+.section-title h4 {
+  color: #b65a00;
+  font-size: 22px;
+}
+.section-title h4 span {
+  color: #000;
+}
+/*header*/
+header {
+  position: relative;
+  background: #fff;
+  padding: 15px 0;
+}
+.top-nav ul {
+  font-size: 0;
+  text-align: center;
+}
+.top-nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.top-nav ul li a {
+  font-size: 16px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  border-bottom: 4px solid transparent;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", serif;
+  font-weight: bold;
+}
+.top-nav ul li a.contact {
+  color: #e08b38;
+}
+.top-nav ul li a.blog {
+  padding-right: 35px;
+  background: url("../images/icon/nav_blog.png") right 15px center no-repeat;
+}
+.top-nav ul li a:hover {
+  color: #b55900;
+  border-bottom-color: #b55900;
+}
+.top-nav ul li a.contact:hover {
+  color: #e08b38;
+  border-bottom-color: #e08b38;
+}
+/**/
+.top-logo {
+  padding: 45px 0;
+  text-align: center;
+  font-size: 20px;
+}
+.top-logo img {
+  margin-right: 8px;
+}
+.top-banner {
+  overflow: hidden;
+}
+
+/*Section 1*/
+.section-1 {
+  padding: 60px 0;
+}
+.section-1 .section-title h4 img {
+  margin-left: 15px;
+}
+.section-1 .section-title h4:last-child img {
+  vertical-align: top;
+}
+.section-1 .img {
+  float: right;
+  margin-left: 30px;
+}
+
+
+/*Section 2*/
+.section-2 {
+  padding: 55px 0;
+  background: url("../images/background/sec2_bg.jpg") top center repeat;
+}
+.section-2 .item {
+  float: left;
+  width: 320px;
+  margin-left: 32px;
+}
+.section-2 .item:first-child {
+  margin-left: 0;
+}
+.section-2 .item .title {
+  text-align: center;
+  margin-bottom: 12px;
+  padding: 0 15px 20px;
+  background: url("../images/background/sec2_item_title_bg.png") bottom center no-repeat;
+}
+.section-2 .item .title h3 {
+  font-size: 21px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.section-2 .item .title h3 span {
+  font-size: 30px;
+}
+.section-2 .item .title h4 {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #b55900;
+}
+.section-2 .item .img {
+  margin-bottom: 20px;
+}
+
+
+/*Section 3*/
+.section-3 {
+  padding: 60px 0 0;
+}
+.section-3 .tt-img > div {
+  margin: 0 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.section-3 .item {
+  width: 480px;
+  float: left;
+  margin-left: 64px;
+  margin-bottom: 50px;
+}
+.section-3 .item:nth-child(2n+1) {
+  margin-left: 0;
+  clear: both;
+}
+.section-3 .item h4 {
+  font-size: 20px;
+  margin: 15px 0 10px;
+  padding-left: 25px;
+  background: url("../images/icon/sec3_icon.png") 0 center no-repeat;
+}
+.section-3 .item .button {
+  margin-top: 20px;
+  text-align: center;
+}
+.section-3 .item .button a {
+  padding: 8px 75px;
+  background: #e2e2e2 url("../images/icon/arrow_01.png") right 25px center no-repeat;
+}
+.section-3 .item .button a:hover {
+  background-color: #ffc287;
+}
+
+
+.gallery {
+  position: relative;
+}
+.gallery .button {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+} 
+.gallery .button a {
+  padding: 8px 75px;
+  border: 1px solid #000;
+  background: #fff url("../images/icon/arrow_02.png") right 25px center no-repeat;
+}
+.gallery .button a:hover {
+  background-color: #ffe6ce;
+}
+/*Section 4*/
+.section-4  {
+  padding: 55px 0;
+  background: #fdf9f5;
+}
+
+.blog_content ~ .button {
+  margin-top: 30px;
+}
+.blog_content ~ .button a {
+  padding: 8px 75px;
+  border: 1px solid #000;
+  background: #fff url("../images/icon/arrow_02.png") right 25px center no-repeat;
+}
+.blog_content ~ .button a:hover {
+  background-color: #ffe6ce;
+}
+
+
+/*Section 5*/
+.section-5 {
+  padding: 55px 0 65px;
+  background: url("../images/background/sec5_bg.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.section-5 .box-wrap {
+  padding-bottom: 20px;
+}
+.section-5 .item {
+  float: left;
+  width: 320px;
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
+.section-5 .item:first-child {
+  margin-left: 0;
+}
+.section-5 .item .img {
+  margin-left: -10px;
+}
+.section-5 .item h3 {
+  margin: 12px 0;
+  font-size: 21px;
+}
+
+/*Contact*/
+.contact-box {
+  position: relative;
+}
+.contact-box a {
+  position: absolute;
+  right: 160px;
+  bottom: 21px;
+}
+
+/*Section 6*/
+.section-6 {
+  padding: 55px 0 25px;
+}
+.section-6 .item {
+  padding-bottom: 40px;
+  position: relative;
+}
+.section-6 .item .tt {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.section-6 .item .tt img {
+  float: left;
+}
+.section-6 .item .tt h3 {
+  margin-left: 100px;
+  font-size: 22px;
+  padding: 12px 0;
+}
+
+/*Section 7*/
+.section-7 {
+    padding: 55px 0;
+    background: #fdf9f5;
+}
+
+/*Section 8*/
+.section-8 {
+  padding: 50px 0 40px;
+  background: url("../images/background/sec8_bg.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sec-title {
+  text-align: center;
+  margin-bottom: 35px; 
+}
+.sec-title h2 {
+  font-size: 28px;
+}
+.section-8 dl {
+  border: 1px solid #000;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.section-8 dl dt {
+  padding: 30px 50px 30px 110px;
+  background: url("../images/icon/icon_q.png") 30px center no-repeat;
+}
+.section-8 dl dd {
+  border-top: 1px solid #cecece;
+  padding: 30px 50px 30px 110px;
+  background: url("../images/icon/icon_a.png") 30px center no-repeat;
+}
+
+/*Section 9*/
+.section-9 {
+  padding: 50px 0;
+}
+.section-9 table {
+  width: 50%;
+  float: left;
+}
+.section-9 table tr td {
+  padding: 10px 0;
+}
+.section-9 table tr td span {
+  color: #b55900;
+}
+.google-map .button {
+  margin-top: 20px;
+  text-align: center;
+}
+.google-map .button a {
+  padding: 8px 55px;
+  background: #e2e2e2 url("../images/icon/arrow_01.png") right 20px center no-repeat;
+}
+.google-map .button a:hover {
+  background-color: #ffc287;
+}
+.google-map {
+  margin-top: 30px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+
+
+.footer {
+  background: #faf8f6;
+  color: #7a7a7a;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .top-banner img {
+    max-width: inherit;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .pc-none {
+    display: none!important;
+  }
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  #wrap {
+    min-width: 1050px;
+  }
+  a:hover img {
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+  }
+  .section-2 .section-title .sub {
+    margin-bottom: 45px;
+  }
+  .section-3 .section-title .sub {
+    margin-bottom: 30px;
+  }
+  .section-4 .section-title .sub {
+    margin-bottom: 45px;
+  }
+  .section-5 .section-title .sub {
+    margin-bottom: 45px;
+  }
+  .section-6 .section-title .sub {
+    margin-bottom: 45px;
+  }
+  .section-6 .item .txt p {
+    margin-left: 100px;
+  }
+  .section-6 .item:before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 175px;
+    background: url("../images/icon/arrow_03.png") bottom center no-repeat;
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+  }
+  .section-6 .item:last-child:before {
+    display: none;
+  }
+  .section-6 .item .txt {
+    float: left;
+    width: 65%;
+  }
+  .section-6 .item .img {
+    float: right;
+    width: 35%;
+    padding-left: 30px;
+  }
+  
+}
+@media screen and (max-width: 640px) {
+  .contact-box,
+  .sp-none {
+    display: none!important;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section-title h3 {
+    position: static;
+    font-size: 26px;
+    line-height: 1.4;
+  }
+  .section-title {
+    padding-top: 20px;
+    width: 100%;
+    background: url("../images/background/bg_title01sp.png") top center no-repeat;
+    height: auto;
+    background-size: 300px auto;
+  }
+  .section-title .sub {
+    margin-bottom: 30px;
+  }
+  .section-2 .section-title,
+  .section-4 .section-title,
+  .section-5 .section-title,
+  .section-7 .section-title,
+  .section-8 .section-title {
+    background: url("../images/background/bg_title02sp.png") top center no-repeat;
+    background-size: 300px auto;
+  }
+  .section-1 {
+    padding: 40px 0;
+  }
+  .section-1 .img {
+    float: none;
+    margin: 0 0 10px;
+  }
+  .section-2 {
+    padding: 40px 0 20px;
+  }
+  .section-2 .item {
+    width: 100%;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .section-2 .item .title {
+    padding: 5px 10px;
+    background: #fff;
+  }
+  .section-2 .item .title h3 {
+    line-height: 1.4;
+    margin: 0;
+  }
+  .section-2 .item .title h4 br {
+    display: none;
+  }
+  .section-3 .item {
+    width: 100%;
+    margin-left: 0;
+  }
+  .section-3 {
+    padding: 40px 0 0;
+  }
+  .blog_content ~ .button a,
+  .section-3 .item .button a,
+  .gallery .button a {
+    padding: 8px 50px;
+    background-position: right 15px center;
+  }
+  .section-4 {
+    padding: 40px 0;
+  }
+  .section-5 {
+    padding: 40px 0 0;
+  }
+  .section-5 .item {
+    width: 100%;
+    float: none;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+  .section-6 {
+    padding: 40px 0;
+  }
+  .section-6 .item {
+    padding-bottom: 60px;
+  }
+  .section-6 .item .tt h3 {
+    line-height: 1.2;
+    margin-left: 85px;
+    padding: 0;
+  }
+  .section-6 .item .tt img {
+    width: 75px;
+  }
+  .section-6 .item .img {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .section-6 .item:before {
+    content: '';
+    width: 48px;
+    height: 25px;
+    background: url("../images/icon/arrow_04.png") 0 0 no-repeat;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -24px;
+  }
+  .section-6 .item:last-child{
+    padding-bottom: 0;
+  }
+  .section-6 .item:last-child:before {
+    display: none;
+  }
+  .section-7 {
+    padding: 40px 0;
+  }
+  .section-8 dl dt,
+  .section-8 dl dd {
+    padding: 15px 15px 15px 65px;
+    background-position: 10px center;
+  }
+  .section-8 {
+    padding: 40px 0 20px;
+  }
+  .section-9 table {
+    width: 100%;
+    float: none;
+  }
+  .google-map {
+    margin-bottom: 0;
+  }
+  .footer {
+    padding-bottom: 140px;
+  }
+  .footer_m {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .footer_m .button {
+    width: 77%;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+  }
+  .footer_m .button a.tel {
+    width: 49%;
+    float: left;
+  }
+  .footer_m .button a.mail {
+    width: 49%;
+    float: right;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding-bottom: 120px;
+  }
+  .section-3 .tt-img > div {
+    margin: 10px;
+    display: block;
+    vertical-align: middle;
+  }
+}
+@media screen and (max-width: 400px) {
+  
+}
+@media screen and (max-width: 320px) {
+ .footer {
+    padding-bottom: 80px;
+  }
+}

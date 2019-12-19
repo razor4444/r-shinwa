@@ -1,0 +1,123 @@
+<mt:setvarblock name="archive_type"><mt:archivetype></mt:setvarblock>
+<__trans_section component="motion"><mt:If tag="EntryBlogID" eq="$this_blogid">
+    <<$mt:Var name="container_element" _default="li"$> id="entry-<$mt:EntryID$>" class="asset action-asset hentry <$mt:EntryPostType$>">
+        <div class="asset-meta icon-<$mt:EntryPostType$>">
+            <span class="byline">
+<mt:If tag="EntryAuthorDisplayName">
+                <__trans phrase="By [_1] <span class="date">on [_2]</span>" params="<span class="vcard author"><a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName$></a></span>%%<abbr class="published" title="<$mt:EntryDate format_name="iso8601"$>"><$mt:EntryDate format="%b %e, %X"$></abbr>">
+<mt:Else>
+                <abbr class="published" title="<$mt:EntryDate format_name="iso8601"$>"><$mt:EntryDate format="%x %X"$></abbr>
+</mt:If>
+            </span>
+<mt:Unless name="entry_archive">
+            <span class="separator">|</span> <span id="unpublish<$mt:EntryID$>" class="unpublish unpublish-action" title="<__trans phrase="Unpublish this post">"><span><__trans phrase="Unpublish this post"></span></span>
+</mt:Unless>
+            <span class="separator">|</span> <span id="favtog<$mt:EntryID$>" class="favtog favorite-action" title="<$mt:EntryScore namespace="community_pack_recommend">"><$mt:EntryScore namespace="community_pack_recommend" singular="1" plural="#" none="0"$></span>
+<mt:IfCommentsActive>
+            <span class="separator">|</span> <a href="<$mt:EntryPermalink$>#comments" class="comment-count"><$mt:EntryCommentCount singular="<__trans phrase="1 <span>Comment</span>">" plural="<__trans phrase="# <span>Comments</span>">" none="<__trans phrase="0 <span>Comments</span>">"$></a>
+</mt:IfCommentsActive>
+<mt:IfPingsActive>
+    <mt:If tag="EntryTrackbackCount">
+            <span class="separator">|</span> <a href="<$mt:EntryPermalink$>#trackbacks" class="trackback-count"><$mt:EntryTrackbackCount singular="<__trans phrase="1 <span>TrackBack</span>">" plural="<__trans phrase="# <span>TrackBacks</span>">" none="<__trans phrase="0 <span>TrackBacks</span>">"$></a>
+    </mt:If>
+</mt:IfPingsActive>
+        </div>
+        <$mt:Include module="<__trans phrase="Userpic">" userpic_size="40"$>
+        <div class="asset-content entry-content">
+            <div class="asset-body">
+                <mt:If name="entry_status" ne="2">
+                <p><em><__trans phrase="Note: This post is being held for approval by the site owner."></em></p>
+                </mt:If>
+                <mt:If tag="EntryPostType" eq="embed">
+                    <div class="embed"><$mt:EntryEmbedCode$></div>
+                <mt:Else eq="photo">
+                    <div class="photo">
+                        <mt:EntryCustomFields include="<__trans phrase="Photo">">
+                            <mt:CustomFieldAsset>
+                            <mt:If tag="AssetProperty" property="image_width" gt="500">
+                                <a href="<$mt:AssetURL$>" class="thickbox"><img src="<$mt:AssetThumbnailURL width="500"$>" /></a>
+                            <mt:Else>
+                                <img src="<$mt:AssetURL$>" />
+                            </mt:If>
+                            <mt:Ignore>
+                                    AssetID: <$mt:AssetID$>
+                                    AssetFileName: <$mt:AssetFileName$>
+                                    AssetLabel: <$mt:AssetLabel$>
+                                    AssetURL: <$mt:AssetURL$>
+                                    AssetType: <$mt:AssetType$>
+                                    AssetMimeType: <$mt:AssetMimeType$>
+                                    AssetFilePath: <$mt:AssetFilePath$>
+                                    AssetDateAdded: <$mt:AssetDateAdded$>
+                                    AssetAddedBy: <$mt:AssetAddedBy$>
+                                    AssetProperty: <$mt:AssetProperty$>
+                                    AssetFileExt: <$mt:AssetFileExt$>
+                                    AssetThumbnailURL: <$mt:AssetThumbnailURL$>
+                                    AssetLink: <$mt:AssetLink$>
+                                    AssetThumbnailLink: <$mt:AssetThumbnailLink$>
+                                    AssetDescription: <$mt:AssetDescription$>
+                            </mt:Ignore>
+                            </mt:CustomFieldAsset>
+                        </mt:EntryCustomFields>
+                        </div>
+                <mt:Else eq="audio">
+                    <div class="audio" id="audioplayer_<$mt:EntryID$>">
+                    </div>
+                    <mt:EntryCustomFields include="<__trans phrase="Audio">">
+                    <script type="text/javascript">
+                    /* <![CDATA[ */
+                    AudioPlayer.embed("audioplayer_<$mt:EntryID$>", {soundFile: "<mt:CustomFieldAsset><$mt:AssetURL escape="js"$></mt:CustomFieldAsset>"});
+                    /* ]]> */
+                    </script>
+                    </mt:EntryCustomFields>
+                </mt:If>
+                <mt:If tag="EntryPostType" eq="link">
+                <h2><a href="<$mt:EntryLinkURL$>" target="_blank"><$mt:EntryTitle encode_html="1"$></a> <a href="<$mt:EntryLinkURL$>" class="link-arrow" target="_blank">&#10148;</a></h2>
+                <$mt:EntryBody$>
+                <mt:Else>
+                <h2><a href="<$mt:EntryLink$>"><$mt:EntryTitle encode_html="1"$></a></h2>
+                <$mt:EntryBody$>
+                </mt:If>
+                <mt:If tag="EntryMore" convert_breaks="0">
+                    <mt:if name="archive_type">
+                    <div id="more" class="asset-more">
+                        <$mt:EntryMore$>
+                    </div>
+                    <mt:Else>
+                    <div class="asset-more-link">
+                        <__trans phrase="Continue reading <a href="[_1]" rel="bookmark">[_2]</a>." params="<$mt:EntryPermalink$>#more%%<$mt:EntryTitle$>">
+                    </div>
+                    </mt:If>
+                </mt:If>
+<mt:Unless name="entry_archive">
+    <mt:Comments lastn="1" sort_order="descend">
+                <!-- most recent comment -->
+                <div class="most-recent-comment">
+                <$mt:Include module="<__trans phrase="Userpic">" userpic_size="24" userpic_type="commenter"$>
+                <__trans phrase="<a href="[_1]">Most recent comment by <strong>[_2]</strong> on [_3]</a>" params="<$mt:CommentLink$>%%<$mt:CommentAuthor$>%%<$mt:CommentDate$>">
+                </div>
+    </mt:Comments>
+</mt:Unless>
+            </div>
+        </div>
+<mt:If name="entry_archive">
+    <mt:EntryIfTagged>
+        <div class="asset-footer">
+            <div class="entry-tags">
+                <h4><__trans phrase="Tags"><span class="delimiter">:</span></h4>
+                <ul>
+                    <li><mt:EntryTags glue='<span class="delimiter">,</span></li> <li>'><a href="javascript:void(0)" onclick="location.href='<$mt:TagSearchLink encode_js="1"$>';return false;" rel="tag"><$mt:TagName$></a></mt:EntryTags></li>
+                </ul>
+            </div>
+        </div>
+    </mt:EntryIfTagged>
+</mt:If>
+        <mt:Ignore><div class="asset-meta"><__trans phrase="Posted to [_1]" params='<a href="<$mt:EntryBlogURL$>" class="icon-blog"><$mt:EntryBlogName$></a>'></div></mt:Ignore>
+    </<$mt:Var name="container_element" _default="li"$>>
+<mt:Else>
+        <li class="action icon-<$mt:EntryPostType$>">
+            <span class="summary">
+                <__trans phrase="[_1] posted [_2] on [_3]" params="<span class="vcard author"><a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName$></a></span>%%<a href="<$mt:EntryPermalink$>"><$mt:EntryTitle encode_html="1"$></a>%%<a href="<$mt:BlogURL$>"><$mt:BlogName encode_html="1"$></a>">
+            </span>
+            <span class="date"><mt:EntryDate format="%b %e, %X"></span>
+        </li>
+</mt:If></__trans_section>

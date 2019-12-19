@@ -1,0 +1,79 @@
+<mt:SetVarBlock name="this_blogid"><$mt:BlogID$></mt:SetVarBlock>
+<__trans_section component="motion"><mt:ActionStreams namespace="community_pack_recommend" sort_order="descend" limit="40" offset="auto">
+    <mt:If name="__first__">
+<ul>
+    </mt:If>
+    <!-- action_type: <$mt:Var name="action_type"$> -->
+    <!-- service_type: <$mt:Var name="service_type"$> -->
+
+    <mt:If name="action_type" eq="community_entries">
+        <!-- Entry -->
+        <mt:StreamActionEntry>
+            <mt:Include local="1" module="<__trans phrase="Single Entry">" this_blogid="$this_blogid">
+        </mt:StreamActionEntry>
+
+
+    <mt:Else name="action_type" eq="community_replies">
+        <!-- do nothing if reply -->
+
+
+    <mt:Else name="action_type" eq="community_comments">
+        <!-- Comment -->
+        <mt:StreamActionComment>
+        <li class="action icon-comment">
+            <span class="summary">
+                <__trans phrase="[_1] commented on [_2]" params='<a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName encode_html="1"$></a>%%<mt:CommentEntry><a href="<$mt:CommentLink$>"><$mt:EntryTitle encode_html="1"$></a></mt:CommentEntry>'>
+            </span>
+            <span class="date"><mt:CommentDate format="%b %e, %X"></span>
+        </li>
+        </mt:StreamActionComment>
+
+    <mt:Else name="action_type" eq="community_followers">
+        <!-- Follow -->
+        <li class="action icon-follow">
+            <span class="summary">
+                <__trans phrase="[_1] is now following [_2]" params="<a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName encode_html="1"$></a>%%<mt:StreamActionFollowed><a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName encode_html="1"$></a></mt:StreamActionFollowed>">
+            </span>
+            <span class="date"><mt:StreamActionDate format="%b %e, %X"></span>
+        </li>
+
+
+    <mt:Else name="action_type" eq="community_favorites">
+<mt:StreamActionEntry>
+        <!-- Favorite -->
+        <li class="action icon-favorite">
+            <span class="summary">
+                <__trans phrase="[_1] favorited [_2] on [_3]" params="<a href="<$mt:Var name="profile_view_url" encode_html="1"$><$mt:AuthorID$>"><$mt:AuthorDisplayName encode_html="1"$></a>%%<a href="<$mt:EntryLink$>"><$mt:EntryTitle encode_html="1"$></a>%%<a href="<$mt:BlogURL$>"><$mt:BlogName encode_html="1"$></a>">
+            </span>
+            <span class="date"><mt:StreamActionDate format="%b %e, %X"></span>
+        </li>
+</mt:StreamActionEntry>
+
+
+    <mt:Else>
+        <!-- Other Action -->
+        <li class="action service-<mt:var name="service_type"> service-icon icon-service-<mt:var name="service_type">">
+            <span class="summary">
+                <$mt:StreamAction$>
+            </span>
+            <span class="date"><mt:StreamActionDate format="%b %e, %X"></span>
+        </li>
+
+
+    </mt:If>
+
+
+    <mt:If name="__last__">
+</ul>
+<div class="content-nav">
+        <mt:IfPreviousResults>
+    <a href="<$mt:CGIPath$><$mt:SearchScript$>?__mode=actions&amp;blog_id=<$mt:BlogID$>&amp;<$mt:PreviousLink escape="html"$>" rel="prev" onclick="return mtShowPage(this);">&lt; <__trans phrase="Previous"></a>
+        </mt:IfPreviousResults>
+        <mt:IfMoreResults>
+    <a href="<$mt:CGIPath$><$mt:SearchScript$>?__mode=actions&amp;blog_id=<$mt:BlogID$>&amp;<$mt:NextLink escape="html"$>" rel="next" onclick="return mtShowPage(this);"><__trans phrase="Next"> &gt;</a>
+        </mt:IfMoreResults>
+</div>
+    </mt:If>
+<mt:Else>
+<p class="note"><__trans phrase="No recent actions."></p>
+</mt:ActionStreams></__trans_section>

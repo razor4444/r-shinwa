@@ -1,0 +1,42 @@
+<__trans_section component="motion"><div id="compose">
+    <div id="compose-inner">
+        <h3 class="widget-header"><__trans phrase="QuickPost"></h3>
+        <div id="compose-content">
+        <div id="compose-userpic"><img id="compose-userpic-img" src="<$mt:StaticWebPath$>/images/default-userpic-90.jpg" height="60" width="60" /></div>
+        <form id="homepage-compose" method="post" action="<$mt:CGIPath$><$mt:CommunityScript$>" enctype="multipart/form-data">
+            <input type="hidden" name="__mode" value="post" />
+            <input type="hidden" id="compose-class" name="customfield_post_type" value="entry" />
+            <input type="hidden" name="blog_id" value="<$mt:BlogID$>" />
+            <input type="hidden" name="ajax" value="" />
+            <input type="hidden" id="compose-magic" name="magic_token" value="" />
+            <input type="hidden" name="type_customfield_photo" value="image" />
+            <input type="hidden" name="type_customfield_audio" value="audio" />
+
+            <ul id="entry-types">
+                <li id="entry-text"><a href="#"><__trans phrase="Text post"></a></li>
+                <li id="entry-photo"><a href="#"><__trans phrase="Photo post"></a></li>
+                <li id="entry-link"><a href="#"><__trans phrase="Link post"></a></li>
+                <li id="entry-embed"><a href="#"><__trans phrase="Embed post"></a></li>
+                <li id="entry-audio"><a href="#"><__trans phrase="Audio post"></a></li>
+            </ul>
+            <div id="entry-fields">
+                <div id="field-title"><input type="text" id="compose-title" name="title" title="<__trans phrase="Title">" /></div>
+                <div id="field-url"><input type="text" id="compose-url" name="customfield_url" title="<__trans phrase="URL of web page">" /></div>
+                <div id="field-photo"><label for="compose-photo"><__trans phrase="Select photo file"></label> <input type="file" name="file_customfield_photo" title="<__trans phrase="Select photo file">" /><br />
+                <em><__trans phrase="Only GIF, JPEG and PNG image files are supported."></em></div>
+                <div id="field-audio"><label for="compose-photo"><__trans phrase="Select audio file"></label> <input type="file" name="file_customfield_audio" title="<__trans phrase="Select audio file">" /><br />
+                <em><__trans phrase="Only MP3 audio files are supported."></em></div>
+                <div id="field-embed"><textarea name="customfield_embed" title="<__trans phrase="Paste embed code">"></textarea></div>
+                <div id="field-body"><textarea id="compose-body" name="text" title="<__trans phrase="Content">"></textarea></div>
+                <div id="entry-fields-optional">
+                    <div id="field-tags"><input type="text" id="compose-tags" name="tags" title="<__trans phrase="Tags">" /></div>
+                </div>
+            </div>
+            <p class="submit-wrapper">
+                <a href="#more-options" class="more-options">+ <__trans phrase="more options"></a>
+                <input type="submit" value="<__trans phrase="Post">" />
+            </p>
+        </form>
+        </div>
+    </div>
+</div></__trans_section>

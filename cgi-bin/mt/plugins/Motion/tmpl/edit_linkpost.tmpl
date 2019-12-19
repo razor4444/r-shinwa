@@ -1,0 +1,44 @@
+<mtapp:setting
+    id="title"
+    label="<__trans phrase="Title">"
+    label_class="top-label"
+    help_page="entries"
+    help_section="entry_title"> 
+    <input name="title" id="title" tabindex="1" value="<$mt:var name="title" escape="html"$>" maxlength="255" mt:watch-change="1" onkeyup="rebasename(this)" />
+</mtapp:setting>
+
+<mtapp:setting
+    id="url"
+    label="<__trans phrase="URL">"
+    label_class="top-label">
+    <input class="full-width" name="url" id="url" tabindex="1" value="<$mt:var name="url" escape="html"$>" maxlength="255" mt:watch-change="1" />
+</mtapp:setting>
+
+<mt:if name="auth_pref_tag_delim_comma">
+    <$mt:setvar name="tags_hint" value="<__trans phrase="(comma-delimited list)">"$>
+<mt:else>
+    <mt:if name="auth_pref_tag_delim_space">
+        <$mt:setvar name="tags_hint" value="<__trans phrase="(space-delimited list)">"$>
+    <mt:else>
+        <mt:setvarblock name="tags_hint">
+            <__trans phrase="(delimited by '[_1]')" params="<$mt:var name="auth_pref_tag_delim"$>">
+        </mt:setvarblock>
+    </mt:if>
+</mt:if>
+<mtapp:setting
+    id="tags"
+    shown="$disp_prefs_show_tags"
+    label="<__trans phrase="Tags">"
+    label_class="top-label"
+    hint="$tags_hint"
+    help_page="entries"
+    help_section="entry_tags">
+    <div class="textarea-wrapper">
+        <input name="tags" id="tags" class="full-width" tabindex="5" value="<$mt:var name="tags" escape="html"$>" mt:watch-change="1" autocomplete="off" />
+        <input type="hidden" name="_ignore_tags" id="tags-cache" value="<$mt:var name="tags" escape="html"$>" />
+    </div>
+    <!-- FIXME - move this styling to the ie hacks css file -->
+    <!--[if lte IE 6.5]><div style="position:relative;"><![endif]-->
+    <div id="tags_completion"></div>
+    <!--[if lte IE 6.5]></div><![endif]-->
+</mtapp:setting>

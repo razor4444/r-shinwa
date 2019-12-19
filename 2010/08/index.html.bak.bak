@@ -1,0 +1,2169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="sixapart-standard">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="imagetoolbar" content="no" />    
+    <title>進和ホーム株式会社　“こだわり暮らしブログ”: 2010&#24180;8&#26376;アーカイブ</title>
+    <meta name="generator" content="Movable Type Pro 4.27-ja" />
+    
+
+    
+        
+        
+        
+        
+        
+        
+        <link rel="stylesheet" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/styles.css" type="text/css" />
+        <link rel="alternate" type="application/atom+xml" title="Atom" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/atom.xml" />
+        <link rel="start" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/" title="Home" />
+        <script type="text/javascript" src="http://thumbsup.sakura.ne.jp/r-shinwa.jp/mt.js"></script>
+        
+    
+
+
+        
+        <link rel="next bookmark" href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/09/" title="2010&amp;#24180;9&amp;#26376;" />
+    
+    
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    mtAttachEvent('load', mtUpdateScores);
+    mtAttachEvent('usersignin', mtUpdateScores);
+    /* ]]> */
+    </script>
+</head>
+<body id="mt-community-blog" class="mt-archive-listing mt-datebased-monthly-archive layout-twt">
+    <div id="container">
+        <div id="container-inner">
+            <div id="header">
+                <div id="header-inner">
+                    <div id="header-content">
+
+                        <div id="header-name"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/" accesskey="1">進和ホーム株式会社　“こだわり暮らしブログ”</a></div>
+    
+
+                        <div id="header-menu">
+    <ul>
+
+        <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/">ホーム</a></li>
+        <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブ</a></li>
+
+    </ul>
+</div>
+
+
+                        <div class="widget-sign-in widget">
+    <h3 class="widget-header">サインイン</h3>
+    <div id="signin-widget-content" class="widget-content"></div>
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+function mtUpdateSignInWidget(u) {
+    var separator = '&nbsp;&nbsp;|&nbsp;&nbsp;';
+    var el = document.getElementById('signin-widget-content');
+    var content = '';
+    if (!el) return;
+    if (u) {
+        if (u && u.is_authenticated) {
+            user = u;
+            mtSaveUser();
+        } else {
+            // user really isn't logged in; so let's do this!
+            return mtSignIn();
+        }
+    } else {
+        u = mtGetUser();
+    }
+    if (u && u.name) {
+        var url;
+        if (u.is_authenticated) {
+            if (u.is_author) {
+                url = 'http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&blog_id=1';
+                url += '&static=' + encodeURIComponent( location.href );
+            } else {
+                url = u.url;
+            }
+        } else if (u.url) {
+            url = u.url;
+        } else {
+            url = null;
+        }
+        if (url)
+            content += '<a href="' + url + '">' + u.name + '</a>';
+        else
+            content += '' + u.name + '';
+        if (u.is_author)
+            content += separator + '<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=edit&blog_id=1&return_to=' + encodeURIComponent(document.URL) + '">ユーザー情報の編集</a>';
+        
+        content += separator + '<a href="javascript:void(0)" onclick="return mtSignOutOnClick()">サインアウト</a>';
+        
+    } else if (u && u.is_banned) {
+        content = 'このブログにサインインする権限がありません。';
+    } else {
+        content = '<a href="javascript:void(0)" onclick="return mtSignInOnClick(\'signin-widget-content\')">サインイン</a>';
+        
+        
+        content += separator + '<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=register&blog_id=1&return_to=' + encodeURIComponent(document.URL) + '">サインアップ</a>？';
+        
+        
+    }
+    el.innerHTML = content;
+}
+mtAttachEvent('usersignin', mtUpdateSignInWidget);
+mtUpdateSignInWidget();
+/* ]]> */
+</script>
+
+
+                        <div class="header-search">
+    <form method="get" action="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-search.cgi">
+
+        <input type="hidden" name="IncludeBlogs" value="1" />
+
+        <input type="hidden" name="limit" value="20" />
+        <label for="search">検索</label>
+        <input id="search" class="query" name="search" value="" />
+        <input class="submit" type="submit" value="Go" />
+    </form>
+</div>
+
+                   </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="content-inner">
+                    <div id="alpha">
+                        <div id="alpha-inner">
+
+
+
+<h1 id="page-title" class="archive-title">
+
+2010&#24180;8&#26376;アーカイブ
+
+</h1>
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000028"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/27"
+    dc:title="芸術のすすめ☆"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000028"
+    dc:subject=""
+    dc:description="お盆は神戸の美術館に行ってきました。 &amp;nbsp; 美術館と言っても、場所は神戸..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-20T19:16:51+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-28" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-24.html" rel="bookmark">芸術のすすめ☆</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-20T19:16:51+09:00">2010&#24180;8&#26376;20&#26085; 19:16</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-24.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-24.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(28)" id="scoring-id-28" class="scoring">
+        <span id="scoring-vote-28" class="scoring-vote">票</span>
+        <span id="scoring-score-28" class="scoring-score">0</span>
+        <span id="scoring-score-label-28" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p>お盆は神戸の美術館に行ってきました。</p>
+<p>&nbsp;</p>
+<p>美術館と言っても、場所は神戸の博物館で、浮世絵展をしていました。</p>
+<p>&nbsp;</p>
+<p>浮世絵は昔の絵なのに、なぜかＰＯＰだったり、</p>
+<p>どこかに笑える要素が入っていたりと面白いものでした。</p>
+<p>&nbsp;</p>
+<p>この浮世絵たちはボストン美術館貯蔵のもの。</p>
+<p>つまり、海外で大切にされているもので、誇れる日本の芸術ですね♪</p>
+<p>&nbsp;</p>
+<p>9/26までやっているので、興味のあるかたはぜひ☆</p>
+<p>博物館ＨＰ</p>
+<p><a href="http://www.city.kobe.lg.jp/culture/culture/institution/museum/main.html">http://www.city.kobe.lg.jp/culture/culture/institution/museum/main.html</a></p>
+<p><img style="WIDTH: 349px; HEIGHT: 230px" class="mt-image-none" alt="02.jpg" src="http://www.r-shinwa.jp/kodawari/02.jpg" width="480" height="318" /></p>
+<p>&nbsp;</p>
+<p>また、こちらは行ってないのですが、いきたい美術展</p>
+<p>アールヌーボーとアールデコのポスター展です。</p>
+<p>&nbsp;</p>
+<p>堺のアルフォンソ・ミュシャ美術館でやっています。</p>
+<p>ポスターなので、とってもわかりやすくて可愛い絵ばっかりですので</p>
+<p>&nbsp;</p>
+<p>こちらもお勧めです♪</p>
+<p>&nbsp;</p>
+<p>もうすぐ芸術の秋ですね(#^.^#)</p>
+<p>今の夏場に涼みに行くにも美術館お勧めです♪</p>
+<p>&nbsp;</p>
+<p><img class="mt-image-none" alt="viewimg.jpg" src="http://www.r-shinwa.jp/kodawari/viewimg.jpg" width="141" height="200" /></p>
+<p>美術館ＨＰ</p>
+<p><a href="http://www.sakai-bunshin.com/mucha.php">http://www.sakai-bunshin.com/mucha.php</a></p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000027"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/26"
+    dc:title="キャンペーン！！第二段！！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000027"
+    dc:subject=""
+    dc:description="毎日暑い日が続きますね。 クーラーをつけたいけれど、電気代が気になる。。 暑いの..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-11T09:59:48+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-27" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-23.html" rel="bookmark">キャンペーン！！第二段！！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-11T09:59:48+09:00">2010&#24180;8&#26376;11&#26085; 09:59</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-23.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-23.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(27)" id="scoring-id-27" class="scoring">
+        <span id="scoring-vote-27" class="scoring-vote">票</span>
+        <span id="scoring-score-27" class="scoring-score">0</span>
+        <span id="scoring-score-label-27" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p>毎日暑い日が続きますね。</p>
+<p>クーラーをつけたいけれど、電気代が気になる。。</p>
+<p>暑いのでシャワーを何回も浴びたくなるけど、ガス代が気になる。。</p>
+<p>&nbsp;</p>
+<p>不景気なのに、またまた光熱費が値上がりするって知っていました！？</p>
+<p>これからずっと値上がりする可能性大です！</p>
+<p>お子さんが成長するにつれて、使う電気量も増えますし...</p>
+<p>&nbsp;</p>
+<p>毎月の光熱費は家のローンと同じ！</p>
+<p>この光熱費がなければ、ワンランク上の家も買えたかもしれない...</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>そんなことが思い浮かんできたら...</p>
+<p>こちらを自信をもってお勧めします！！！</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>この時期にもってこいの設備！</p>
+<p>今話題の設備！</p>
+<p>国をあげて設置を促している設備！</p>
+<p>つけた人だけが得をする、つけないと将来どうなるかわからない...</p>
+<p>&nbsp;</p>
+<p>それが<strong><font style="FONT-SIZE: 1.56em">「家庭用太陽光発電！！」</font></strong></p>
+<p><strong></strong>&nbsp;</p>
+<p>今最も注目されているこの太陽光発電、</p>
+<p>でも、<u><font style="FONT-SIZE: 1.25em">高?いイメージがありませんか？？</font></u></p>
+<p><u><font style="FONT-SIZE: 1.25em"></font></u>&nbsp;</p>
+<p>太陽光発電が高価だったのはもう昔のこと。</p>
+<p>今は研究開発が進み、<strong><font style="FONT-SIZE: 1.56em">お手ごろな価格になりました。</font></strong></p>
+<p><strong><font style="FONT-SIZE: 1.56em"></font></strong>&nbsp;</p>
+<p>10年でローンを組んでも、月々の支払いは、太陽光発電により減った光熱費分で賄えます。</p>
+<p>つまり、今お支払いの光熱費の支払い額そのままで太陽光を載せられます。</p>
+<p>ローンを払い終えると、太陽光で賄うので光熱費はほぼ無料になります。</p>
+<p>&nbsp;</p>
+<p>簡単に言うと、<font style="FONT-SIZE: 1.95em"><strong>光熱費を一生払い続けるか、10年で終わらすか　この違いなのです！！</strong></font></p>
+<p>当然後者を選びますよね。</p>
+<p>&nbsp;</p>
+<p>太陽光発電はメリットだらけ、つけなきゃ損！なんですよ♪</p>
+<p>&nbsp;</p>
+<p>しかもしかも、<strong><font style="FONT-SIZE: 1.56em">今回キャンペーンで、太陽光発電の導入費用を大幅割引いたします！！</font></strong></p>
+<p><strong><font style="FONT-SIZE: 1.56em"></font></strong>&nbsp;</p>
+<p>これでさらに手が届きやすく。ローンも早く終わらせます！！</p>
+<p>&nbsp;</p>
+<p>大大大チャンスですよ！</p>
+<p>工事費・値引きの詳細はこちら↓</p>
+<p>
+<span style="DISPLAY: inline" class="mt-enclosure mt-enclosure-image"><img style="WIDTH: 548px; HEIGHT: 428px" class="mt-image-none" alt="8541.jpg" src="http://www.r-shinwa.jp/kodawari/8541.jpg" width="975" height="548" /></span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">キャンペーン特典</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial"> </span></p>
+<div class="O" v:shape="_x0000_s1026">
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">上記内容工事を、キャンペーン期間中（</span><span style="FONT-FAMILY: 'Comic Sans MS'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-fareast-language: JA" lang="EN-US">2010/7/28</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">?</span><span style="FONT-FAMILY: 'Comic Sans MS'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-fareast-language: JA" lang="EN-US">2010/9/30</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">）のご契約様には、</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial"> </span></div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">破格の　</span><span style="FONT-FAMILY: 'Comic Sans MS'; COLOR: red; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-fareast-language: JA; mso-color-index: 3" lang="EN-US"><font style="FONT-SIZE: 1.95em"><strong>2,200,000</strong></font></span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; COLOR: red; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3"><font style="FONT-SIZE: 1.95em"><strong>（税別）</strong></font>　</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">にてご提供！！</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial"> </span></div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">これにより、実質　</span><span style="FONT-FAMILY: 'Comic Sans MS'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-fareast-language: JA" lang="EN-US">231</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">万÷</span><span style="FONT-FAMILY: 'Comic Sans MS'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-fareast-language: JA" lang="EN-US">28.12</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">万＝</span><span style="FONT-FAMILY: 'Comic Sans MS'; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-fareast-language: JA; mso-color-index: 3" lang="EN-US">8.2</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3">年　</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">にて設備投資の回収が実現！！</span><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial"> </span></div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial">　　　　</span></div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes"><b>約８年後には、収益型省エネ住宅へと自宅がシフトチェンジ！！</b></span></span></div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; FONT-SIZE: 14pt; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial">&nbsp; 
+<div class="O" v:shape="_x0000_s1026">
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 10pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-color-index: 3"></span></div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3">さらに先着5名様</span><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Tahoma; mso-fareast-hint: yes; mso-color-index: 3">限定</span><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3">金額</span><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-color-index: 3"> </span></div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 16pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-fareast-language: JA; mso-color-index: 3" lang="EN-US">\2,000,000（税別）</span><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 16pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-color-index: 3"> </span></div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3">にてご提供！！</span></div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3"></span>&nbsp;</div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3">これは見逃せませんね！</span></div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3"></span>&nbsp;</div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3">詳しくはこちらまで一度ご相談ください♪</span></div>
+<div style="TEXT-ALIGN: center; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: HG創英角ﾎﾟｯﾌﾟ体; COLOR: red; FONT-SIZE: 14pt; mso-ascii-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-fareast-font-family: HG創英角ﾎﾟｯﾌﾟ体; mso-hansi-font-family: Arial; mso-fareast-hint: yes; mso-color-index: 3">
+<p style="MARGIN: 0mm 0mm 0pt" class="MsoNormal"><span style="FONT-SIZE: 14pt" lang="EN-US"><font color="#000000"><font face="Century">メール<a href="mailto:info@r-shinwa.jp"><font color="#000000">　</font>info@r-shinwa.jp</a><o:p></o:p></font></font></span></p></span></div></div></span></div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">　　　　　　　　　　　　　　　　　　電話　　　　072-252-1049　　担当　落合　　　　　　　　　</span></div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes"><b></b></span>&nbsp;</div>
+<div style="mso-line-spacing: '100 20 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"><span style="FONT-FAMILY: 'ＭＳ Ｐゴシック'; mso-ascii-font-family: 'Comic Sans MS'; mso-fareast-font-family: 'ＭＳ Ｐゴシック'; mso-hansi-font-family: Arial; mso-fareast-hint: yes">&nbsp;<img style="MARGIN: 0px 20px 20px 0px; FLOAT: left" class="mt-image-left" alt="img_externals09.jpg" src="http://www.r-shinwa.jp/kodawari/img_externals09.jpg" width="300" height="250" /></span></div>
+<div style="mso-line-spacing: '100 50 0'; mso-margin-left-alt: 216; mso-char-wrap: 1; mso-kinsoku-overflow: 1"></div></div>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000026"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/25"
+    dc:title="暑いです。"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000026"
+    dc:subject=""
+    dc:description="夏です。暑いです。最近常に汗をかいています。八木です。さて、これだけ暑いというこ..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:50:11+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-26" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-22.html" rel="bookmark">暑いです。</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:50:11+09:00">2010&#24180;8&#26376; 9&#26085; 10:50</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-22.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-22.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(26)" id="scoring-id-26" class="scoring">
+        <span id="scoring-vote-26" class="scoring-vote">票</span>
+        <span id="scoring-score-26" class="scoring-score">0</span>
+        <span id="scoring-score-label-26" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p>夏です。暑いです。最近常に汗をかいています。八木です。<br /><br />さて、これだけ暑いということは･･･</p>
+<p>それだけ太陽が照っているということは･･･</p>
+<p>気になるのは太陽光です！</p>
+<p><img style="WIDTH: 193px; HEIGHT: 162px" class="mt-image-none" alt="img_externals05.jpg" src="http://www.r-shinwa.jp/kodawari/img_externals05.jpg" width="300" height="250" /></p>
+<p><br />今の発電量、すごいらしいですよ♪<br /><br />今は４８円で電気を買い取ってくれます。ので、節約を心がけている人は、昼間はほとんど電気を使わないようにしているみたいですよ♪<br />昼間は太陽光で発電した分そのままを４８円で売って、夜に洗濯、ごはん、お風呂などに使う電気代を２４円で買い取る･･･。<br /><br />太陽光は環境に優しいだけでなく、家計にも優しいんです♪<br /><br />しかし！４８円で買い取ってくれるのは今年まで！<br />太陽光を考えている方はお早めに♪</p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000025"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/24"
+    dc:title="キャンペーン第二段！！20代からの家づくりを支援！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000025"
+    dc:subject=""
+    dc:description="進和ホームが支援する　20代からの家づくり住宅「first&amp;nbsp;stage..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:49:02+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-25" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/20.html" rel="bookmark">キャンペーン第二段！！20代からの家づくりを支援！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:49:02+09:00">2010&#24180;8&#26376; 9&#26085; 10:49</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/20.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/20.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(25)" id="scoring-id-25" class="scoring">
+        <span id="scoring-vote-25" class="scoring-vote">票</span>
+        <span id="scoring-score-25" class="scoring-score">0</span>
+        <span id="scoring-score-label-25" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            進和ホームが支援する　<img class="pict" border="0" hspace="5" alt="b-ecolabo5" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/9/a/9a3a0ff7-s.jpg" width="160" height="129" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/9/a/9a3a0ff7-s.jpg" /><br />20代からの家づくり<br /><br />住宅「first<img class="pict" border="0" hspace="5" alt="図1" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/3/a/3a52f1c6-s.png" width="160" height="140" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/3/a/3a52f1c6-s.png" />&nbsp;stage」<br /><br />の基準工事<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">本来1210万円を</span><br /><br />201007/28?<br />　　　9/30<br />のキャンペーン期間中にご制<a href="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0f37b196.png" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0f37b196.png"><img class="pict" border="0" hspace="5" alt="図2" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0f37b196-s.png" width="160" height="122" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0f37b196-s.png" /></a>約いただきますと、<br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">70万円割引の</span><br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><strong><span style="FONT-SIZE: medium" mce_style="font-size: medium;">1140万円でご提供いたします！！<br /></span></strong></span><br /><br />これにより各種オプション工事を追加しても<br /><br />OP工事<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">・対面キッチン工事<br />・バルコニー増設<br />・収納増設<br />・サッシ増設<br />・階段下物入れ</span><br /><br />全部で<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">税込み1300万円以下</span>です！！<br /><br />さらに、さらに、先着3組様は<span style="COLOR: #ff0000" mce_style="color: #ff0000;">『モニター特別価格』</span>もご用意しております！！！<br /><br />お得がいっぱい♪<br /><br />そして今年は、頭金をたくさんためなくても、<br />この低金利のあいだにローンを組んだほうがお得になりますよ(#^.^#)<br />若くても持ち家は可能！<br /><br />皆さんの夢をかなえるお手伝いをします♪<br /><br /><br /><br />ぜひお問い合わせください☆<br />詳しい資料、カタログは、下記フォームからどうぞ♪<br /><a href="http://www.ii-sumika.com/toiawase/toiawase.html" mce_href="http://www.ii-sumika.com/toiawase/toiawase.html">http://www.ii-sumika.com/toiawase/toiawase.html</a><br />電話　072-259-0672<br />FAX　072-252-1079<br />メール　　<span style="FONT-SIZE: 14pt" lang="EN-US"><font color="#000000"><font face="Century">info@r-shinwa.jp<o:p></o:p></font></font></span>　<br />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000024"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/23"
+    dc:title="大大大キャンペーン！！！！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000024"
+    dc:subject=""
+    dc:description="このたび進和ホームでは、お客様への感謝の気持ちで 売り上げ還元ということで、カー..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:48:31+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-24" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-21.html" rel="bookmark">大大大キャンペーン！！！！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:48:31+09:00">2010&#24180;8&#26376; 9&#26085; 10:48</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-21.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-21.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(24)" id="scoring-id-24" class="scoring">
+        <span id="scoring-vote-24" class="scoring-vote">票</span>
+        <span id="scoring-score-24" class="scoring-score">0</span>
+        <span id="scoring-score-label-24" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p><a href="http://livedoor.blogimg.jp/shinwahome/imgs/5/d/5d4e8e5b.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/5/d/5d4e8e5b.jpg"><img class="pict" border="0" hspace="5" alt="casa sole 外観（シルバー）" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/5/d/5d4e8e5b-s.jpg" width="160" height="121" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/5/d/5d4e8e5b-s.jpg" /></a>このたび進和ホームでは、<strong>お客様への感謝の気持ちで</strong></p>
+<p><span style="FONT-SIZE: large" mce_style="font-size: large;"><strong><span style="FONT-SIZE: medium" mce_style="font-size: medium;">売り上げ還元ということで、カーサ・ソーレを</span></strong></span></p>
+<p><span style="FONT-SIZE: large" mce_style="font-size: large;"><strong><span style="FONT-SIZE: medium" mce_style="font-size: medium;">破格の大幅割引いたします！</span></strong></span></p>
+<p><span style="FONT-SIZE: large" mce_style="font-size: large;"><strong><span style="FONT-SIZE: medium" mce_style="font-size: medium;">&nbsp;</span></strong></span></p>
+<p><span style="COLOR: #0000ff" mce_style="color: #0000ff;">2010　7/28?9/30</span>のキャンペーン対象期間内に、カーサソーレをご契約いただきますと、</p>
+<p>&nbsp;</p>
+<p>本体工事1780万円を</p>
+<p>破格の<span style="COLOR: #ff0000" mce_style="color: #ff0000;"><strong><span style="FONT-SIZE: large" mce_style="font-size: large;"><span style="FONT-SIZE: medium" mce_style="font-size: medium;">280万円</span></span></strong>引きの</span></p>
+<p><span style="FONT-SIZE: large" mce_style="font-size: large;"><strong><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="FONT-SIZE: medium" mce_style="font-size: medium;">1500万円で提供いたします！</span></span></strong></span></p>
+<p><span style="FONT-SIZE: large" mce_style="font-size: large;"><strong><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="FONT-SIZE: medium" mce_style="font-size: medium;">&nbsp;</span></span></strong></span></p>
+<p>また、さらに、<span style="COLOR: #0000ff" mce_style="color: #0000ff;">先着5名様</span>は長期優良住宅の国からの補助金</p>
+<p><strong><span style="COLOR: #ff0000" mce_style="color: #ff0000;">100万円</span></strong>が受け取れます。ぜひ、オプション工事代などにあて、</p>
+<p>思い通りのプランニングにお役立てください！</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>さらに今年は、家づくりにかかる各種税金が大幅に低くなっているので、合わせてお得です！</p>
+<p>家を建てるのは今年を逃したら、本当にもったいないです。<br /><br /><br />キャンペーンに関する詳しい内容、資料ご希望の方は御気軽にお問い合わせください♪<br /><br /><a href="http://shinwahome.casasole.jp/news_events/detail/13/type_id:2" mce_href="http://shinwahome.casasole.jp/news_events/detail/13/type_id:2">http://shinwahome.casasole.jp/news_events/detail/13/type_id:2</a></p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000023"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/22"
+    dc:title="日本でいちばんエコな家！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000023"
+    dc:subject=""
+    dc:description="「日本でいちばんエコな家！」の本が発売されました！これは、今日本でいちばんエコな..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:47:59+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-23" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-20.html" rel="bookmark">日本でいちばんエコな家！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:47:59+09:00">2010&#24180;8&#26376; 9&#26085; 10:47</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-20.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-20.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(23)" id="scoring-id-23" class="scoring">
+        <span id="scoring-vote-23" class="scoring-vote">票</span>
+        <span id="scoring-score-23" class="scoring-score">0</span>
+        <span id="scoring-score-label-23" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <span style="COLOR: #000000" mce_style="color: #000000;"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><strong>「日本でいちばんエコな家！」の本が発売されました！</strong></span><br /></span><br /><span style="COLOR: #000000" mce_style="color: #000000;">これは、今日本でいちばんエコな家である「casa sole　カーサ・ソーレ」<br />について詳しく書かれた本ですが、<br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">ただの宣伝本ではありません。</span><br /><br />読んでいくうちに、住宅に対する考え方がどんどん変わってきます。<br /><br /><br />「今まで当たり前だと思っていたことが実は間違っていた。」<br /><br />「本当の住宅のありかたってこういうことだったんだ。」<br /><br />「今までなんて無駄な生活をしていたんだ。」<br /><br />「住宅に求めるもの・意識がガラリと変わった。<br />今すぐ日本中の住宅を変えなければ。そのためにみんなに教えてあげなければ！」<br /><br /><br />と思う本です。<br /><br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">本当に、「今までの常識を打ち破り、本当に大切なものがわかる。」</span><br /><br />　「今まで、住宅会社が楽するようになっていた家づくりの仕方を、本来のいい家、快適な住まいづくりという本当の目的にもどさなければ！」<br /><br />と思わされます。<br /><br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><strong><u>これはcasa soleに関心がない方も、家作りに大変参考になると思いますので、ぜひ読んでみてください！</u></strong></span><br /><br /><br />書店でも売っております。<br />また、アマゾン（ネット書店通販サイト）でも購入できます。<br /><br />アマゾンへは、下記サイトの左下のバナーからどうぞ(*･∀･)</span><br /><br /><u><font color="#800080">http://shinwahome.casasole.jp/news_events/detail/6/type_id:1</font></u>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000022"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/21"
+    dc:title="お子さんにもわかりやすい！エコＨＰ！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000022"
+    dc:subject=""
+    dc:description="エコとはなんだろう？これは私たち大人も思うことですが、子どもたちはもっと疑問に思..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:47:33+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-22" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-19.html" rel="bookmark">お子さんにもわかりやすい！エコＨＰ！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:47:33+09:00">2010&#24180;8&#26376; 9&#26085; 10:47</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-19.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-19.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(22)" id="scoring-id-22" class="scoring">
+        <span id="scoring-vote-22" class="scoring-vote">票</span>
+        <span id="scoring-score-22" class="scoring-score">0</span>
+        <span id="scoring-score-label-22" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <a href="http://livedoor.blogimg.jp/shinwahome/imgs/4/8/48f873b1.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/4/8/48f873b1.jpg"><img class="pict" border="0" hspace="5" alt="エコｈｐ" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/4/8/48f873b1-s.jpg" width="160" height="119" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/4/8/48f873b1-s.jpg" /></a>エコとはなんだろう？<br /><br />これは私たち大人も思うことですが、<br />子どもたちはもっと疑問に思うはず。<br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">ここに、お子さんが楽しくエコを学べるＨＰがあります。</span><a href="http://www.eic.or.jp/library/ecokids/index.html" mce_href="http://www.eic.or.jp/library/ecokids/index.html"><br /><br /><br />http://www.eic.or.jp/library/ecokids/index.html</a><br /><br /><br />いろいろなボタンをクリックしていって、イラストやアニメーションで<br />いろいろな環境問題などについて、わかりやすく説明しています。<br /><br /><br />さらに<span style="COLOR: #0000ff" mce_style="color: #0000ff;">、「こんな実験をしてみよう」</span>といった簡単な実験や観察法が載っているので、丁度夏休みの「自由研究」などに役立つとおもいます！<br /><br /><br />あの夏休みの「自由研究」は毎年すごくテーマに悩むんですよね(^_^;)<br />（夏休みの宿題の「自由研究」は全国共通であるのかな？）<br /><br />テーマは決まっても、研究の仕方はまったくわからなかったり、結局親御さんが全部手伝ったという経験もあるのではないでしょうか？<br /><br />そんなとき、このＨＰで、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">親子一緒に毎日少しずつエコと環境について学んでいき、研究にも役立ててみてはいかがでしょう？<br /></span><br />内容はとてもわかりやすく、大人も楽しめるのですが、<br /><br />小学校低学年のお子さんには難しい漢字がたくさんあるので、<br />ぜひ一緒に読み聞かせてあげてください♪<br /><br />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000021"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/20"
+    dc:title="LEDの上手な使い方♪"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000021"
+    dc:subject=""
+    dc:description="昨日はカーサプロジェクトの研修に行ってまいりまして、おもしろくて、ためになるお話..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:47:05+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-21" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/led.html" rel="bookmark">LEDの上手な使い方♪</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:47:05+09:00">2010&#24180;8&#26376; 9&#26085; 10:47</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/led.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/led.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(21)" id="scoring-id-21" class="scoring">
+        <span id="scoring-vote-21" class="scoring-vote">票</span>
+        <span id="scoring-score-21" class="scoring-score">0</span>
+        <span id="scoring-score-label-21" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            昨日はカーサプロジェクトの研修に行ってまいりまして、<br />おもしろくて、ためになるお話を聞かしていただきました(#^.^#)<br /><br /><br />それは大光電機さんの照明デザインのカリスマ的存在である<br />高木さんから、照明デザインについてのお話でした。<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">内容は照明だけでなく、細かなデザインについて<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /></span><br /><br />普通の人はそこまでこだわらず、なんとなく仕上げてしまう部分。<br />たとえば、ドアの枠の位置とか、電気をぶら下げる位置とか、煙探知機の<br />位置だとか...<br /><u>それがセンスがないと、どうも仕上がりが汚くなってしまう。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" /></u><br /><br />それはプロがみたらどこがおかしいか一目瞭然ですが、<br />これは、専門の知識がない一般のお客様にも、感覚的にわかるものです。<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">部屋全体の仕上がりが、なんかごちゃごちゃしてすっきりしない...。<br />コンセントの位置、電気の位置、エアコンの位置、<br />すべてがバラバラで、雑然とし、落ち着かない。</span><br /><br />まあこんなものか...とあきらめて購入するにも、やはりデザイナーが入った建物と比べると全然違う。でもデザイナーの建物は高いはず...<br /><br />いえいえ！そんなことはございません。<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">同じコストでちょっと気をつかうだけで、空間はものすごく洗練されたおしゃれなものになります。</span><br /><br /><br />その気をつかってない建物は、残念ながらいつまでたっても売れ残っています。一千万近く値下げしても売れません。<br /><u>そんな建物が実はものすごく多いのです。</u><br /><br /><br />そして、なんでもかんでもエコエコエコと、ＬＥＤばかり使ってもメリットはありません。<br /><br />最近は蛍光灯が駄目で、ＬＥＤが素晴らしいように言われていますが、<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">蛍光灯とＬＥＤでは長所短所が全然違い、それぞれの長所を生かせるところに使わなければ意味がありません。</span><br /><br /><br />例えばＬＥＤはご存知の通り、省エネルギー・長寿命。<br />一日10時間の点灯で10年間使用可能。<br />一日1時間なら100年。<br />廊下など、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">一日30分くらいしか使わないところなら200年ももちます</span>。<br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">そのため、吹き抜けの上など、手が届かず危険なところに設置すると効果大。</span><br /><br />また、ＬＥＤはスポット的な明かりが得意で、高いところからのスポットライトや、贅沢な庭のライトアップなどに、電気代を気にすることなく使えます。<br /><br /><br /><br />また、蛍光灯は、大きく広がる光が得意で、これをＬＥＤでしようとすると、ものすごくコストが掛かるのでそういう光を求める箇所には蛍光灯がお勧めです。<br /><br /><br />このように、蛍光灯とＬＥＤの長所・短所を見極め、無駄なコストを掛けないように、家は一生の買い物です。ぜひ美しく、満足いく空間にしましょう♪(｡･ω･)ﾉﾞ<br />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000020"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/19"
+    dc:title="コミュニケーション重視の間取りで家族づくり♪"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000020"
+    dc:subject=""
+    dc:description="お久しぶりの更新になります(#^.^#)最近ばたばたしていたもので、癒されようと..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:46:16+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-20" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-18.html" rel="bookmark">コミュニケーション重視の間取りで家族づくり♪</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:46:16+09:00">2010&#24180;8&#26376; 9&#26085; 10:46</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-18.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-18.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(20)" id="scoring-id-20" class="scoring">
+        <span id="scoring-vote-20" class="scoring-vote">票</span>
+        <span id="scoring-score-20" class="scoring-score">0</span>
+        <span id="scoring-score-label-20" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            お久しぶりの更新になります(#^.^#)<br /><br />最近ばたばたしていたもので、癒されようと、初めて鍼灸接骨院で針をしてもらいました☆<br /><br />それがなかなか気持ちよくって、通おうかなと思います。<br /><br />普通にマッサージとかいくと、10分1000円?<br />60分6000円とかしますよね(&gt;_&lt;)<br /><br />最近は60分3000円というのが流行っているそうですが、<br /><br /><br />なんと私が言った鍼灸接骨院はなんとたったの<span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="FONT-SIZE: medium" mce_style="font-size: medium;">30分600円</span></span>！！！<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br />その間に、針、マッサージ、電気までしてくれます<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br /><br />こんなに安いのは保険がきくからだそうで...大変助かります！(*´∇｀*)<br />最近健康マニアです。<br /><br />━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─<br />話は変わりまして、<br />2010年07月05日の賃貸住宅新聞に次のような記事が載っています。<br /><br /><br />セキスイハイムが昨年２月から立命館大学の山英男教授と取り組んでいる<span style="COLOR: #0000ff" mce_style="color: #0000ff;">「子供が賢く育ついえづくりプロジェクト」</span>の一環で誕生した<br />「かげやまモデル」のノウハウを投入した初の<u>賃貸住宅商品</u>を発表。<br /><br />間取りは<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「どこでも学習できる場所づくり」</span>として<br />リビングに本棚、ダイニングに大型カウンターデスクを提案。<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「生活習慣を支えるしかけ」</span>として、<br />子供が自分でしまえる収納などを工夫した。<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「家族コミュニケーションの演出」</span>としては、<br />家族が顔をあわせやすい間取りを設けた。<br /><br />━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─<br /><br /><br />家のつくり一つで子どもの育ち方が変わるなんて！？<br />それを上手く利用すれば賢いこに自然に育ってくれるかも！<br /><br />という素敵なお話ですが...<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="FONT-SIZE: medium" mce_style="font-size: medium;"><strong>実はこれ、弊社でも以前から行っております</strong></span></span>！(｡･ω･)ﾉ<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「頭の良い子が育つ家」！</span><br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">それは、「頭がいい＝勉強だけでなく人の気持ちがわかる賢いこ」</span><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">ということで、家族同士がコミュニケーションをとりやすい間取りにしたり、子どもが部屋に引きこもるのを防いだり、家族本棚を設け情報交換できるようにするなど、様々な工夫をしています☆<br /></span><br /><br />こうして、「家」で家族の幸せづくりのお手伝いができることはとっても光栄です☆（´∀｀*)
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000019"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/18"
+    dc:title="夢のマイホームは買う？借りる？"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000019"
+    dc:subject=""
+    dc:description="一戸建住宅は買うものだと思っていませんか？一戸建に住みたいけど、転勤族だし......"
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:45:50+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-19" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-17.html" rel="bookmark">夢のマイホームは買う？借りる？</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:45:50+09:00">2010&#24180;8&#26376; 9&#26085; 10:45</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-17.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-17.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(19)" id="scoring-id-19" class="scoring">
+        <span id="scoring-vote-19" class="scoring-vote">票</span>
+        <span id="scoring-score-19" class="scoring-score">0</span>
+        <span id="scoring-score-label-19" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            一戸建住宅は買うものだと思っていませんか？<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">一戸建に住みたいけど、転勤族だし...</span><a href="http://livedoor.blogimg.jp/shinwahome/imgs/e/d/ed1ffba7.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/e/d/ed1ffba7.jpg"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><img class="pict" border="0" hspace="5" alt="P1010191" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/e/d/ed1ffba7-s.jpg" width="160" height="120" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/e/d/ed1ffba7-s.jpg" /></span></a><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">将来は親の元に帰らなきゃいけないし...<br /></span><br />と、夢のマイホームをあきらめていた皆さん、<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">実は一戸建も借りられるのです！</span><img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br /><br />「でも、誰かが住んでた古い家でしょ？」<br /><br />と、お思いかと思いますが、違います！（　´∀｀）<br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><strong>実は新築一戸建を賃貸用につくっている「戸建て賃貸」があるのです！</strong></span><img src="http://parts.blog.livedoor.jp//img/emoji/ic_smile.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_smile.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br /><a href="http://livedoor.blogimg.jp/shinwahome/imgs/6/6/66779f15.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/6/6/66779f15.jpg"><img class="pict" border="0" hspace="5" alt="3LDK1Fリビング01" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/6/6/66779f15-s.jpg" width="160" height="106" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/6/6/66779f15-s.jpg" /></a><br />外観はとってもかっこいい、デザイナーズ☆<br />間取りは3ＬＤＫと広々！！<br /><br />庭付き！<br />駐車場付き！<br /><br />マンションのように上下隣の音を気にせず住むことができます！<br /><br />音を気にせず、庭遊びができ、駐車場も近く、物の積み下ろしも楽ちん<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br /><br /><br />まさに、小さなお子さんを持つご家族にぴったり！！<br /><br /><br /><br />今はまだ建築数が少なく、入りたくても入れない人がいっぱいで大人気です<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br /><br /><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">そんな「戸建賃貸」が堺市東区に誕生しました！<br /></span><br />入居希望や、見学希望の方はお問い合わせください<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br />今ならまだ完成前で、ぎりぎり一戸空いております<img src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" />(#^.^#)<br /><br /><br />また、近日見学会も開きますので、ぜひいらしてください(｡･ω･)<br />お待ちしています<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">戸建賃貸　見学会<br /><br />7/10（土）7/11（日）<br />10：00?17：00<br /><br /><br />堺市東区南野田383-1<br />（北野田駅より南へ徒歩5分）<br /><br />お問い合わせは<br />TEL:072-252-1049<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">FAX:072-252-1079&nbsp;&nbsp;&nbsp;</span></span><span style="COLOR: #0000ff" mce_style="color: #0000ff;">&nbsp;&nbsp;&nbsp; 担当　坂本まで♪</span><br /><br /><a href="http://livedoor.blogimg.jp/shinwahome/imgs/e/d/ed1ffba7.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/e/d/ed1ffba7.jpg"></a><br /><br /><br /><br />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000018"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/17"
+    dc:title="地球温暖化を食い止めよう！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000018"
+    dc:subject=""
+    dc:description="最近は梅雨の中休みですが、まだまだじめじめ感が消えませんね早く梅雨が明けて欲しい..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:45:06+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-18" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-16.html" rel="bookmark">地球温暖化を食い止めよう！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:45:06+09:00">2010&#24180;8&#26376; 9&#26085; 10:45</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-16.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-16.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(18)" id="scoring-id-18" class="scoring">
+        <span id="scoring-vote-18" class="scoring-vote">票</span>
+        <span id="scoring-score-18" class="scoring-score">0</span>
+        <span id="scoring-score-label-18" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p>最近は梅雨の中休みですが、まだまだじめじめ感が消えませんね<img src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_rain.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_rain.gif" /><br /><br />早く梅雨が明けて欲しいものですが、年々梅雨明けが長くなっているような...<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><strong>このまま地球温暖化が進むと、梅雨が明けないまま秋が来る可能性があるとのこと</strong></span>！！<img src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" /></p>
+<p>嫌だ???<br /><br />大好きな夏が無くなるなんて...<br /><br />そんなことよりも、梅雨が明けないことにより、様々な産業が打撃を受けますね...<img src="http://parts.blog.livedoor.jp//img/emoji/ic_face_cry.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_face_cry.gif" /><br />ニュースで、雨により川が増水して釣りができなくなり、釣具屋さんが売れなくなったり、露天風呂が自慢の温泉街にくるお客さんが激減したり...<br /><br />まだまだ考えると、いろんな業種に関ってきます。<br />今のうちに雨具屋さんに転換しないといけなくなるかも。。。<br /><br />また、雨が多いと困る農業などは、影響がものすごく大きいですね。<br /><br /><br /><br />地球温暖化を食い止めるには、ＣＯ2を早く減らさなければ！！<br /><br />しかし、実際減るどころか、まだまだ増えています。<br /><br /><br /><br /><br /><br />最近は環境のために、ハイブリット車が究極に増えてきましたが、これからはすでに<span style="COLOR: #ff0000" mce_style="color: #ff0000;"><strong>電気自動車</strong></span>の時代が来ています。<br /><br />フジサンケイの記事に<a href="http://livedoor.blogimg.jp/shinwahome/imgs/4/7/477b17b2.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/4/7/477b17b2.jpg"><img class="pict" border="0" hspace="5" alt="crsm0000000014" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/4/7/477b17b2-s.jpg" width="160" height="107" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/4/7/477b17b2-s.jpg" /></a><br /><br />「電気自動車普及を後押しする「電気自動車普及協議会」が６月２９日に発足した。<br />企業や自治体など３５社・団体で構成、<br />今後、参加企業を増やすとともに、普及に向けた技術教育や政策提言、実証実験などを行う。」<br /><br />「電気自動車は最近、大変な勢いで進展している。<br />できるだけ早く電気自動車に興味のある企業・団体が結集して、<br />電気自動車事業促進や低炭素社会を実現したいということで発足した」<br /><br />とあるように、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">今後一気に普及が加速すると思われます</span>。<br /><br /><u>今から家を建てる方は、ガレージに電気自動車用のコンセントを設置しておくことをお勧めします<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /></u>(｡･ω･)ﾉﾞ<br /><br /><br /><br />また、更に、いまだに被害の続いている　メキシコ湾の原油流失事故で<br />石油燃料がさらに減り、高騰し、もう石油燃料に頼れなくなるのは明らかです。<br /><br />しかも燃料だけでなく、この<span style="COLOR: #0000ff" mce_style="color: #0000ff;">原油事故による環境破壊は人<a href="http://livedoor.blogimg.jp/shinwahome/imgs/2/6/26649102.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/2/6/26649102.jpg"><img class="pict" border="0" hspace="5" alt="09e04010-s" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/2/6/26649102-s.jpg" width="160" height="99" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/2/6/26649102-s.jpg" /></a>類史上最悪とされており、<br /></span>海だけでなく、原油を分解するために注入されている薬品が気体になり、地上に毒の雨を降らし、生態系に悪影響をもたらすとのことで、とっても恐ろしいです...<br /><br /><br /><br />このように環境はとっても大きな危機にさらされています。<br />各自ができる最大限の努力をして地球環境を守りましょう。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /></p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000017"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/16"
+    dc:title="住宅ローン減税とは？"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000017"
+    dc:subject=""
+    dc:description="住宅ローン減税とは、住宅を新築や改修した人に所得税を控除する仕組みのことです。今..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:44:34+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-17" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-15.html" rel="bookmark">住宅ローン減税とは？</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:44:34+09:00">2010&#24180;8&#26376; 9&#26085; 10:44</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-15.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-15.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(17)" id="scoring-id-17" class="scoring">
+        <span id="scoring-vote-17" class="scoring-vote">票</span>
+        <span id="scoring-score-17" class="scoring-score">0</span>
+        <span id="scoring-score-label-17" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <span style="COLOR: #000080" mce_style="color: #000080;">住宅ローン減税とは、住宅を新築や改修した人に<br />所得税を控除する仕組みのことです。</span><br /><br />今までは10年間で控除額は最大160万円まででしたが、<br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="FONT-SIZE: large" mce_style="font-size: large;">2010年はなんと最大600万円も控除されます。<br /><br /></span></span><br />これは毎年のローン残高の1％が所得税から引かれる形になります。<br /><br /><br />対象住宅ローンの限度額が5000万円なので<br /><br />5000万円×1％/月×10年＝500万円<br /><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">さらに長期優良住宅ならば毎年の控除が1.2％となり、<br /><br />5000万円×1.2％/月×10年＝600万円</span><br /><br /><br />になります。<br /><br />しかしローン残高は毎年減っていくものなので、簡単に考えると<br />-1.2％ということは、<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">安い変動金利のローンが10年間ほとんど<br />無利子で借りれるのと同じことになります！<span style="COLOR: #000000" mce_style="color: #000000;">（</span>　</span>´∀｀）<br /><br /><br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="FONT-SIZE: large" mce_style="font-size: large;">信じられないほどお得ー！！</span></span><br /><br /><br /><br />このローン減税は2013年まで続く予定ですが、<br />控除額は年々下がりますので、今年がピークになっています！<br /><br /><br /><br /><br /><br /><br />そしてそして、今話題になっている消費税の増税.........<br /><br /><br />5％から10％になってしまうと、<br /><br />例えば3000万の住宅ですと消<span style="COLOR: #0000ff" mce_style="color: #0000ff;">費税150万→300万</span>にもなってしまいます(&gt;_&lt;)<br /><br /><br />この増額分150万円あれば、<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">車も買えるし、太陽光発電だってつけられちゃいますよ!?<br /></span><br /><br />と、とってももったいない。。<br /><br /><br />ぜひぜひ、住宅購入は消費税が上がる前に、<br />お得なローン減税があるうちをお勧めいたします<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br /><br /><br />また、住宅のプランニングは何ヶ月もかかるものなので、タイミングを逃して、損しないように、お急ぎを(｡･ω･)ﾉ<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000016"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/15"
+    dc:title="最近よく聞く「ヒートポンプ」とは？"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000016"
+    dc:subject=""
+    dc:description="最近よく聞くヒートポンプとはなにか？エコキュートなど、省エネ給湯器にヒートポンプ..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:43:20+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-16" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-14.html" rel="bookmark">最近よく聞く「ヒートポンプ」とは？</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:43:20+09:00">2010&#24180;8&#26376; 9&#26085; 10:43</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-14.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-14.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(16)" id="scoring-id-16" class="scoring">
+        <span id="scoring-vote-16" class="scoring-vote">票</span>
+        <span id="scoring-score-16" class="scoring-score">0</span>
+        <span id="scoring-score-label-16" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p style="TEXT-ALIGN: left" mce_style="text-align: left;">最近よく聞くヒートポンプとはなにか？<br /><br />エコキュートなど、省エネ給湯器にヒートポンプが使われていますが、<br />ヒートポンプとはどんな仕組みなのでしょうか。<br /><br />「空気の熱でお湯を沸かす」などといわれていますが、<br /><br />実はヒートポンプは昔から、エアコンや冷蔵庫で使われている方法です。<br /><br />空気中から取り入れた熱を膨張させたり、圧縮したりして熱を利用します。<br /><br /><a href="http://livedoor.blogimg.jp/shinwahome/imgs/8/f/8f3b868b.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/8/f/8f3b868b.jpg"></a><a href="http://livedoor.blogimg.jp/shinwahome/imgs/8/f/8f3b868b.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/8/f/8f3b868b.jpg"></a><a href="http://livedoor.blogimg.jp/shinwahome/imgs/e/e/eea502ec.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/e/e/eea502ec.jpg"></a><a href="http://livedoor.blogimg.jp/shinwahome/imgs/e/e/eea502ec.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/e/e/eea502ec.jpg"><img style="TEXT-ALIGN: right" class="pict" border="0" hspace="5" alt="名称未設定 2のコピー" src="http://livedoor.blogimg.jp/shinwahome/imgs/e/e/eea502ec-s.jpg" width="160" height="82" mce_style="text-align: right;" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/e/e/eea502ec-s.jpg" /></a>これは<span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><strong>気</strong></span> 
+<p style="TEXT-ALIGN: left" mce_style="text-align: left;"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><strong>体は圧力が上がると温度が上がり、圧力が下がると温度が下がることを利用しています。<br /><br /></strong><span style="COLOR: #000000" mce_style="color: #000000;">そしてエコキュートなどで使われる「空気の熱」とは、空気が太陽によって暖められた熱のことです。<br /><br />太陽と空気という、石油燃料のように数十年後に必ず尽きてしまうものではなく、永遠に存在するものを使用するのでとっても安心。<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">CO2も大幅に削減します！地球にもとってもエコ！<br /></span><br />さらに、このシステムを動かすのに<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">使う電力の3倍以上のエネルギーを生み出すので、電気代を大幅に削減でき、とっても経済的</span>。<br /><br /><br /></span><span style="COLOR: #000000" mce_style="color: #000000;">クリーンでエコで経済的なこの「空気熱」を使ったヒートポンプ以上に<br />更に優れたシステムがあるのをご存知でしょうか？<br /><br /><br /><span style="FONT-SIZE: large" mce_style="font-size: large;"><span style="COLOR: #ff0000" mce_style="color: #ff0000;">それは「地中熱」を使ったヒートポンプです！</span></span><br /><br />「地中熱」を使ったヒートポンプとは、<br /></span><span style="FONT-SIZE: large" mce_style="font-size: large;"><span style="COLOR: #000000; FONT-SIZE: x-small" mce_style="color: #000000; font-size: x-small;"><span style="FONT-SIZE: medium" mce_style="font-size: medium;"><span style="COLOR: #0000ff" mce_style="color: #0000ff;">夏は地中から外気より冷たい地中熱を採熱し、冬は地中から外気より暖かい地中熱を採熱し冷暖房と給湯に利用します。</span><br /></span></span><span style="COLOR: #000000" mce_style="color: #000000;"><span style="FONT-SIZE: medium" mce_style="font-size: medium;"><img class="pict" border="0" hspace="5" alt="GeoHouse_1" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/d/b/dbad297b-s.gif" width="187" height="122" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/d/b/dbad297b-s.gif" /><br />地中熱温度は年間を通してほぼ一定の温度を保ちます。<br />この地中熱を利用して住宅の冷暖房と給湯を行います。<br /><br />地中熱を採熱、地中へ放出をするため、周辺の空気温を温めません。都市の一部が島のように暑くなる、<span style="COLOR: #ff0000" mce_style="color: #ff0000;">ヒートアイランド防止に大きな役割を果たします。<br /></span><br /><br />また、空気熱は冬場温度が下がり、室内を暖めるのに、余計なエネルギーを必要としますが、地中は一年間で一定の温度を保ちますので、<span style="COLOR: #ff0000" mce_style="color: #ff0000;">温度変化によるロスがなく、さらに経済的です</span>。<br /><br /><br />エコ生活にはいろいろな種類があります。<br />ライフスタイルに合わせた、最善の方法を取り入れましょう<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" />(*´∇｀*)<br />参考URL<br /><a href="http://www.ajic.co.jp/contents/geoHouse/ecology.shtml" mce_href="http://www.ajic.co.jp/contents/geoHouse/ecology.shtml">http://www.ajic.co.jp/contents/geoHouse/ecology.shtml</a><br /></span></span></span></span></p></span>
+<p></p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000015"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/14"
+    dc:title="太陽光を超えるシステム登場！！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000015"
+    dc:subject=""
+    dc:description="みなさんこんばんは！！今日は大阪は久しぶりにいい天気で暑かったですね！また日に焼..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:41:46+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-15" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-13.html" rel="bookmark">太陽光を超えるシステム登場！！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:41:46+09:00">2010&#24180;8&#26376; 9&#26085; 10:41</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-13.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-13.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(15)" id="scoring-id-15" class="scoring">
+        <span id="scoring-vote-15" class="scoring-vote">票</span>
+        <span id="scoring-score-15" class="scoring-score">0</span>
+        <span id="scoring-score-label-15" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            みなさんこんばんは！！<br /><br />今日は大阪は久しぶりにいい天気で暑かったですね！<img src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" /><br />また日に焼けることを恐れている私ですが、(&gt;_&lt;)<br />太陽が出てとっても喜ばれることがあります<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br /><br /><br />それは太陽<strong><span style="FONT-SIZE: large" mce_style="font-size: large;">光</span></strong>発電...と、もう一つ！<br /><br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">太陽<strong><span style="FONT-SIZE: large" mce_style="font-size: large;">熱</span></strong>パネル！！！！</span><br /><br /><br /><br /><br /><br />太陽熱パネルとはなんだ？<br /><br /><br /><br /><br /><br /><br />太陽熱パネルとは、昔普及した、屋根に載せる、一見太陽光パネルに似た形のものです！<br />パイプの中に水を通し、太陽の熱で暖めてお湯にするというもの。<br /><br />昔は良く屋根の上に見かけましたね。(*´-｀*)<br /><br /><br /><img class="pict" border="0" hspace="5" alt="system" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/1/7/17e2e4c5.gif" width="150" height="150" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/1/7/17e2e4c5.gif" /><br />これが、今ではものすごく改良されて、<br />パイプの中は水ではなく、真空管に特殊な液を循環し、<br />熱を効率よく集め、お湯を沸かし、<br />給湯と床暖房を同時にまかなえ、今まで難しかった寒冷地でも、曇りの日でも使えるようになりました。<br /><br /><br />・太陽光発電の光を電気に変える効率はなんとたったの<span style="COLOR: #0000ff" mce_style="color: #0000ff;">14％</span><br /><br />・今までの太陽熱湯沸しパネルの熱効率は<span style="COLOR: #0000ff" mce_style="color: #0000ff;">60％</span><br /><br />・<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">最新の真空型太陽熱パネルはなんと</span><span style="COLOR: #ff0000" mce_style="color: #ff0000;">94％<br /></span><br />太陽の光を余すことなくエネルギーに変えられるという、とーーーっても<br />エコな設備なのです。<br /><br />これにより、家庭の中で一番エネルギーを消費する「給湯」を太陽の熱によってまかない、<span style="COLOR: #ff0000" mce_style="color: #ff0000;">年間18万円も光熱費が削減されました</span>。<br /><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">今大注目の太陽熱パネル。<br />実は昔から存在しながら、改良を重ねられることにより、太陽光を<br />超えるシステムへと発展していたのです！！</span><br /><br />詳しくはHPへどうぞ(｡･ω･)ﾉ<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><a href="http://www.ajic.co.jp/index.html" mce_href="http://www.ajic.co.jp/index.html">http://www.ajic.co.jp/index.html</a><br />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000014"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/13"
+    dc:title="梅雨に洗濯物を上手く乾かすコツ！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000014"
+    dc:subject=""
+    dc:description="おはようございます（･∀･)今日は久々の晴天でお洗濯日和ですね梅雨で溜まった洗濯..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:41:00+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-14" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-12.html" rel="bookmark">梅雨に洗濯物を上手く乾かすコツ！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:41:00+09:00">2010&#24180;8&#26376; 9&#26085; 10:41</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-12.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-12.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(14)" id="scoring-id-14" class="scoring">
+        <span id="scoring-vote-14" class="scoring-vote">票</span>
+        <span id="scoring-score-14" class="scoring-score">0</span>
+        <span id="scoring-score-label-14" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p>おはようございます（･∀･)<img src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" /><br /><br />今日は久々の晴天でお洗濯日和ですね<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br />梅雨で溜まった洗濯物を片付けるのに最適ですね<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br /><br />しかし今日は平日。<br />お仕事でなかなかお洗濯できない方も多いと思います(&gt;_&lt;)<br /><br /><br />最近私は、週末は雨、平日は夜に部屋干し。<br />でも、この梅雨の時期、<span style="COLOR: #0000ff" mce_style="color: #0000ff;">部屋に洗濯物を干すと、<br />カビの量が1.5倍にも増えるそうです</span><img src="http://parts.blog.livedoor.jp//img/emoji/ic_face_cry.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_face_cry.gif" /><br /><br />しかし、浴室乾燥機や、洗濯機の<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">乾燥機は1回100円</span>ほどの電気代が掛かります。これを毎日となると、経済的にも、環境的にもエコじゃないですよね...<img src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" /><br /><br />そこで、<span style="COLOR: #ff0000" mce_style="color: #ff0000;">梅雨期の部屋干しでも洗濯物を早く乾かすコツ</span>を調べてみました。<br /><br /><br />まず、干す場所は窓の近くで、干すときは窓を少しでも開けて、カーテンに洗濯物があたらないようにします。<br /><br />しかし、留守中窓を開けておけないという方は、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">実は浴室が洗濯物干し場に適しています。</span><br />浴室なら普通の部屋と違って、床や壁に湿気がついても、大丈<a href="http://livedoor.blogimg.jp/shinwahome/imgs/d/0/d07d57cc.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/d/0/d07d57cc.jpg"><img class="pict" border="0" hspace="5" alt="5453" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/d/0/d07d57cc-s.jpg" width="160" height="120" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/d/0/d07d57cc-s.jpg" /></a>夫だし、換気扇があります。<br /><br />洗濯機を回しているときから、換気扇を回しておき（30分くらい）、干してからも回すといいです。<br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">そして、とても早く乾かす方法として、<br />便利なのが扇風機です！</span><br /><br /><br />「洗濯物を乾かすのに扇風機？」と思われるかもしれませんが、これがかなりの威力を発揮してくれます。<br /><br />ある実験で、濡れた同じタオルを使い、左側のタオルにだけ扇風機の風があたるようにし、右側のタオルには風が当たらないようにしました。<br /><br />実験の結果、左側のタオルは20分経った時点で触っても湿った感じはなく、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">30分で完全に乾いていました</span>。一方、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">右側のタオルは5時間経過してもなんとなく湿った感じのまま</span>という実験結果だったそうです。<br /><br />扇風機は家電の中でも消費電力が少なく、1時間につき1円前後。乾燥機などに比べると大きな差がでます。<br /><br />扇風機で乾かす時も湿った空気の逃げ道を作るべく、窓際に洗濯物を置いて窓をあけておいたり、<br />浴室で使う場合も換気扇を回しながら、下から扇風機の風をあてるようにすれば早く乾きます。<br /><br />それでも換気扇と扇風機の<span style="COLOR: #ff0000" mce_style="color: #ff0000;">電気代で1時間2円以下</span>、4?5時間で1回の洗濯物を乾かすことができるので省エネになります。<br /><br />また、部屋干するとき、湿気を吸い取る新聞紙を洗濯物の下に丸めておくと早く乾いたり、炭の袋をおくと早く乾き、臭いも取ってくれます☆<br /><br /><br />ちょっとした工夫で、じめじめした時期でも快適エコライフをおくりましょう<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" />（*´∀｀）</p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000013"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/12"
+    dc:title="新！片付け術！！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000013"
+    dc:subject=""
+    dc:description="最近読んだ本で、「新・片づけ術「断捨離」 やました ひでこ」というのがあります。..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:24:26+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-13" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-11.html" rel="bookmark">新！片付け術！！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:24:26+09:00">2010&#24180;8&#26376; 9&#26085; 10:24</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-11.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-11.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(13)" id="scoring-id-13" class="scoring">
+        <span id="scoring-vote-13" class="scoring-vote">票</span>
+        <span id="scoring-score-13" class="scoring-score">0</span>
+        <span id="scoring-score-label-13" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            最近読んだ本で、<br />「<a href="http://www.amazon.co.jp/%E6%96%B0%E3%83%BB%E7%89%87%E3%81%A5%E3%81%91%E8%A1%93%E3%80%8C%E6%96%AD%E6%8D%A8%E9%9B%A2%E3%80%8D-%E3%82%84%E3%81%BE%E3%81%97%E3%81%9F-%E3%81%B2%E3%81%A7%E3%81%93/dp/4838720521/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1277116013&amp;sr=8-1" mce_href="http://www.amazon.co.jp/%E6%96%B0%E3%83%BB%E7%89%87%E3%81%A5%E3%81%91%E8%A1%93%E3%80%8C%E6%96%AD%E6%8D%A8%E9%9B%A2%E3%80%8D-%E3%82%84%E3%81%BE%E3%81%97%E3%81%9F-%E3%81%B2%E3%81%A7%E3%81%93/dp/4838720521/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1277116013&amp;sr=8-1"><span style="FONT-FAMILY: Arial; COLOR: #003399" mce_style="font-family: Arial; color: #003399;">新・片づけ術「断捨離」</span></a> <span class="ptBrand">やました ひでこ</span>」<br /><br />というのがあります。<br /><br />これは、よくある収納術とか、掃除の仕方の<br />マニュアル本ではありません。<br /><a href="http://livedoor.blogimg.jp/shinwahome/imgs/a/2/a23d2dcc.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/a/2/a23d2dcc.jpg"><img class="pict" border="0" hspace="5" alt="412l-KAVuGL__SL500_AA300_" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/a/2/a23d2dcc-s.jpg" width="160" height="160" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/a/2/a23d2dcc-s.jpg" /></a><br /><br />片付けというものを、「思考」<br />からかえるのです。<br /><br /><br />私は片づけが大嫌いで...<br />なかなか片付かないのですが、<br /><br /><br />これを読んだとたん、<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">片付けたくて片付けたくてしょうがなくなりました</span>(｡･ω･)ﾉﾞ<br /><br /><br />いらないものといるものを徹底的に分ける！！<br />いるものには<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「まだ使えるから」</span>とか<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「もったいない」</span>とか<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「もらい物だから」<br /></span>という今までの概念は全て捨て払って、<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「今現在自分が使うか使わないか」</span><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「使わないなら、捨てる。<br />人に貰って捨てにくいものなら、自分より<br />必要としている人に貰ってもらう」</span><br /><br />私も、人に貰ったものは手放しにくかったのです...。。<br /><br />しかしこれを読んで、<br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「貰ってもどうしていいかわからず、処分にも困っていることをあげた本人が知ったら、すごく悲しむでしょう。それよりももっと必要としている人に譲ってあげたほうが、相手にも物にもいいでしょう」<br /></span><br />ということが書いてあり、なるほど！と思いました☆<br /><br /><br />また、究極に片付いているお勧めの状態とは、<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">?押入れの中が7割<span style="COLOR: #000000" mce_style="color: #000000;">（3割は出し入れできる余裕の空間を残しておくこと）<br /></span>?飾りだなは5割<br />?オブジェは1割<br /></span><br />「これは同じブランドのバッグでもセールでかごに詰め込まれているよりも<br />美しい棚に、少しづつ飾られているほうが、価値があるように見えるのと同じ」とあって、なるほどと思いました！<br /><br />さらに、本当の片付けとは、<br />「位置や形を変えるのではなく、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">家の外に出すこと</span>」<br />これでやっと、家の中の要らないものの量が減るわけです<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br /><br /><br />私はこれを読んでるそばから、<br />一気にクローゼットの中を捨てまくりました<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_smile.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_smile.gif" /><br /><br />そして、捨てて、部屋の中の<br />「要らないもの質量が下がった」かと思うと、<br />快感になり、<span style="COLOR: #0000ff" mce_style="color: #0000ff;">他にも捨てられるものは無いかとそればかり探しています</span><img src="http://parts.blog.livedoor.jp//img/emoji/ic_cat02.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_cat02.gif" /><br /><br />完全に「断捨離」にはまっています(｡･ω･｡)...「ダンシャリアン」です<img src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" /><br /><br /><br />この本、私のように普段なかなか物を捨てられず、<br />溜め込んでしまう片にお勧めです<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br />毎日家をすっきりさして、さらに快適な暮らしをしましょう<img src="http://parts.blog.livedoor.jp//img/emoji/ic_cat02.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_cat02.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000012"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/11"
+    dc:title="住宅ローン、どれがお得！？"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000012"
+    dc:subject=""
+    dc:description="━─━─━─━─━─━─━─━─━─━─?安心といえば固定金利　　固定金利でお得..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:11:07+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-12" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-10.html" rel="bookmark">住宅ローン、どれがお得！？</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:11:07+09:00">2010&#24180;8&#26376; 9&#26085; 10:11</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-10.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-10.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(12)" id="scoring-id-12" class="scoring">
+        <span id="scoring-vote-12" class="scoring-vote">票</span>
+        <span id="scoring-score-12" class="scoring-score">0</span>
+        <span id="scoring-score-label-12" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p><strong>━─━─━─━─━─━─━─━─━─━─<br /><br />?安心といえば固定金利<br />　　固定金利でお得なフラット35Ｓとは<br /><br /></strong><span style="COLOR: #000000" mce_style="color: #000000;">「フラット35」とは、<br />住宅金融支援機構（旧住宅金融公庫）が提供する住宅ローン。<br /><br />そのなかで「フラット35Ｓ」とは<br />省エネルギー性などに優れた住宅（<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">長期優良住宅</span>）を取得する場合に、<br />フラット35の金利が一定期間引き下げられる制度です。<br /><br />金利引き下げ幅が、当初10年間が現在の<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">-0.3％から-1.0％に拡大されました。<br /></span><br />2010年1月現在、フラット35の最多金利（取扱金融機関が提供する金利で最も多いもの）は次のとおりです。<br /><br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">・返済期間が21年以上35年以下の場合　2.82％</span><br /><br /></span><br /><br />仮に35年でローンを組む場合、適用金利はどのようになるのか。<br />最多金利の2.82％を使って、タイプ別に見ると、次の表のようになります。<br /></p>
+<div class="center400 article_image_box"><a class="slide_image" title="フラット35S" href="http://img.allabout.co.jp/gm/article/b/22419/20100115a.gif" rel="allabout-gallery" mce_href="http://img.allabout.co.jp/gm/article/b/22419/20100115a.gif"><img class="article_image" alt="フラット35S" src="http://img.allabout.co.jp/gm/article/22419/20100115a.gif" width="400" height="300" mce_src="http://img.allabout.co.jp/gm/article/22419/20100115a.gif" /></a><br /><br />ご存じのとおり、現在の住宅ローン金利は超がつく低金利。<br /><br />そのために、民間金融機関の変動金利タイプであれば１％を切る水準で提供されているという事実があります。<br /><br />しかし、忘れてはならないのは、変動金利はあくまでも<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「先々の金利がどうなるかわからない」ということ。その点、フラット35は、「返済終了までの金利がわかっている」という安心感があります。<br /></span>どの金利タイプが向いているかはケースバイケースですが、<br />フラット35Sの対象になるのなら、大いに利用を検討する価値があるでしょう。<br />住宅金融支援機構ＨＰ→<a href="http://www.flat35.com/" mce_href="http://www.flat35.com/">http://www.flat35.com/</a><br /><br /><br /><br /><br /><br /><br />━─━─━─━─━─━─━─━─━─━─<br /><strong><br />?安いといえば変動金利<br /><br /><br /></strong><br />前項で「民間金融機関の変動金利タイプであれば１％を切る水準で提供されているという事実があります。」と書きましたが、<br /><br /><br />変動金利で気になるのは<span class="fc_green"><strong>今後の金利見通し</strong></span>です。<br />今後の金利見通しは一体どうなのでしょうか？<br /><br />「<span class="fc_green"><strong>当面、金利は上昇しない</strong></span>」と言われています。<br />世界的な景気低迷の余波が続く状況の中では、<br />政府も日銀も当面、金利をあげることはしないでしょうし、<br />（<span class="fc_green"><strong>金利が上昇すると景気が悪化します</strong></span>）、<br />また中長期的に見ても、日本は少子高齢化により<br />景気が回復しにくい状況になっています。。<br /><br />当面、景気の本格的な回復は考えにくく、<br />仮に景気が回復したとしても、極めて限定的な回復状況にとどまるでしょう。<br /><br />ちなみに日本の長期金利の推移を見てみると以下のとおりです。この<span class="fc_green"><strong>１０年で一度も２％</strong></span>を超えていないことが分かります。日本は極めて金利が上昇しにくい経済構造になってしまっているのですね。<br /><br /><br /><img alt="" src="http://www.bb.jbts.co.jp/data/images/graph_10y.gif" width="360" height="196" mce_src="http://www.bb.jbts.co.jp/data/images/graph_10y.gif" /><br /><br /><br /><br /><br /><br /><br /><br />━─━─━─━─━─━─━─━─━─━─<br /><br /><br /><strong>?各社独自のサービス<br /></strong><br /><br /><br />また最近は、オール電化の新築にすると金利が下がる、住宅ローン<br />なども登場しています。（みずほ銀行）<br />詳しくは下記サイトで↓<br /><br /><a href="http://www.clearpass.co.jp/personal/03/personal_service3_1.html" mce_href="http://www.clearpass.co.jp/personal/03/personal_service3_1.html">http://www.clearpass.co.jp/personal/03/personal_service3_1.html</a><br /><br /><br /><br /><br />━─━─━─━─━─━─━─━─━─━─<br /><br />このように、住宅ローンには<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「固定型」、「変動型」、</span>またそれを合わせた<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「ミックス型」、</span>その他各社で工夫されたものなどいろいろあります。<br /><br />自分にあったものを選ぶのが大切です。<br /><br />でもローンって難しいもの...各社の比較も一人ではなかなかできません。<br />そんなときは御気軽にご相談ください(｡･ω･)ﾉ<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /></div>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000011"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/10"
+    dc:title="お得情報?！！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000011"
+    dc:subject=""
+    dc:description="本日は知らなきゃ損！知って得するお話です。家を買う際、土地代や、オプションやグレ..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:08:09+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-11" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-9.html" rel="bookmark">お得情報?！！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:08:09+09:00">2010&#24180;8&#26376; 9&#26085; 10:08</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-9.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-9.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(11)" id="scoring-id-11" class="scoring">
+        <span id="scoring-vote-11" class="scoring-vote">票</span>
+        <span id="scoring-score-11" class="scoring-score">0</span>
+        <span id="scoring-score-label-11" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p class="attention">本日は知らなきゃ損！知って得するお話です。<br /><br /><br />家を買う際、土地代や、オプションやグレードのアップで<br />なかなか当初予定していた金額内に収まらなくなってくる<br />ことは多々ありますよね。<br />家は一生の買い物ですから、そのようにとことんこだわりたくなるものです。<br /><br />しかし、融資の問題も出てきます。<br />もう少し融資がおりれば、夢に手が届くのに...<br /><br />諦めるのはまだ早い！<br />そんなあなたに、今年は大チャンスです<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br /><a href="http://livedoor.blogimg.jp/shinwahome/imgs/1/b/1b63e424.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/1/b/1b63e424.jpg"><br /><br /><img class="pict" border="0" hspace="5" alt="図1" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/1/b/1b63e424-s.jpg" width="159" height="114" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/1/b/1b63e424-s.jpg" /></a>平成22年度の税制改正で、<br />住宅取得等資金の贈与の非課税限度額が引き上げられました。</p>
+<p class="attention"><a href="http://allabout.co.jp/info/disclaim/disclaim.htm" mce_href="http://allabout.co.jp/info/disclaim/disclaim.htm"></a>&nbsp;</p><a href="http://allabout.co.jp/info/disclaim/disclaim.htm" mce_href="http://allabout.co.jp/info/disclaim/disclaim.htm"></a><!-- articleTitleWire end -->
+<h3 class="articleMainWire"><span style="COLOR: #ff0000" mce_style="color: #ff0000;">22年の非課税限度額は1,500万円 
+<p class="attention"><a href="http://allabout.co.jp/info/disclaim/disclaim.htm" mce_href="http://allabout.co.jp/info/disclaim/disclaim.htm"><span style="COLOR: #0044cc; FONT-SIZE: xx-small" mce_style="color: #0044cc; font-size: xx-small;"><br /></span></a></p></span><font color="#000000">　　</font></h3>
+<div style="TEXT-ALIGN: left" class="articleMainWire" mce_style="TEXT-ALIGN: left"><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;"><span style="COLOR: #ff0000" mce_style="color: #ff0000;">・平成22年中に贈与を受けた人は1,500万円<br />・平成23年中に贈与を受けた人は1,000万円</span><br /></span><br /><br />贈与税の基礎控除<span style="COLOR: #0000ff" mce_style="color: #0000ff;">110万円</span>との併用を考えるのであれば、<br />平成22年中の贈与なら<span style="COLOR: #ff0000" mce_style="color: #ff0000;">1,610万円</span>まで、<br />平成23年中の贈与であれば<span style="COLOR: #ff0000" mce_style="color: #ff0000;">1,110万円</span>まで<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">贈与税がかからないことになります。<br /></span><br />※贈与されたお金は、「住宅取得等資金」に使うことが条件です。<br /><br /><br /><br />相続時精算課税との併用であれば（<span style="COLOR: #0000ff" mce_style="color: #0000ff;">下記参照</span>）、<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;">プラス2,500万円の適用が可能</span>となります。<br /><br /><br /><br /><br />━─━─━─━─━─━─━─━─━─━─<br /><strong>普段掛かる贈与税額とは<br /></strong><br />親の生前に300万円をそのまま受け取ると贈与です。<br />贈与税は以下のように計算します。<br />（300万円−年間控除額<span style="COLOR: #0000ff" mce_style="color: #0000ff;">110万円</span>）×10％＝19万円<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">年間110万円までの贈与は課税されないため</span><br />100万円ずつ3年に分けて受け取れば贈与税は発生しません。<br /><br /><br />相続時精算課税制度とは<br />親65歳以上、子供20歳以上という条件付きで<br />生前贈与されたときに税務署で手続きすれば<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">2500万円まで非課税</span>、それを超えた分に一律20％課税されます。<br /><br />━─━─━─━─━─━─━─━─━─━─<br /><br /><br /><br /><br /><br />もし家を買う際、親御さんの援助が得られるのであれば、<br />普段はとても多く掛かる贈与税が、<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">今年はものすごく免税される大大チャンスの年です<img src="http://parts.blog.livedoor.jp//img/emoji/ic_biccuri02.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_biccuri02.gif" /></span><br /><br /><br />ローンを組むより、贈与のほうがよければ、一度ご相談されてみてはいかがでしょうか？(*´∇｀*)/</div>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000010"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/9"
+    dc:title="一人っ子政策の行く末..."
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000010"
+    dc:subject=""
+    dc:description="6/14のニュースでこんな衝撃的な記事がありました。「結婚から２５分で離婚も....."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:05:53+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-10" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-8.html" rel="bookmark">一人っ子政策の行く末...</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:05:53+09:00">2010&#24180;8&#26376; 9&#26085; 10:05</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-8.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-8.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(10)" id="scoring-id-10" class="scoring">
+        <span id="scoring-vote-10" class="scoring-vote">票</span>
+        <span id="scoring-score-10" class="scoring-score">0</span>
+        <span id="scoring-score-label-10" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p>6/14のニュースでこんな衝撃的な記事がありました。<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「結婚から２５分で離婚も...中国の１人っ子世代」<br />　　<br /><br />中国の都市部に住む１９８０年代生まれの「一人っ子」世代の間で、<br />「閃婚」「閃離」といわれるスピード結婚・離婚が目立っている。<br /><br />離婚理由の大半は<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「性格の不一致」などで、忍耐力がなく自己中心的な、この世代特有の衝動的な結婚が原因とみられる。</span><br /><br />友人の紹介により、<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">５時間ほど電話で話しただけで結婚を決め、４日以内に結婚するなど、</span>衝動型のカップルの中にスピード離婚が圧倒的に多いという。<br /><br />「食後、夫が食器の洗い物をしてくれない」など単純な離婚理由も少なくない。<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">午前中に結婚手続きを済ませた夫婦が昼食会に出席した両家の父親の席順をめぐって口論となり、午後、離婚するケースもあった。<br /></span></span><br /><br />とのことです...。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" /><br /><br /><br />なんとも衝撃的。<br /><br />この中国の一人っ子政策は、その他にもいろいろな影響をもたらしているとたまにニュースで耳にしますが。。。<br /><br /><br />そこで改めて強く感じるのが、兄弟や家族の存在の大切さ。<br /><br /><br />子どもは幼いときの兄弟とのかかわりで、我慢することや、譲り合うこと、相手の立場にたって考えることを学んでいきます。<br /><br />　また、子どものほんとうの意味での「頭がいい」とは、<br />勉強ができることではなく、<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">いかに相手の立場にたって考<span style="COLOR: #000000" mce_style="color: #000000;"><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">えれる</span><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">か</span>だと思います。</span></span><br /><br />そうじゃないと、どんなに勉強して、大学に行って、就職しても<br />お客様の立場に立って考えられなければ、業績は伸びません。<br /><br />更に、仲間同士協力し合える人間でなければ、会社内で潰し合いがおきては会社が成長しません。<br /><br />もちろん結婚しても上手くいきづらくなります。<br /><br />こういった意味で<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「相手の立場にたって考えられるコミュニケーション能力」<br />は勉強よりも将来大切になってきます。</span><br /><br />弊社の設計する住宅では、この<span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「コミュニケーション能力」を<br />自然に身につけられるような、家の間取り</span>を提供しています。<br />その他、こどもが本当に「頭がよくなる」工夫を随所に盛り込んだ<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「頭のよくなるこが育つ家」</span>など、<br /><br />家というハード面から、家族とお子さんが幸せになれるお手伝いを常に考えています(*'∇'*)/<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br />実は家の間取りは、家族関係にとても大きな影響を与えているのです。<br />皆さんも家作りのときは、そういった点も考慮してお考え下さいね(#^.^#)<img src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" /><br /><br /><br /><br /></p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000009"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/8"
+    dc:title="何とかならないのかな、この日差し..."
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000009"
+    dc:subject=""
+    dc:description="最近あっついあっついですね(&amp;gt;_&amp;lt;)毎朝会社に着くと、汗だくの大林で..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:04:43+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-9" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-7.html" rel="bookmark">何とかならないのかな、この日差し...</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:04:43+09:00">2010&#24180;8&#26376; 9&#26085; 10:04</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-7.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-7.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(9)" id="scoring-id-9" class="scoring">
+        <span id="scoring-vote-9" class="scoring-vote">票</span>
+        <span id="scoring-score-9" class="scoring-score">0</span>
+        <span id="scoring-score-label-9" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            最近あっついあっついですね(&gt;_&lt;)<img src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" /><br /><br />毎朝会社に着くと、汗だくの大林です<img src="http://parts.blog.livedoor.jp//img/emoji/ic_face_think.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_face_think.gif" /><br /><br />暑いだけならまだしも、日焼けが怖いです...<img src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" /><br />最近はオゾン層の破壊のせいか、年々日に焼けやすい気がします。<br /><br /><br />私は海が好きなので、毎年海に行ったら必ず焼けてしまうので、<br />普段もあまり気にしていなかったんですが...<br /><br /><br />徹底的に年中日焼け対策をしている友達の肌の綺麗さや<br />あと20年位したらシミになるというのをリアルに感じると...<br /><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">今年から絶対に焼かない！！と心に決めました！<br /></span><br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">室内でも日焼け止め！<br />外は必ず日傘！（←でもこれよく忘れます<img src="http://parts.blog.livedoor.jp//img/emoji/ic_taraaa.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_taraaa.gif" />）<br />目が紫外線を感じると肌も色素を増すので、ＵＶカットのサングラス！<br />でもサングラスが全然似合わないので、ＵＶカットのコンタクトレンズ！<br /></span><br />...しかしまだまだ意識が徹底できずにすでに焼けてきています(^_^;)<br /><br /><br />でも頑張って、今年こそ色黒脱出を目指します！<br /><br /><br />そんなとき、部屋でも焼けるなんて...<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">ガラスってどれぐらいのＵＶ透過率なんだろう<br /></span>と思って、調べてみました。<br /><br /><br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="COLOR: #000000" mce_style="color: #000000;">?</span>普通の単板ガラスで60％<br /></span>くらい紫外線を透過しているそうです。<br /><br />今多くなった<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="COLOR: #000000" mce_style="color: #000000;">?</span>ペアガラス（ガラスが2重になったもの）で40％</span>くらい<br /><br />そして、最近エコポイント対象工事で使われる<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="COLOR: #000000" mce_style="color: #000000;">?</span>low-Ｅガラスのペアガラスで25％</span>くらいだそうです。<br /><br />
+<table class="mceItemTable" border="0">
+<tbody>
+<tr>
+<td width="239"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><strong><span style="COLOR: #808080" mce_style="color: #808080;">◆LOW-Eガラスとは</span></strong></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">LOW EMISIVITY(低反射)の略。</span></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">ガラスの表面に特殊なｺｰﾃｨﾝｸﾞ処理(金属</span></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">及びその酸化物等で構成された非常に薄い</span></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">膜)をし、熱の伝達をにしくくする働きを</span></span></span></td></tr>
+<tr>
+<td height="5" width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">しています。</span></span></span></td></tr>
+<tr>
+<td height="5" width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">・LOW-Eの目的</span></span></span></td></tr>
+<tr>
+<td width="250"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">可視光線を生かして赤外線、紫外線を防ぐ。</span></span></span></td></tr>
+<tr>
+<td height="5" width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">・LOW-Eの効果</span></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">短波長の太陽放射熱を室内に取り入れる。</span></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">長波長の室内からの暖房熱は室内側に</span></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">反射して外に逃がさない特殊な性能を</span></span></span></td></tr>
+<tr>
+<td width="239"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="FONT-SIZE: x-small" mce_style="font-size: x-small;"><span style="COLOR: #808080" mce_style="color: #808080;">もっている。</span></span></span></td></tr></tbody></table><a href="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0feb7b8d.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0feb7b8d.jpg"><img class="pict" border="0" hspace="5" alt="pf-zu-01" align="right" src="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0feb7b8d-s.jpg" width="160" height="92" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/0/f/0feb7b8d-s.jpg" /></a><br />また、<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="COLOR: #000000" mce_style="color: #000000;">?</span>low-Eを使ったトリプルガラス<br />（ガラスが3層になったもの）だと11％<br /></span>の透過率だそうです。<br />※トリプルガラスは日本では「カーサソーレ」の住宅のみに<br />特別使用されています！<br /><br />また、<br /><span style="COLOR: #ff0000" mce_style="color: #ff0000;"><span style="COLOR: #000000" mce_style="color: #000000;">?</span>ＵＶカットシートだと1％の透過率<br /></span>だとか！<br /><br /><br />これらを使って、なんとか室内だけでも紫外線を気にせず暮らしたいものです。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_face_relief.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_face_relief.gif" /><br /><br />それに紫外線をカットすると、家具やフローリング、畳の色あせも防げるので、いつまでも新居の美しさを保てます<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br />人も家もＵＶカットの時代ですね?(´ω｀)<br />あなたは何ガラスを選びますか？<br /><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">さらにペアガラスやLOW-Eガラスにすると断熱効果ももちろんアップし、<br />光熱費がかなり変わりますよ！！！<br /></span><br /><br />そして窓の改築はエコポイントのつく今しかないと私は思います！<br /><br />だって、ここ最近毎日暑くて暑くてたまらないんだもの...(^_^;)<br />あ?焼ける前に今すぐしたーーーい！！<img src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" />(&gt;_&lt;)/
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000008"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/7"
+    dc:title="エコエコエコ♪"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000008"
+    dc:subject=""
+    dc:description="最近ＣＭでも聞かない日はなくなった「エコ」ちょっと前まで「レジ袋削減」とか、一部..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:02:53+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-8" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-6.html" rel="bookmark">エコエコエコ♪</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:02:53+09:00">2010&#24180;8&#26376; 9&#26085; 10:02</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-6.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-6.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(8)" id="scoring-id-8" class="scoring">
+        <span id="scoring-vote-8" class="scoring-vote">票</span>
+        <span id="scoring-score-8" class="scoring-score">0</span>
+        <span id="scoring-score-label-8" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            最近ＣＭでも聞かない日はなくなった<br />「エコ」<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br /><br />ちょっと前まで「レジ袋削減」とか、<br />一部でしかない意識のように感じていましたが、<br />もう今では国をあげて企業をあげて、<br />世界中でエコエコエコですね！<img src="http://parts.blog.livedoor.jp//img/emoji/ic_recycl.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_recycl.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" /><br /><br />最近気になったのが<br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">「芯がいらないホッチキス」<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /></span><br />どんなものかと思ったら、紙の一部を切り取ったようなカタチで<br />半分を切り取った紙を折り返して止めるものでした。<br /><br />紙に穴が開くのか?と一瞬思いましたが、<br /><span style="COLOR: #ff99cc" mce_style="color: #ff99cc;"><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;"><span style="COLOR: #000000" mce_style="color: #000000;">これが主流になると、誰も紙の穴など気にしなくなって、</span><br />オフィスの床の隅にたまっているホッチキスの芯が消えるのかな！<br />と思うとエコってすごいですね！</span><br /></span><br />こうして各分野の企業がそれぞれ自分の会社でできる技術でエコを<br />考えていくと、全世界で積もりに積もって、大きなエコになり、<br />地球の未来はきっと明るいはず！<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br />そんな各社が各分野で研究開発している中、<br /><strong><span style="COLOR: #003300" mce_style="color: #003300;"><span style="BACKGROUND-COLOR: #888888" mce_style="background-color: #888888;"><span style="COLOR: #0000ff" mce_style="color: #0000ff;"><span style="BACKGROUND-COLOR: #ffffff" mce_style="background-color: #ffffff;">大きなＣＯ2の発信源である住宅をエコできれば、<br />これは大きな社会貢献になれるので、とても光栄なことです！</span></span></span></span></strong><br /><br /><br />そこで、研究に研究を重ね、ＣＯ2を出さない、<br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">「光熱費ゼロの家」</span>を完成させました！<br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">一般家庭の光熱費の平均2万円が<br />0円になれば<br />35年間で840万円もの差が！！<br /></span><br />こう考えると光熱費ってもったいですよね(^_^;)<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">さらに、年間</span><span style="FONT-SIZE: medium" mce_style="font-size: medium;"><span style="FONT-FAMILY: HGPｺﾞｼｯｸM; mso-hansi-font-family: Verdana; mso-bidi-font-family: 'ＭＳ Ｐゴシック'; mso-ansi-language: EN-US; mso-fareast-language: JA; mso-bidi-language: AR-SA" lang="EN-US" mce_style="font-family: HGPｺﾞｼｯｸM; mso-hansi-font-family: Verdana; mso-bidi-font-family: 'ＭＳ Ｐゴシック'; mso-ansi-language: EN-US; mso-fareast-language: JA; mso-bidi-language: AR-SA;"><span style="COLOR: #0000ff" mce_style="color: #0000ff;">2482m<sup>2</sup></span></span><span style="FONT-FAMILY: HGPｺﾞｼｯｸM; mso-hansi-font-family: Verdana; mso-bidi-font-family: 'ＭＳ Ｐゴシック'; mso-ansi-language: EN-US; mso-fareast-language: JA; mso-bidi-language: AR-SA" mce_style="font-family: HGPｺﾞｼｯｸM; mso-hansi-font-family: Verdana; mso-bidi-font-family: 'ＭＳ Ｐゴシック'; mso-ansi-language: EN-US; mso-fareast-language: JA; mso-bidi-language: AR-SA;"><span style="COLOR: #0000ff" mce_style="color: #0000ff;">もの森林と同じだけの<br />二酸化炭素削減効果があります！</span></span></span><br /><br />ここに住むだけで、地球を助け、お財布もエコ♪<br /><br />すばらしい?<img src="http://parts.blog.livedoor.jp//img/emoji/ic_b_heart.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_b_heart.gif" /><br /><br />今各業界からも大注目のこの家が「カーサ・ソーレ」です<img src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" /><br /><br />この家に住まなくても、このことを知っておくだけで、<br />かなり勉強になり、価値観が変わりますよーー(*´∇｀*)<br />そういった意味でお勧めです<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br /><br />詳しくはこちらで<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><a href="http://www.casasole.jp/" mce_href="http://www.casasole.jp/">http://www.casasole.jp/</a>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000007"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/6"
+    dc:title="家に炭とは？？？"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000007"
+    dc:subject=""
+    dc:description="今日はしとしと雨ですね植物にとって（もちろん動物にとっても）大切な雨とはわかって..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:02:07+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-7" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-5.html" rel="bookmark">家に炭とは？？？</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:02:07+09:00">2010&#24180;8&#26376; 9&#26085; 10:02</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-5.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-5.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(7)" id="scoring-id-7" class="scoring">
+        <span id="scoring-vote-7" class="scoring-vote">票</span>
+        <span id="scoring-score-7" class="scoring-score">0</span>
+        <span id="scoring-score-label-7" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            今日はしとしと雨ですね<img src="http://parts.blog.livedoor.jp//img/emoji/ic_spit.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_spit.gif" /><br /><br /><br />植物にとって（もちろん動物にとっても）大切な雨とはわかっていても<br />なんだかやる気が出な?いという方も多いのではないでしょうか？<br /><br />ましてやこれから梅雨の時期に入り毎日こんなのかと思うと、恐ろしいですね<img src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" /><br /><br />この梅雨のジメジメなんとかならないのか...<img src="http://parts.blog.livedoor.jp//img/emoji/ic_snail.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_snail.gif" /><br />ジメジメを放っておくと、カビの発生や、生乾きの洗濯物の嫌?な臭いの元になり嫌ですよね<img src="http://parts.blog.livedoor.jp//img/emoji/ic_face_cry.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_face_cry.gif" /><br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">このカビや臭いを、化学薬品の臭い取りや、機械換気を使わず、<br />健康に優しい自然の方法で取り除くことができます。</span><br /><br /><span style="COLOR: #ff00ff" mce_style="color: #ff00ff;">その方法が「炭」です。</span><br /><br />昔から様々な効果が知られています炭を、研究に研究を重ね<br />様々な空調データを取り、完成させた「炭」を袋に入れ、それを床下、天井裏に敷き詰めます。<br /><br />そうすることで、<br /><br /><span style="COLOR: #0000ff" mce_style="color: #0000ff;">空気中の湿気を吸い取り、乾いているときは潤わせます。（調湿作用）<br />さらに、空気中に余分な水分が無くなることで、カビが発生しなくなり、<br />今まで見えない所に潜むカビの胞子によるアトピーを発生させていた人のアトピーが改善されたり、<br />空気がカラッとすることで、健康にもよく、低体温が改善されたり、<br /><br />また、臭いはもちろん、洗濯物の生乾きの匂いや、トイレの臭いまですっきり！<br /><br />さらにさらに、2階のどすん音の軽減や、冬場の部屋の温度が2℃も上昇したり、断熱効果があるので、光熱費も削減できます。<br /></span><br />この健康や臭いの効果を活かして、老人ホームや、病院に使っています。<br />また、文化財の改修にも使用しています。<br /><br />やって損なしの炭リホーム！もちろん新築にも♪<br />個人的にもすごくお勧めです<img src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" />(｡･ω･｡)<br /><br />詳しくはHPでどうぞ<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br /><a href="http://www.sumi8.jp/main/index.html" mce_href="http://www.sumi8.jp/main/index.html"><br />http://www.sumi8.jp/main/index.html</a>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000006"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/5"
+    dc:title="家相・風水とは？"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000006"
+    dc:subject=""
+    dc:description="おはようございます最近咳風邪にかかってコンコンいっている大林です(^_^;)寝て..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:01:24+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-6" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-4.html" rel="bookmark">家相・風水とは？</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:01:24+09:00">2010&#24180;8&#26376; 9&#26085; 10:01</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-4.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-4.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(6)" id="scoring-id-6" class="scoring">
+        <span id="scoring-vote-6" class="scoring-vote">票</span>
+        <span id="scoring-score-6" class="scoring-score">0</span>
+        <span id="scoring-score-label-6" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            おはようございます<img src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_sun.gif" /><br /><br />最近咳風邪にかかってコンコンいっている大林です(^_^;)<br />寝てても自分の咳で目が覚めるので、たまったものじゃない(´･ω･｀)=3<br />頑張って早く治します<img src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" /><br /><br /><br />今日は風水の話をちょこっとします♪<br /><br /><br />風水風水と聞くと、「鬼門」とか「裏鬼門」とかがなんとなく浮かんでくると思います。<br /><br />また、この方位はご法度とか、縁起が悪いとか...なんかややこしく、自分の家がその縁起の悪い配置になっていたら直せないし、<br />「知ってしまうと気になるから知りたくない」<br />と思うかもしれませんが、そんなに難しく考えることはありません！(*'u'*)<br /><br /><br />昔は家の構造などから、暗い場所に水廻りを持ってきたらカビたり、汚くすると病気が発生したり、そうなりやすいので、鬼門として、そこを避けるようになったのですが、<br /><br />現在は住宅や設備の性能が上がり、それほど気にしなくても快適に暮らせるようになりました<img src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /><br /><br /><br />しかし、基本は基本。長年言い伝えられたことも確かなので、できるだけそれを踏まえて家づくりをするとさらにいいと思います<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br /><br /><br />しかし、風水の教えを全て踏まえると、<br />吹き抜けはだめ、中庭はだめ、など...<br />どうしても昔っぽい間取りになってしまいます...<img src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" /><br /><br />これではちょっと物足りない...。(´ω`；)<br /><br /><br />しかし、ただダメ、ダメというわけではなく、ちゃんと解決方法もあるのが風水です<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><br /><br /><br />たとえば吹き抜けは、<br />「東や東南の光がたくさん入るようにすれば良い」や、<br /><br />中庭は「シンボルツリーを植えるとよい」などなど...☆<br />（確かにどのモデルルームに行っても中庭にはシンボルツリーがあると思いませんか？）<br /><br />他にもいろいろあります<img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br /><br />このように前向きに風水をうまく取り入れ、快適で自分好みな住まいづくりをしてみてはいかがでしょうか？<img src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_cute.gif" />(*'▼'*)<br />
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000005"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/4"
+    dc:title="住宅の未来について「急げ?！太陽光発電」"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000005"
+    dc:subject=""
+    dc:description="6/2の日経新聞記事に「これからの新築住宅は太陽光発電とのセットが　57％になる..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T10:00:36+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-5" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-3.html" rel="bookmark">住宅の未来について「急げ?！太陽光発電」</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T10:00:36+09:00">2010&#24180;8&#26376; 9&#26085; 10:00</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-3.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-3.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(5)" id="scoring-id-5" class="scoring">
+        <span id="scoring-vote-5" class="scoring-vote">票</span>
+        <span id="scoring-score-5" class="scoring-score">0</span>
+        <span id="scoring-score-label-5" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <p><img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" />6/2の日経新聞記事に<br /><br />「これからの新築住宅は太陽光発電とのセットが　57％になる見込み」<br /><br />とあります。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_memo.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_memo.gif" /><br /><br /><br />今まではリフォームで太陽光を載せるのが一般的でしたが、<br />これからは新築に載せるのが常識になります。<br /><br />リフォームでは、屋根の向きや形状でどうしても、なかなか載せられないことが多々あります。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_feel_down.gif" /><br /><br />しかし新築では、家族人数やライフスタイルに合わせ<br />どれぐらいの電力が必要かによって太陽光パネルを載せられる屋根を設計できるので、とても楽ちん＆高効率です<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_house.gif" /><br /><br /><br /><br />*:--☆--:*:--☆--:*:--☆--:*:--☆--:<br /><br />さらに6/1の新聞記事では<br /><br />「電気・ガス代　3カ月連続　上昇」<br /><br />とあります。<br /><br /><br /><br />原油価格の上昇や、油田の流出も止まらない状況で、光熱費は非常に厳しい状態になっています。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_swirl.gif" /><br /><br />これから何十年も暮らしていく中で、さらなる光熱費の上昇は避けられないでしょう。<br /><br /><br /><br />・‥...━━━☆・‥...━━━☆・‥...━━━☆・‥...━━━☆<br /><br />そんな中、太陽光発電は、太陽という無限になくならないものを利用してクリーンに発電できます。<img src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_pikapika.gif" /><img src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_idea.gif" /><br />なので今、国や世界が急ピッチで普及を進めています。<br /><br /><br />近い将来、法律で設置を義務化される可能性もあります！<br /><br /><br /><br /><br /><br />この太陽光発電はメリットばかり<img src="http://parts.blog.livedoor.jp//img/emoji/ic_b_heart.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_b_heart.gif" /><br /><br />各家庭によって違いますが、とある家庭では<br />30年間で1000万円ものお得になるというシミュレーションもあります。<br />いっせんまんですよ！！(*^▼^*)<br /><br />（今払っている光熱費がほとんどなくなり、売電の収入が入るためです）<br /><br />この売電の収入は全国民の電気代に上乗せで徴収されるのだから、<br />太陽光、急いでつけなくちゃ損ですよ?(*^_^*)<br /><br />来年の契約から買い取り価格はどんどん下がっていきますので、今年の設置が一番お得です！<img src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_finger_ok.gif" /><br /><br /><br />今新築も、リフォームも太陽光取り付けさせていただいてるので、なんでも気軽にご相談くださいね<img src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" mce_src="http://parts.blog.livedoor.jp//img/emoji/ic_note.gif" /></p>
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000004"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/3"
+    dc:title="家づくりに重視すること...は人それぞれ♪"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000004"
+    dc:subject=""
+    dc:description="おはようございます☆昨日、今日はいい天気ですね♪天気がいいと洗濯物がよく乾くので..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T09:59:18+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-4" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-2.html" rel="bookmark">家づくりに重視すること...は人それぞれ♪</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T09:59:18+09:00">2010&#24180;8&#26376; 9&#26085; 09:59</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-2.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-2.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(4)" id="scoring-id-4" class="scoring">
+        <span id="scoring-vote-4" class="scoring-vote">票</span>
+        <span id="scoring-score-4" class="scoring-score">0</span>
+        <span id="scoring-score-label-4" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            おはようございます☆<br /><br />昨日、今日はいい天気ですね♪<br />天気がいいと洗濯物がよく乾くので助かります(*´∇｀*)/<br /><br />昨日は5回くらい洗濯機を回しました！<br />...ためてました(^_^;)<br /><br />最近いろんなところに家を見に行きます。<br />芦屋とか、モデルハウスとか...☆<br />モデルハウスは自然とお客様の目線になれるのでいろいろと勉強になりますね☆<br /><br />昨日丁度TV番組（エチカの鏡）で、芦屋の「ゲーテッドシティ」なるものを放送していましたが...すごい！<br /><br />分譲地一画が全てゲートに囲まれ、警備員常駐＆巡回の完全防犯シティ。<br />さらに全ての土地にクルーザーを着けられるマリーナ付き。&nbsp;<br /><br />土地購入の際には、ボートの会員になることが絶対条件で、<br />防犯対策にかかる共益費は一年間に100万。<br /><br />この分譲地は周辺地域の2倍の値段で、土地だけで1億とか、建物も合わせると5億とか...<br /><br />すごい世界でした（*^_^*）<br /><br />まるでドバイのよう。<br /><br />ターゲットを絞れば、需要もある！順調に（？）売れているようです。<br /><br />いろんな需要があるということで、<br />家づくりに取り掛かる際は、自分の家族が<br />家づくりに何を一番重要視するか、しっかりと考え直すことがとても大切だなと改めて感じました（´∀｀*)
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000003"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/2"
+    dc:title="前回紹介をいただきました、八木です☆"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000003"
+    dc:subject=""
+    dc:description="はじめまして！進和ホームの八木と申します♪前回の記事で紹介をいただきました、この..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T09:54:04+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-3" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-1.html" rel="bookmark">前回紹介をいただきました、八木です☆</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T09:54:04+09:00">2010&#24180;8&#26376; 9&#26085; 09:54</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-1.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post-1.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(3)" id="scoring-id-3" class="scoring">
+        <span id="scoring-vote-3" class="scoring-vote">票</span>
+        <span id="scoring-score-3" class="scoring-score">0</span>
+        <span id="scoring-score-label-3" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            <a href="http://livedoor.blogimg.jp/shinwahome/imgs/8/1/81a1fd84.jpg" target="_blank" mce_href="http://livedoor.blogimg.jp/shinwahome/imgs/8/1/81a1fd84.jpg"><img class="pict" border="0" hspace="5" alt="八木顔イラスト" align="left" src="http://livedoor.blogimg.jp/shinwahome/imgs/8/1/81a1fd84-s.jpg" width="125" height="120" mce_src="http://livedoor.blogimg.jp/shinwahome/imgs/8/1/81a1fd84-s.jpg" /></a>はじめまして！<br /><br />進和ホームの八木と申します♪<br /><br />前回の記事で紹介をいただきました、このブログを更新していくメンバーの一人です♪<br /><br />私は住宅事業において、営業や、チラシ・パンフレットの作成、プランの作成などを行っています。<br /><br />そして、進和ホームの住宅の中で特に『健康』と『デザイン』に特化している商品に携わっています☆<br /><br />?少しだけ自己紹介?<br />年齢･･･２４歳です☆入社３年目になります♪<br />出身･･･尼崎出身です☆ダウンタウンと一緒ですね♪<br />大学･･･福井大学の出身です☆福井って驚くほど何もないんです（＾＿＾；）<br />趣味･･･美術館めぐり☆←意外って言われます。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />&nbsp; 　　　　読書☆最近は住宅の本ばっかり!!東野圭吾さんの本が好き♪<br />　　　　　テニス☆大学のときからです♪<br /><br />なんかややこしくなりそうなので、このへんでやめておきますね☆（＾＿＾；）<br /><br />これから、暮らしに関することから、私のプライベートまで、どんどん更新していきますね♪<br /><br />ちょくちょく遊びにきてくださいねー♪
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000002"
+    trackback:ping="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-tb.cgi/1"
+    dc:title="はじめまして！"
+    dc:identifier="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/index.html#entry-000002"
+    dc:subject=""
+    dc:description="はじめまして！進和ホームの大林です♪&amp;nbsp;このたびブログを開設することにな..."
+    dc:creator="大林　由衣"
+    dc:date="2010-08-09T09:52:36+09:00" />
+</rdf:RDF>
+-->
+
+<div id="entry-2" class="entry-asset asset hentry">
+    <div class="asset-header">
+        <h2 class="asset-name entry-title"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post.html" rel="bookmark">はじめまして！</a></h2>
+        <div class="asset-meta">
+    <div class="user-pic">
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;amp;blog_id=1&amp;amp;id=3"><img
+        src="/r-shinwa.jp/cgi-bin/mt/mt-static/support/assets_c/userpics/userpic-3-100x100.png"
+        width="36" height="36" alt="user-pic" /></a>
+
+</div>
+
+    <span class="byline">
+
+        <span class="vcard author"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=view&amp;blog_id=1&amp;id=3">大林　由衣</a></span> (<abbr class="published" title="2010-08-09T09:52:36+09:00">2010&#24180;8&#26376; 9&#26085; 09:52</abbr>)
+
+    </span>
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post.html#comments" class="entry-meta-comments" title="コメント(0)">0</a>
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/post.html#trackbacks" class="entry-meta-trackbacks" title="トラックバック(0)">0</a>
+    <a href="javascript:void(0)" onclick="return mtScore(2)" id="scoring-id-2" class="scoring">
+        <span id="scoring-vote-2" class="scoring-vote">票</span>
+        <span id="scoring-score-2" class="scoring-score">0</span>
+        <span id="scoring-score-label-2" class="scoring-score-label">票</span>
+    </a>
+
+</div>
+
+
+    </div>
+    <div class="asset-content entry-content">
+
+        <div class="asset-body">
+            はじめまして！<br /><br />進和ホームの大林です♪<br /><br />&nbsp;このたびブログを開設することになり、記念すべき<br />第一回目の記事ということで、緊張しています(*´ω`*)<br /><br />私は進和ホームで、日々プランの作成や、チラシ・パンフレットの作成、<br />イベントの企画などを行っています。<br />そして、新商品　究極のエコの家「カーサ・ソーレ」　の担当をしています。<br /><br />趣味は音楽と、美術館巡り、旅行など♪<br />休日はインテリアショップや家具屋に行くのが大好きです☆<br />部屋のインテリアデザインが大好きで、<br />好きなインテリアデザイナーは森田恭通です。<br /><br /><br />そして無類の猫好きでもあります(=ﾟωﾟ=)m<br /><br />皆さんよろしくお願いします(*´∀｀*)<br /><br /><br />これから、<br /><br />住宅や暮らしに役立つ情報や、<br />日々の現場の進行状況や、<br />お勧めの建築や、ご飯屋や、<br />日々なんとなく思ったことまで&nbsp;<br /><br />楽しい内容を八木とともに、<br />毎日更新していきたいと思いますので<br />どうぞよろしくお願い致します (*'-'*)&nbsp;<br />たまにチェックして下さいね☆<br />&nbsp;
+        </div>
+
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+
+
+
+
+<div class="content-nav">
+    <div class="create-entry"><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/create-entry.html">新しいブログ記事を作成</a></div>
+
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/">ブログのホームページ</a> <span class="separator">|</span> 
+
+
+    <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブ</a>
+
+
+    <span class="separator">|</span> <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/09/">2010&#24180;9&#26376; &raquo;</a>
+
+</div>
+
+
+
+
+
+
+
+</div>
+                    </div>
+
+                    <div id="beta">
+    <div id="beta-inner">
+        
+
+        <div class="widget-archive widget-archive-category widget">
+    <h3 class="widget-header">カテゴリ</h3>
+    <div class="widget-content">
+    
+    </div>
+</div>
+
+
+
+
+    <div class="widget-archive-monthly widget-archive widget">
+    <h3 class="widget-header">月別 <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブ</a></h3>
+    <div class="widget-content">
+        <ul>
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/11/">2012&#24180;11&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/10/">2012&#24180;10&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/09/">2012&#24180;9&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/08/">2012&#24180;8&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/07/">2012&#24180;7&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/06/">2012&#24180;6&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/05/">2012&#24180;5&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/04/">2012&#24180;4&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/03/">2012&#24180;3&#26376; (1)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/02/">2012&#24180;2&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2012/01/">2012&#24180;1&#26376; (2)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/12/">2011&#24180;12&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/11/">2011&#24180;11&#26376; (7)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/10/">2011&#24180;10&#26376; (5)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/09/">2011&#24180;9&#26376; (6)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/08/">2011&#24180;8&#26376; (3)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/07/">2011&#24180;7&#26376; (7)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/06/">2011&#24180;6&#26376; (11)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/05/">2011&#24180;5&#26376; (4)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/02/">2011&#24180;2&#26376; (5)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2011/01/">2011&#24180;1&#26376; (4)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/12/">2010&#24180;12&#26376; (13)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/11/">2010&#24180;11&#26376; (6)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/10/">2010&#24180;10&#26376; (5)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/09/">2010&#24180;9&#26376; (7)</a></li>
+        
+    
+        
+            <li><a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/08/">2010&#24180;8&#26376; (27)</a></li>
+        
+        </ul>
+    </div>
+</div>
+        
+    
+
+
+
+<div class="widget-syndication widget">
+    <div class="widget-content">
+        <ul>
+            <li><img src="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-static/images/status_icons/feed.gif" alt="購読する" width="9" height="9" /> <a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/atom.xml">このブログを購読</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+<div id="gamma">
+    <div id="gamma-inner">
+        <div class="widget-about-this-page widget">
+    <h3 class="widget-header">
+
+        このアーカイブについて
+
+    </h3>
+    <div class="widget-content">
+
+        <p class="first">このページには、<strong>2010&#24180;8&#26376;</strong>に書かれたブログ記事が新しい順に公開されています。</p>
+    
+    
+        <p>次のアーカイブは<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/2010/09/">2010&#24180;9&#26376;</a>です。</p>
+    
+
+        <p>最近のコンテンツは<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/">インデックスページ</a>で見られます。過去に書かれたものは<a href="http://thumbsup.sakura.ne.jp/r-shinwa.jp/archives.html">アーカイブのページ</a>で見られます。</p>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+
+
+
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-inner">
+                    <div id="footer-content">
+                        <div class="widget-powered widget">
+                            <div class="widget-content">
+                                <span>Powered by <a href="http://www.sixapart.jp/movabletype/">Movable Type Pro</a></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript" src="http://thumbsup.sakura.ne.jp/r-shinwa.jp/cgi-bin/mt/mt-cp.cgi?__mode=score&amp;blog_id=1&amp;f=scored,count&amp;jsonp=mtScore_cb&amp;id=28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/*--ブログボックス表示--*/
+
+.blog_content{
+}
+.b_box{
+	overflow: hidden;
+	display: block;
+	width: 320px;
+	margin-left: 32px;
+	float: left;
+	color: #252525;
+}
+.b_box:first-child {
+	margin-left: 0;
+}
+.b_img {
+
+}
+.b_img img{
+	width: 100%;
+}
+.bt_box {
+	margin-top: 15px;
+}
+.bt_box h3 {
+	font-size: 1em;
+	font-weight: normal;
+}
+figcaption{
+	display: none;
+}
+.b_img img {
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+}
+@media screen and (min-width: 769px) {
+	.b_box:hover .b_img img {
+		opacity: 0.8;
+	    -moz-opacity: 0.8;
+	    filter: alpha(opacity=80);
+	}
+	.b_box:hover {
+		color: #2980c3;
+	}
+}
+  
+ /* ----------これからSP向けの変更を行います！------------------------------------------ */
+@media screen and (max-width: 768px) {
+/* ------------------------------------------------------------------------------- */
+	.b_box {
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+		border-bottom: 1px solid #ddd;
+	}
+	.b_box:last-child {
+		border: 0;
+	}
+	.b_box article {
+		overflow: hidden;
+		border: 0;
+		padding: 0;
+		background: transparent;
+		border-radius: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+	}
+	.b_box .b_img{
+		width: 30%;
+		float: left;
+		margin-right: 10px;
+		max-height: 110px;
+		overflow: hidden;
+	}
+	.bt_box {
+		margin: 0;
+	}
+}
+@media screen and (max-width: 480px){
+	.b_box .bt_box h4 {
+		font-size: 12px;
+	}
+	.b_box .bt_box span {
+		display: none;
+	}
+	.b_box .b_img{
+		max-height: 80px;
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 320px){
+
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+
+<!-- This is a demonstration of HTML5 goodness with healthy does of CSS3 mixed in -->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=shift_JIS" />
+    
+    <title>黒川雅之講演会「世界で一番住みたい家」</title>
+    			
+    <!--[if IE]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <!--[if IE 7]>
+    	<link rel="stylesheet" href="ie7.css" type="text/css" media="screen" />
+    <![endif]-->
+    
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.anchor.js" type="text/javascript"></script>
+    <script src="js/jquery.fancybox-1.2.6.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39987408-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+    <header> <!-- HTML5 header tag -->
+    
+    	<div id="headercontainer">
+    
+    		<h1><a class="introlink anchorLink" href="#intro">黒川雅之講演会</a></h1>
+    		
+    		<nav> <!-- HTML5 navigation tag -->
+    			<ul>
+    				<li><a class="introlink anchorLink" href="#intro">Intro</a></li>
+    				<li><a class="portfoliolink anchorLink" href="#portfolio">講演会情報</a></li>
+    				<li><a class="aboutlink anchorLink" href="#about">黒川雅之とは</a></li>
+    				<li><a class="contactlink anchorLink" href="#contact" onClick="_gaq.push(['_trackEvent', 'go-form-head', 'go-contact']);">お申込み</a></li>
+    			</ul>				
+    		</nav>
+    	
+    	</div>
+    
+    </header>
+
+    <section id="contentcontainer"> <!-- HTML5 section tag for the content 'section' -->
+    
+    	<section id="intro">
+    	
+    		<h2 class="intro"><strong>　</strong></h2>
+    		<p>
+    		
+    		<img src="images/top.png" width="900" height="243"  /><br>
+    		<br>
+    		究極の理想の家とは何か。<br>
+<br>
+この答えを探すために、私達は世界で活躍されている、建築家の黒川先生に協力を要請しました。<br><br>
+
+まず、東日本大震災を目の当たりにし、南海沖トラフへ不安を解消しうる耐震性。<br>
+次に、狭い土地でも、快適な住空間を作る方法。生活スタイルに合わせて変化をさせることのできる間取り。<br><br>無理をしなくても購入が可能な価格。<br><br>もちろん、建築家が自信を持って提供できるデザイン性。何かを得ようとすれば、これらのいずれかが失われます。<br>それが普通かも知れません。しかし、このすべてを満たす住宅の商品化にチャレンジをしました。<br><br>
+そして、その商品が遂に完成しました。この商品の完成を記念して、建築家・黒川雅之氏を迎え、「世界で一番住みたい家」セミナーを開催することにしました。<br><br>
+これから家づくりをお考えになる方に、一流の建築家が考える家づくりの基本的な考え方から、住まい方を知っていただくことで、将来のマイホームの考え方の参考になるはずです。<br><br>
+    		
+    		</p>
+    	<img src="images/64.jpg" width="300" height="225" />
+    	<img src="images/65.jpg" width="300" height="225" />
+    	<img src="images/66.jpg" width="300" height="225" />
+    	<img src="images/69.jpg" width="300" height="225" />
+    	<img src="http://www.r-shinwa.jp/wps/wp-content/uploads/2013/03/casa_vita_sim_01-300x225.jpg" width="300" height="225" />
+    	<img src="images/74.jpg" width="300" height="225" />
+    	<img src="images/75.jpg" width="300" height="225" />
+    	<img src="images/76.jpg" width="300" height="225" />
+    	<img src="images/7723.jpg" width="300" height="225" />
+
+
+    		
+    				
+    	</section>
+
+    	<section id="portfolio"> <!-- HTML5 section tag for the portfolio 'section' -->
+    	
+    		<h2 class="work">「世界で一番住みたい家」講演会</h2>
+    			
+    		<ul class="work">
+    		<p>
+    		<img src="images/BS12.jpg"  width="300" height="225" align="right" />
+    		<font color="red">※講演会は終了いたしました。<br>講演会でお配りした資料が若干数残っておりますので、ご興味のある方にお送りしています。</font>
+<br>  
+
+<s>
+講演：建築家  黒川雅之  氏<br>
+開催日　/2013年/4月14日  (日)<br>
+時間　　/14：00～16：30　　軽食付き<br>
+会場　　/進和ホーム株式会社  本社<br>
+費用　　/無料<br></s>
+
+    <br>		
+
+セミナー内容<br>
+・黒川雅之が考える住まい像　　　・世界で一番住みたい家とは<br>
+・地下を楽しむ方法　　　　　　　　　・変化への対応<br>
+<br>
+<br> 		    <font size="+3">
+資料のお申し込み・お問い合わせは、お電話又は<br>申し込みフォームからどうぞ<br>
+　　　お電話　：　072-259-0672<br>
+
+    		
+　　　↓フォームからお申込み↓</font><br><br>
+
+    		　　　<a href="http://ws.formzu.net/fgen/S86643839/" target="blank" onClick="_gaq.push(['_trackEvent', 'go-form-01', 'http://ws.formzu.net/fgen/S86643839/']);"><img src="images/10039448247.gif"  width="527" height="108" style="border-style:none;" ></a>
+    		
+    		</p> 
+
+    			<li>
+
+    			</li>
+    		</ul>
+    				
+    	</section>
+    			
+    	<section id="about"> <!-- HTML5 section tag for the about 'section' -->
+    	
+    		<h2 class="about">建築家    黒川雅之について</h2>
+    		
+    		<p>
+    		
+1937年愛知県生まれ。'67年に黒川雅之建築設計事務所を設立。<br>
+'68年第1回メンブレイン・デザイン・コンペ1等、'70年量産住宅国際競技設計1等ほか受賞多数。<br>
+'79年ニューヨーク近代美術館の"永久コレクション"に「GOMシリーズ」が選ばれる。<br>
+2001年株式会社デザイントープ設立。<br>
+'04～'09年まで金沢美術工学大学美術工芸研究科教授を務めた。<br>
+    		
+    	<img src="images/casa_vol3_H1.jpg" width="250" height="336" />
+    	<img src="images/vita01-2.jpg" width="250" height="336" />
+    	<img src="images/vita02-2.jpg" width="250" height="336" />
+
+    		
+    		
+    		
+    		<br></p>
+    	
+    	</section>
+    			
+    	<section id="contact"> <!-- HTML5 section tag for the contact 'section' -->
+    	
+    		<h2 class="contact">講演会のお申込み</h2>
+    		
+    		<p>	 
+    		        		<font color="red">※講演会は終了いたしました。<br>講演会でお配りした資料が若干数残っておりますので、ご興味のある方にお送りしています。</font>
+<br>  
+    		    <font size="+3">
+資料のお申し込み・お問い合わせは、お電話又は<br>申し込みフォームからどうぞ<br>
+　　　お電話　：　072-259-0672<br>
+
+    		
+　　　↓フォームからお申込み↓</font><br>
+    		　　　<a href="http://ws.formzu.net/fgen/S86643839/" target="blank" onClick="_gaq.push(['_trackEvent', 'go-form-02', 'http://ws.formzu.net/fgen/S86643839/']);"><img src="images/10039448247.gif"  width="527" height="108" style="border-style:none;" ></a>
+    		    
+<br><s>
+講演：建築家  黒川雅之  氏<br>
+開催日　/2013年/4月14日  (日)<br>
+時間　　/14：00～16時30  軽食付き<br>
+会場　　/進和ホーム株式会社  本社<br>
+費用　　/無料<br></s>
+<br>
+
+セミナー内容<br>
+・黒川雅之が考える住まい像　　　・世界で一番住みたい家とは<br>
+・地下を楽しむ方法　　　　　　　　　・変化への対応<br>
+<br>
+<br>
+
+    		
+    		</p>
+    		
+    		
+    		<!-- 
+    		<form id="contactform"> 
+
+    			<p><label for="name">Name</label></p> 
+    			<input type="text" id=name name=name placeholder="First and last name" required tabindex="1" /> 
+    			 
+    			<p><label for="email">Email</label></p> 
+    			<input type="text" id=email name=email placeholder="example@domain.com" required tabindex="2" /> 
+    			 
+    			<p><label for="comment">Your Message</label></p> 
+    			<textarea name="comment" id="comment" tabindex="4"></textarea> 
+    			 
+    			<input name="submit" type="submit" id="submit" tabindex="5" value="Send Message" /> 
+    			 
+    		</form> 
+ -->
+    	
+    	</section>
+    			
+    	<footer> <!-- HTML5 footer tag -->
+    	
+    	
+    	</footer>	
+    
+    </section>
+    <script src="http://www.r-shinwa.jp/wps/wp-content/themes/casavilla/js/scriptset.js"></script>
+</body>
+
+</html>

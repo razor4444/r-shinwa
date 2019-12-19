@@ -1,0 +1,67 @@
+<style type="text/css">
+<!--
+	div.xpweather_block {
+		word-break: normal;
+	}
+	div.xpweather_block table {
+		width:auto;
+	}
+	div.xpweather_block td {
+		text-align:center;
+		vertical-align:middle;
+	}
+	div.xpweather_block small {
+		font-size: 11px;
+		word-break: normal;
+	}
+-->
+</style>
+<center>
+<div>
+	<a href="http://www.r-shinwa.jp/genba/modules/XP-Weather/?loc=JAXX0075" title="詳細情報">
+		<b>大阪:堺, Japan</b>
+	</a>
+</div>
+<div>
+	<small>
+	<a href="http://www.r-shinwa.jp/genba/modules/XP-Weather/change.php">
+		場所を変える
+	</a>
+	</small>
+</div>
+<div>
+	<small><b>只今の天候</b></small>
+</div>
+<table cellspacing="2" cellpadding="2">
+	<tr>
+		<td>
+			<small>Mostly Cloudy</small>
+		</td>
+		<td rowspan="2">
+			<a href="http://www.r-shinwa.jp/genba/modules/XP-Weather/?loc=JAXX0075" title="詳細情報">
+				<img src="http://www.r-shinwa.jp/genba/modules/XP-Weather/images/fresh/27.png" border="0">
+			</a>
+		</td>
+		<td>
+			<small>26&deg;C</small>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<small>風向・風速:</small>
+		</td>
+		<td>
+			<small>不定</small>
+			<small>0.4 m/s</small>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<small>体感温度 29&deg;C</small>
+		</td>
+	</tr>
+</table>
+<div>
+	<small title=""> 更新:  7月12日 20:00</small>
+</div>
+</center>
